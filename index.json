@@ -8,11 +8,15 @@
       "purpose": "Ctrl+K command palette · auto-discovers nav + actions · fuzzy search · keyboard native",
       "url": "https://sjgant80-hub.github.io/fall-palette/fall-palette.js",
       "source": "https://github.com/sjgant80-hub/fall-palette",
-      "version": 1,
+      "version": 2,
       "hotLoadable": true,
       "kind": "ui",
-      "size": 11500,
-      "global": "window.fallPalette"
+      "size": 12000,
+      "global": "window.fallPalette",
+      "changelog": {
+        "v2": "◊ glyph on selected row · group counts in footer · v1 cleanup on upgrade",
+        "v1": "initial release"
+      }
     },
     {
       "name": "fall-bloom",

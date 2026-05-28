@@ -1,0 +1,67 @@
+{
+  "registryVersion": "1",
+  "updatedAt": "2026-05-28",
+  "owner": "sjgant80-hub",
+  "plugins": [
+    {
+      "name": "fall-palette",
+      "purpose": "Ctrl+K command palette · auto-discovers nav + actions · fuzzy search · keyboard native",
+      "url": "https://sjgant80-hub.github.io/fall-palette/fall-palette.js",
+      "source": "https://github.com/sjgant80-hub/fall-palette",
+      "version": 1,
+      "hotLoadable": true,
+      "kind": "ui",
+      "size": 11500,
+      "global": "window.fallPalette"
+    },
+    {
+      "name": "fall-bloom",
+      "purpose": "Text -> 7-ring vector decomposition · spine primes 2,3,5,7,11,13,17 · v18/v19 aligned",
+      "url": "https://sjgant80-hub.github.io/fall-bloom/bloom.js",
+      "source": "https://github.com/sjgant80-hub/fall-bloom",
+      "version": 1,
+      "hotLoadable": true,
+      "kind": "math",
+      "size": 5500,
+      "global": "window.bloom"
+    },
+    {
+      "name": "fall-hot",
+      "purpose": "Hot-load plugin updates without redeploying · poll-and-inject pattern · BroadcastChannel multi-tab sync",
+      "url": "https://sjgant80-hub.github.io/fall-hot/fall-hot.js",
+      "source": "https://github.com/sjgant80-hub/fall-hot",
+      "version": 1,
+      "hotLoadable": false,
+      "kind": "meta",
+      "size": 6500,
+      "global": "window.fallHot",
+      "notes": "Meta-plugin · do not hot-load itself · would create a recursive update cycle"
+    }
+  ],
+  "recommendedWatch": [
+    "fall-palette",
+    "fall-bloom"
+  ],
+  "exclusionPolicy": {
+    "neverHotLoad": [
+      "audit-chained tools (e.g. apex-procurement.html)",
+      "client deliverables (anything under */clients/*)",
+      "tools with active legal/compliance review"
+    ],
+    "rationale": "Hot-loading invalidates the proof property of audited code. The configHash recorded at decision time must match what's actually running. Client builds also require explicit user consent for the update cadence."
+  },
+  "schema": {
+    "plugin": {
+      "name":        "string · unique kebab-case",
+      "purpose":     "string · one line",
+      "url":         "string · canonical CDN URL",
+      "source":      "string · repo URL",
+      "version":     "number · matches window.<global>._v",
+      "hotLoadable": "boolean · false = meta or sensitive",
+      "kind":        "ui | math | mesh | meta | data",
+      "size":        "number · bytes approx",
+      "global":      "string · window.<name> after load",
+      "notes":       "string · optional"
+    }
+  }
+}

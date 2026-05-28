@@ -1,5 +1,5 @@
 {
-  "registryVersion": "2",
+  "registryVersion": "3",
   "updatedAt": "2026-05-28",
   "owner": "sjgant80-hub",
   "plugins": [
@@ -57,7 +57,12 @@
       "tier": "C",
       "hotLoadable": false,
       "messageTarget": "fallaccount-trades",
-      "apiActions": ["ping", "tax_snapshot", "ask", "kcc_totals"],
+      "apiActions": [
+        "ping",
+        "tax_snapshot",
+        "ask",
+        "kcc_totals"
+      ],
       "features": [
         "5 views · dashboard · receipts · jobs · invoices · tax",
         "6 agents · Ω + α scanner · β invoicer · γ jobs · δ tax · ε MTD",
@@ -82,7 +87,9 @@
       "tier": "C",
       "hotLoadable": false,
       "messageTarget": "fallflip",
-      "apiActions": ["ping"],
+      "apiActions": [
+        "ping"
+      ],
       "features": [
         "5-level spam detection · subtle → bot · regex offline",
         "α analyser + β reply + γ counter + δ tone/DM",
@@ -107,7 +114,12 @@
       "tier": "C",
       "hotLoadable": false,
       "messageTarget": "fallgravity",
-      "apiActions": ["ping", "score", "hooks", "boost_state"],
+      "apiActions": [
+        "ping",
+        "score",
+        "hooks",
+        "boost_state"
+      ],
       "features": [
         "5 views · Compose · Boost · Carousel · Analytics · Guild",
         "α scorer · 8 dimensions /80 · live as you type",
@@ -134,7 +146,10 @@
       "tier": "C",
       "hotLoadable": false,
       "messageTarget": "fallmap",
-      "apiActions": ["ping", "map"],
+      "apiActions": [
+        "ping",
+        "map"
+      ],
       "features": [
         "α workflow parser · 16 step types · verb classification",
         "β SaaS DB · 30+ tools with real UK pricing + failure modes",
@@ -145,6 +160,121 @@
         "Export report · LinkedIn share copy · CTA modal (3 tiers)"
       ],
       "rule": "arrows shouldn't cost £20,000",
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "fallslot",
+      "purpose": "Share a calendar link · availability rules · .ics generator · mailto host notify · sovereign single HTML · obsoletes Calendly (£2,400/yr · 10-person team)",
+      "url": "https://sjgant80-hub.github.io/fallslot/",
+      "source": "https://github.com/sjgant80-hub/fallslot",
+      "version": "1.0.0",
+      "prime": 263,
+      "kind": "domain-app",
+      "domain": "scheduling · booking · calendar links",
+      "audience": "consultants · freelancers · trades · sales · creators booking demos",
+      "obsoletes": [
+        "Calendly",
+        "Cal.com",
+        "Acuity",
+        "Doodle"
+      ],
+      "size": 36000,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallslot",
+      "apiActions": [
+        "ping",
+        "available",
+        "bookings"
+      ],
+      "features": [
+        "Availability rules · days · times · slot length · buffer · min notice · max ahead",
+        "Block specific dates (holidays, focus days)",
+        "Public booking page · slot grid · booker form",
+        ".ics generator (RFC 5545) · works with Google/Apple/Outlook",
+        "mailto: host notification · no third-party email server",
+        "Booked list · upcoming + past · cancel · re-download .ics",
+        "Email signature copy · share link · iframe embed-ready"
+      ],
+      "grift_exposed": "Calendly Teams 6/user/mo · 10-person team = ,400/yr · SSO add-on +6/user/yr · year-2 renewal hike",
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "fallform",
+      "purpose": "Forms · no response cap ever · 8 field types · public URL · iframe embed · CSV export · optional webhook + mailto notify · obsoletes Typeform/JotForm",
+      "url": "https://sjgant80-hub.github.io/fallform/",
+      "source": "https://github.com/sjgant80-hub/fallform",
+      "version": "1.0.0",
+      "prime": 269,
+      "kind": "domain-app",
+      "domain": "forms · surveys · intake",
+      "audience": "every business needing forms · freelancers · agencies · trades quote-requests",
+      "obsoletes": [
+        "Typeform",
+        "JotForm",
+        "SurveyMonkey",
+        "Wufoo"
+      ],
+      "size": 39000,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallform",
+      "apiActions": [
+        "ping",
+        "forms",
+        "responses"
+      ],
+      "features": [
+        "Multi-form manager · tabs",
+        "8 field types · text · email · phone · number · date · paragraph · radio · checkbox",
+        "Required toggle · help text · field reordering",
+        "Live preview · public URL with ?f=<id>&mode=fill",
+        "Iframe embed code",
+        "Optional webhook POST per submission",
+        "Optional mailto: notify",
+        "CSV export · JSON backup"
+      ],
+      "grift_exposed": "Typeform 5/mo for 100 responses · partial completions count toward cap · 3/mo for 10k",
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "falllist",
+      "purpose": "Newsletter · BYOM (Resend/Postmark/Mailgun/SendGrid) · 0% platform fee · markdown editor · public sign-up page · obsoletes Mailchimp + Substack",
+      "url": "https://sjgant80-hub.github.io/falllist/",
+      "source": "https://github.com/sjgant80-hub/falllist",
+      "version": "1.0.0",
+      "prime": 271,
+      "kind": "domain-app",
+      "domain": "newsletter · email marketing · creator economy",
+      "audience": "creators · indie hackers · solopreneurs · paid newsletter writers",
+      "obsoletes": [
+        "Mailchimp",
+        "Substack",
+        "ConvertKit",
+        "Beehiiv",
+        "Ghost (newsletter)"
+      ],
+      "size": 45000,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "falllist",
+      "apiActions": [
+        "ping",
+        "subscriber_count",
+        "sent_count"
+      ],
+      "features": [
+        "Subscriber list management · localStorage",
+        "CSV import + export",
+        "Public sign-up page · ?signup=1 mode",
+        "iframe embed for sign-up form",
+        "Markdown editor with live preview",
+        "4 mailer providers · Resend · Postmark · Mailgun · SendGrid",
+        "Test send to yourself",
+        "Send history · delivery stats · copy HTML",
+        "Per-send rate limit · 100ms delay · gentle on mailer APIs"
+      ],
+      "grift_exposed": "Mailchimp 50/mo at 10k contacts · charges for unsubscribed · Substack 10% forever + Stripe fees on top",
       "shipped": "2026-05-28"
     }
   ],
@@ -163,35 +293,35 @@
   },
   "schema": {
     "plugin": {
-      "name":        "string · unique kebab-case",
-      "purpose":     "string · one line",
-      "url":         "string · canonical CDN URL",
-      "source":      "string · repo URL",
-      "version":     "number · matches window.<global>._v",
+      "name": "string · unique kebab-case",
+      "purpose": "string · one line",
+      "url": "string · canonical CDN URL",
+      "source": "string · repo URL",
+      "version": "number · matches window.<global>._v",
       "hotLoadable": "boolean · false = meta or sensitive",
-      "kind":        "ui | math | mesh | meta | data",
-      "size":        "number · bytes approx",
-      "global":      "string · window.<name> after load",
-      "notes":       "string · optional"
+      "kind": "ui | math | mesh | meta | data",
+      "size": "number · bytes approx",
+      "global": "string · window.<name> after load",
+      "notes": "string · optional"
     },
     "app": {
-      "name":          "string · unique kebab-case · matches repo name",
-      "purpose":       "string · one line · public-facing pitch",
-      "url":           "string · live Pages URL",
-      "source":        "string · repo URL",
-      "version":       "string · semver",
-      "prime":         "number · mesh-channel prime · unique per app",
-      "kind":          "domain-app | platform | client-fork",
-      "domain":        "string · subject domain",
-      "audience":      "string · who this serves",
-      "size":          "number · single-file HTML size in bytes",
-      "tier":          "A | B | C · risk/audit tier · C = Simon-owned, no client gate",
-      "hotLoadable":   "boolean · always false for apps · they're deliverables",
+      "name": "string · unique kebab-case · matches repo name",
+      "purpose": "string · one line · public-facing pitch",
+      "url": "string · live Pages URL",
+      "source": "string · repo URL",
+      "version": "string · semver",
+      "prime": "number · mesh-channel prime · unique per app",
+      "kind": "domain-app | platform | client-fork",
+      "domain": "string · subject domain",
+      "audience": "string · who this serves",
+      "size": "number · single-file HTML size in bytes",
+      "tier": "A | B | C · risk/audit tier · C = Simon-owned, no client gate",
+      "hotLoadable": "boolean · always false for apps · they're deliverables",
       "messageTarget": "string · postMessage target for cross-tool API",
-      "apiActions":    "string[] · supported {target,action} requests",
-      "features":      "string[] · bulleted summary",
-      "rule":          "string · optional · one-line ethos",
-      "shipped":       "YYYY-MM-DD · first public deploy"
+      "apiActions": "string[] · supported {target,action} requests",
+      "features": "string[] · bulleted summary",
+      "rule": "string · optional · one-line ethos",
+      "shipped": "YYYY-MM-DD · first public deploy"
     }
   }
 }

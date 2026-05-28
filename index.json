@@ -1,5 +1,5 @@
 {
-  "registryVersion": "1",
+  "registryVersion": "2",
   "updatedAt": "2026-05-28",
   "owner": "sjgant80-hub",
   "plugins": [
@@ -42,6 +42,112 @@
       "notes": "Meta-plugin · do not hot-load itself · would create a recursive update cycle"
     }
   ],
+  "apps": [
+    {
+      "name": "fallaccount-trades",
+      "purpose": "Sovereign accounts app for UK builders, plumbers, sparkies, plasterers · CIS both directions · MTD ready · receipt photo scan via cascade · ask-the-books NL query",
+      "url": "https://sjgant80-hub.github.io/fallaccount-trades/",
+      "source": "https://github.com/sjgant80-hub/fallaccount-trades",
+      "version": "1.2.0",
+      "prime": 31,
+      "kind": "domain-app",
+      "domain": "trades · sole trader · UK accounting",
+      "audience": "builders · plumbers · electricians · plasterers · trades sole traders",
+      "size": 88900,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallaccount-trades",
+      "apiActions": ["ping", "tax_snapshot", "ask", "kcc_totals"],
+      "features": [
+        "5 views · dashboard · receipts · jobs · invoices · tax",
+        "6 agents · Ω + α scanner · β invoicer · γ jobs · δ tax · ε MTD",
+        "T0 regex receipt parser + T3 vision (Claude/GPT/Gemini/OpenRouter) + T2 Ollama llava",
+        "UK 2025/26 tax engine · PA taper · NI Class 4 · CIS 20%/30%/gross",
+        "Smart insights auto-detect · forgot-to-invoice · overdue · approaching brackets",
+        "Ask-the-books NL search · 7 built-in T0 handlers + LLM fallback"
+      ],
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "fallflip",
+      "purpose": "LinkedIn self-promo mirror · paste comment + profile · get reply for your post + counter-comment for theirs + optional DM · proportional · never petty",
+      "url": "https://sjgant80-hub.github.io/fallflip/",
+      "source": "https://github.com/sjgant80-hub/fallflip",
+      "version": "1.0.0",
+      "prime": 211,
+      "kind": "domain-app",
+      "domain": "linkedin · self-promo defence · mirror",
+      "audience": "creators getting their content hijacked by self-promoters",
+      "size": 40000,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallflip",
+      "apiActions": ["ping"],
+      "features": [
+        "5-level spam detection · subtle → bot · regex offline",
+        "α analyser + β reply + γ counter + δ tone/DM",
+        "Auto-tool-selection · matches spammer's domain to your relevant tool",
+        "Repeat-offender blacklist · auto-sharpen templates",
+        "T0 templates always · T3 Gemini/Claude/GPT/OpenRouter sharpening"
+      ],
+      "rule": "only flip when they started it · mirror not attack",
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "fallgravity",
+      "purpose": "LinkedIn algorithm strategy · live post scorer /80 · 5 hook generators · 90-min boost coordinator · comment responder · carousel builder · guild roster",
+      "url": "https://sjgant80-hub.github.io/fallgravity/",
+      "source": "https://github.com/sjgant80-hub/fallgravity",
+      "version": "1.0.0",
+      "prime": 199,
+      "kind": "domain-app",
+      "domain": "linkedin · algorithm · post strategy",
+      "audience": "creators planning posts for max algorithmic reach",
+      "size": 64700,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallgravity",
+      "apiActions": ["ping", "score", "hooks", "boost_state"],
+      "features": [
+        "5 views · Compose · Boost · Carousel · Analytics · Guild",
+        "α scorer · 8 dimensions /80 · live as you type",
+        "5 hook types · story · reveal · problem · question · paradox",
+        "γ 90-min boost window · 3 engagement tiers · guild alert via fall-signal",
+        "δ comment responder · depth · casual · technical",
+        "ε analytics · auto-detect best format · link penalty · boost impact",
+        "Guild · topic-affinity matched alerts · no spam"
+      ],
+      "rule": "strategy not automation · never auto-post · never engagement pods",
+      "shipped": "2026-05-28"
+    },
+    {
+      "name": "fallmap",
+      "purpose": "Workflow → consulting cost exposer · side-by-side comparison · what £20k consultant builds vs sovereign alternative · big green savings number",
+      "url": "https://sjgant80-hub.github.io/fallmap/",
+      "source": "https://github.com/sjgant80-hub/fallmap",
+      "version": "1.0.0",
+      "prime": 241,
+      "kind": "domain-app",
+      "domain": "consulting · workflow mapping · cost calculator",
+      "audience": "SMEs being pitched by consultants · founders evaluating SaaS stacks",
+      "size": 43500,
+      "tier": "C",
+      "hotLoadable": false,
+      "messageTarget": "fallmap",
+      "apiActions": ["ping", "map"],
+      "features": [
+        "α workflow parser · 16 step types · verb classification",
+        "β SaaS DB · 30+ tools with real UK pricing + failure modes",
+        "γ cost calc · 4 rate tiers · indie/mid/high/luxury",
+        "δ sovereign mapper · routes each step to existing Fall* tool",
+        "Side-by-side comparison · red consultant col · green sovereign col",
+        "Big savings card · year 1 + year 2+ ongoing",
+        "Export report · LinkedIn share copy · CTA modal (3 tiers)"
+      ],
+      "rule": "arrows shouldn't cost £20,000",
+      "shipped": "2026-05-28"
+    }
+  ],
   "recommendedWatch": [
     "fall-palette",
     "fall-bloom"
@@ -50,9 +156,10 @@
     "neverHotLoad": [
       "audit-chained tools (e.g. apex-procurement.html)",
       "client deliverables (anything under */clients/*)",
-      "tools with active legal/compliance review"
+      "tools with active legal/compliance review",
+      "all entries under apps[] — they are single-file deliverables, not plugins"
     ],
-    "rationale": "Hot-loading invalidates the proof property of audited code. The configHash recorded at decision time must match what's actually running. Client builds also require explicit user consent for the update cadence."
+    "rationale": "Hot-loading invalidates the proof property of audited code. The configHash recorded at decision time must match what's actually running. Client builds also require explicit user consent for the update cadence. Apps deploy as static HTML — updates ship via git push not runtime injection."
   },
   "schema": {
     "plugin": {
@@ -66,6 +173,25 @@
       "size":        "number · bytes approx",
       "global":      "string · window.<name> after load",
       "notes":       "string · optional"
+    },
+    "app": {
+      "name":          "string · unique kebab-case · matches repo name",
+      "purpose":       "string · one line · public-facing pitch",
+      "url":           "string · live Pages URL",
+      "source":        "string · repo URL",
+      "version":       "string · semver",
+      "prime":         "number · mesh-channel prime · unique per app",
+      "kind":          "domain-app | platform | client-fork",
+      "domain":        "string · subject domain",
+      "audience":      "string · who this serves",
+      "size":          "number · single-file HTML size in bytes",
+      "tier":          "A | B | C · risk/audit tier · C = Simon-owned, no client gate",
+      "hotLoadable":   "boolean · always false for apps · they're deliverables",
+      "messageTarget": "string · postMessage target for cross-tool API",
+      "apiActions":    "string[] · supported {target,action} requests",
+      "features":      "string[] · bulleted summary",
+      "rule":          "string · optional · one-line ethos",
+      "shipped":       "YYYY-MM-DD · first public deploy"
     }
   }
 }

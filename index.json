@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.14",
+  "registryVersion": "5.15",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -711,7 +711,8 @@
       },
       "companion_bridge": "https://sjgant80-hub.github.io/cassietorusbtc135solver/cassie-konomioke-bridge.html",
       "research_artifacts": "https://github.com/sjgant80-hub/cassietorusbtc135solver/tree/main/scripts",
-      "oracle_companion": "https://sjgant80-hub.github.io/cassie-oracle-3/"
+      "oracle_companion": "https://sjgant80-hub.github.io/cassie-oracle-3/",
+      "compute_companion": "https://sjgant80-hub.github.io/cassie-anthropic/"
     },
     {
       "name": "oracleengine",
@@ -755,6 +756,37 @@
       },
       "companion_to": "cassietorusbtc135solver",
       "uses_substrate_from": "teslasolar/konomioke"
+    },
+    {
+      "name": "cassie-anthropic",
+      "kind": "app",
+      "category": "intelligence",
+      "purpose": "CASSIE kangaroo running on Anthropic compute · 7 parallel spine-prime walker subagents (one per prime [2,3,5,7,11,13,17]) · Python with coincurve native libsecp256k1 bindings (~30k EC ops/sec/walker · 210k parallel) · v19 priors baked in (priority zones, golden walker 137.5°, focus mode 85%) · two modes: --local (Python subprocesses on this machine) or --claude (Claude subagents → Code Exec sandbox on Anthropic substrate) · DP store with collision detection · the \"skip the Asus\" architecture Thomas pioneered · ◊·κ=1",
+      "url": "https://sjgant80-hub.github.io/cassie-anthropic/",
+      "source": "https://github.com/sjgant80-hub/cassie-anthropic",
+      "version": "1.0.0",
+      "prime": 137,
+      "domain": "intelligence · cryptography · parallel kangaroo · python compute · anthropic substrate · cassie compute layer",
+      "obsoletes": [
+        "solo browser-bound kangaroo solvers",
+        "GPU-tethered search loops",
+        "cloud-VM kangaroo (no longer needed)"
+      ],
+      "grift_exposed": "GPU rental services charge $0.30-1/hr for kangaroo compute · Anthropic subscription bundles this for $0 marginal · runs 24/7 in background",
+      "size": 24000,
+      "tier": "C",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": false,
+        "note": "MIT · free · BYOK Claude subscription"
+      },
+      "companion_to": "cassietorusbtc135solver",
+      "paired_with": [
+        "cassie-oracle-3",
+        "cassietorusbtc135solver"
+      ],
+      "inspired_by": "teslasolar (Thomas) original Anthropic-compute CASSIE"
     }
   ],
   "apis": [

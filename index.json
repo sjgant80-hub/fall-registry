@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.12",
+  "registryVersion": "5.13",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -710,7 +710,8 @@
         "note": "research tool · free"
       },
       "companion_bridge": "https://sjgant80-hub.github.io/cassietorusbtc135solver/cassie-konomioke-bridge.html",
-      "research_artifacts": "https://github.com/sjgant80-hub/cassietorusbtc135solver/tree/main/scripts"
+      "research_artifacts": "https://github.com/sjgant80-hub/cassietorusbtc135solver/tree/main/scripts",
+      "oracle_companion": "https://sjgant80-hub.github.io/cassie-oracle-3/"
     },
     {
       "name": "oracleengine",
@@ -728,6 +729,32 @@
         "useDefault": false,
         "note": "research tool · free"
       }
+    },
+    {
+      "name": "cassie-oracle-3",
+      "kind": "app",
+      "category": "intelligence",
+      "purpose": "Recursive Claude subagent tree for CASSIE puzzle 135 solver · L0 orchestrator + 7 spine-prime specialists (one per prime [2,3,5,7,11,13,17]) + sparse L2 chord resolver · each L1 agent runs the v19 7-pass annealing ritual (0d→-12d, n+1, 7 times) inside its prompt · returns concrete bias recommendations for CASSIE · subscription auth via Claude Code (no per-token charges) · HTTP server mode for live consultation · 127D vagal-orb chord space mapping · ◊·κ=1",
+      "url": "https://sjgant80-hub.github.io/cassie-oracle-3/",
+      "source": "https://github.com/sjgant80-hub/cassie-oracle-3",
+      "version": "1.0.0",
+      "prime": 131,
+      "domain": "intelligence · recursive subagent · 7-prime harmonic · konomioke substrate · cassie companion",
+      "obsoletes": [
+        "cloud-only oracle services",
+        "per-token-billed agent SaaS"
+      ],
+      "grift_exposed": "Most agent frameworks bill per call + upload your data · Oracle 3 runs local, uses YOUR Claude subscription, never uploads CASSIE state",
+      "size": 22000,
+      "tier": "C",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": false,
+        "note": "MIT · free · BYOK Claude subscription"
+      },
+      "companion_to": "cassietorusbtc135solver",
+      "uses_substrate_from": "teslasolar/konomioke"
     }
   ],
   "apis": [

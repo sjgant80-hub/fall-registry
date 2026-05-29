@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.2",
+  "registryVersion": "5.3",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -10,8 +10,14 @@
     "paypal": "https://paypal.me/ainativesolutions",
     "paypal_email": "ainativesolutions.com",
     "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
-    "contact_url": "https://www.linkedin.com/in/simon-gant-295b56180/",
+    "contact_url": "https://github.com/sjgant80-hub/contact/issues/new/choose",
+    "contact_quote_url": "https://github.com/sjgant80-hub/contact/issues/new?template=01-quote-request.yml",
+    "contact_lite_url": "https://github.com/sjgant80-hub/contact/issues/new?template=02-lite-tier.yml",
+    "contact_guild_url": "https://github.com/sjgant80-hub/contact/issues/new?template=03-guild-application.yml",
+    "contact_bug_url": "https://github.com/sjgant80-hub/contact/issues/new?template=05-bug-report.yml",
+    "contact_msg_url": "https://github.com/sjgant80-hub/contact/issues/new?template=04-general-message.yml",
     "contact_email": "simon@ai-nativesolutions.com",
+    "contact_linkedin": "https://www.linkedin.com/in/simon-gant-295b56180/",
     "stripe_policy": "Stripe is used for tailored custom-build invoices only · contact for a quote",
     "tiers": {
       "lite": { "amount_label": "Custom from $$$", "label": "Lite · brand + config", "scope": "Your brand, your repo, basic agent configuration, 24h turnaround", "checkout": "paypal_or_quote" },

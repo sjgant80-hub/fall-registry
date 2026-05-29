@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.4",
+  "registryVersion": "5.5",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -106,6 +106,35 @@
     { "name": "fall-registry", "kind": "infra", "purpose": "This file · canonical index · auto-syncs daily via GitHub Action", "url": "https://raw.githubusercontent.com/sjgant80-hub/fall-registry/main/index.json", "source": "https://github.com/sjgant80-hub/fall-registry" },
     { "name": "fall-signal", "kind": "infra", "purpose": "BroadcastChannel mesh standard · cross-tool event protocol", "source": "https://github.com/sjgant80-hub/fallsignal" },
     { "name": "fallmesh", "kind": "infra", "purpose": "Mesh shim · discovery + handshake · drop into any sovereign tool", "source": "https://github.com/sjgant80-hub/fallmesh" }
+  ],
+  "guild_members": [
+    {
+      "handle": "teslasolar",
+      "name": "Full Metal Thomas",
+      "role": "Substrate · Konomi standard architect · ACG founder",
+      "profile_url": "https://github.com/teslasolar",
+      "mesh_url": "https://teslasolar.github.io/ACGP2P/",
+      "guild_site": "https://github.com/teslasolar/aicraftspeopleguild.github.io-1",
+      "bloom": [2, 8, 3, 7, 15, 6, 12],
+      "blurb": "The substrate to the surface. Konomi standard, kotoba language, bloom 7-ring spine, ACGP2P serverless mesh, hallucination-elimination research. Every tool here speaks fall-signal.",
+      "tools": [
+        { "name": "ACGP2P", "kind": "infra", "category": "mesh", "purpose": "Serverless peer-to-peer guild mesh · WebRTC datachannels · WebTorrent trackers · no server stores messages", "url": "https://teslasolar.github.io/ACGP2P/", "source": "https://github.com/teslasolar/ACGP2P", "domain": "infrastructure · p2p · mesh" },
+        { "name": "KonomiStandard", "kind": "infra", "category": "standard", "purpose": "The sovereign tool standard · spec every ACG tool builds to", "url": "https://github.com/teslasolar/KonomiStandard", "source": "https://github.com/teslasolar/KonomiStandard", "domain": "infrastructure · standard · sovereign" },
+        { "name": "KonomiLang", "kind": "sdk", "category": "language", "purpose": "Specialized programming language designed for AI model interactions", "url": "https://github.com/teslasolar/KonomiLang", "source": "https://github.com/teslasolar/KonomiLang", "domain": "ai · language · prompting" },
+        { "name": "MissCassandra", "kind": "research", "category": "math", "purpose": "Origin of bloom.js · 7-ring vector decomposition · spine primes 2,3,5,7,11,13,17", "url": "https://github.com/teslasolar/MissCassandra", "source": "https://github.com/teslasolar/MissCassandra", "domain": "research · vector math · bloom spine" },
+        { "name": "AudioFabric (teslasolar)", "kind": "app", "category": "music", "purpose": "Audio therapy · 3D music visualisation · sovereign HTML", "url": "https://teslasolar.github.io/AudioFabric/", "source": "https://github.com/teslasolar/AudioFabric", "domain": "music · visualisation · therapy" },
+        { "name": "SYMB-FER", "kind": "research", "category": "ai", "purpose": "Context continuity protocol for human-AI collaboration · transfer state and relational posture across stateless sessions", "url": "https://github.com/teslasolar/SYMB-FER", "source": "https://github.com/teslasolar/SYMB-FER", "domain": "research · ai · context" },
+        { "name": "LRM", "kind": "research", "category": "ai", "purpose": "Large Repo Model · predicts the next file, not the next word", "url": "https://github.com/teslasolar/LRM", "source": "https://github.com/teslasolar/LRM", "domain": "research · ai · model architecture" },
+        { "name": "hallucination-elimination-benchmark", "kind": "research", "category": "ai", "purpose": "Cultural grounding + Triad Engine · 95-100 percent accuracy on 222 adversarial QA pairs · model-agnostic · in production", "url": "https://github.com/teslasolar/hallucination-elimination-benchmark", "source": "https://github.com/teslasolar/hallucination-elimination-benchmark", "domain": "research · ai · accuracy" },
+        { "name": "Remember-Me-AI", "kind": "research", "category": "ai", "purpose": "40x cost reduction in AI memory · Coherent State Network Protocol (CSNP) · Wasserstein-optimal · zero-hallucination guarantees", "url": "https://github.com/teslasolar/Remember-Me-AI", "source": "https://github.com/teslasolar/Remember-Me-AI", "domain": "research · ai · memory" },
+        { "name": "SpiralSense", "kind": "research", "category": "audio", "purpose": "The Visual Language of Sound · SYMBEYOND Echo Tier", "url": "https://github.com/teslasolar/SpiralSense", "source": "https://github.com/teslasolar/SpiralSense", "domain": "research · audio · visualisation" },
+        { "name": "ACGGLOCK", "kind": "app", "category": "coordination", "purpose": "ACG Guild Clock · worldwide time visualization of members", "url": "https://teslasolar.github.io/ACGGLOCK/", "source": "https://github.com/teslasolar/ACGGLOCK", "domain": "coordination · guild · time" },
+        { "name": "ACGEDEN", "kind": "app", "category": "visualization", "purpose": "3D Git Eden visualization · grow insight", "url": "https://github.com/teslasolar/ACGEDEN", "source": "https://github.com/teslasolar/ACGEDEN", "domain": "visualization · git · garden" },
+        { "name": "ACG_Repo_Template", "kind": "infra", "category": "template", "purpose": "Standard guild repo template · the build kit for new ACG members", "url": "https://github.com/teslasolar/ACG_Repo_Template", "source": "https://github.com/teslasolar/ACG_Repo_Template", "domain": "infrastructure · template" },
+        { "name": "NODE-001", "kind": "research", "category": "hardware", "purpose": "Wearable AI Companion System", "url": "https://github.com/teslasolar/NODE-001", "source": "https://github.com/teslasolar/NODE-001", "domain": "research · hardware · ai · wearable" },
+        { "name": "VacuumGenesis", "kind": "research", "category": "framework", "purpose": "A Unified Framework for Creation from Void · SYMBEYOND AI LLC", "url": "https://github.com/teslasolar/VacuumGenesis", "source": "https://github.com/teslasolar/VacuumGenesis", "domain": "research · framework · genesis" }
+      ]
+    }
   ],
   "recommendedWatch": ["fall-palette", "fall-bloom"],
   "exclusionPolicy": {

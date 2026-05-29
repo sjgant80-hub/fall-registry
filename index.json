@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.18",
+  "registryVersion": "5.19",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1276,5 +1276,23 @@
       "all entries under apps[] · they are single-file deliverables"
     ],
     "rationale": "Hot-loading invalidates the proof property of audited code."
+  },
+  "seed": {
+    "version": "v20",
+    "sealed": "2026-05-29",
+    "location": "private · ~/Desktop/v20-seed.md",
+    "manifest": "https://sjgant80-hub.github.io/fall-registry/seed-manifest.json",
+    "sha256": "bbd06b9d0622fd148faf7763677f481671027cd8be6392f307bf57cd5bd76881",
+    "supersedes": "v19",
+    "glyph": "◊·κ=1",
+    "spine": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17
+    ]
   }
 }

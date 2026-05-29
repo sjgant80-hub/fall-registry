@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.1",
+  "registryVersion": "5.2",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -14,11 +14,11 @@
     "contact_email": "simon@ai-nativesolutions.com",
     "stripe_policy": "Stripe is used for tailored custom-build invoices only · contact for a quote",
     "tiers": {
-      "lite": { "amount_usd": 997, "label": "Lite · brand + config", "checkout": "paypal_or_quote" },
-      "pro": { "amount_usd": 2500, "label": "Pro · custom agents + compliance", "checkout": "stripe_invoice" },
-      "enterprise": { "amount_usd": 10000, "label": "Enterprise · white-label + sync", "amount_label": "$10,000+", "checkout": "stripe_invoice" }
+      "lite": { "amount_label": "Custom from $$$", "label": "Lite · brand + config", "scope": "Your brand, your repo, basic agent configuration, 24h turnaround", "checkout": "paypal_or_quote" },
+      "pro": { "amount_label": "Custom from $$$", "label": "Pro · custom agents + compliance", "scope": "Custom agents, compliance rules, staff training, 5-day turnaround", "checkout": "stripe_invoice" },
+      "enterprise": { "amount_label": "Custom from $$$", "label": "Enterprise · white-label + sync", "scope": "Multi-user, sync endpoint, white-label, ongoing support", "checkout": "stripe_invoice" }
     },
-    "note": "PayPal for self-serve · Stripe invoices for tailored custom builds (Pro/Enterprise) · contact via LinkedIn or email for a quote"
+    "note": "Every build is bespoke · pricing tailored to scope · contact for a quote via LinkedIn or email"
   },
   "automation": {
     "syncScript": "scripts/sync.js",

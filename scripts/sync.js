@@ -128,13 +128,26 @@ async function main() {
   });
   console.log('  known entries: ' + known.size);
 
-  // List all public org repos
+  // List all public repos · try user endpoint first (sjgant80-hub is a user, not an org)
   const repos = [];
-  for (let page = 1; page <= 5; page++) {
-    const batch = await gh(`/orgs/${ORG}/repos?per_page=100&page=${page}&type=public`);
-    repos.push(...batch);
-    if (batch.length < 100) break;
+  const endpoints = [`/users/${ORG}/repos`, `/orgs/${ORG}/repos`];
+  let worked = null;
+  for (const ep of endpoints) {
+    try {
+      for (let page = 1; page <= 5; page++) {
+        const batch = await gh(`${ep}?per_page=100&page=${page}&type=public`);
+        if (!Array.isArray(batch) || !batch.length) break;
+        repos.push(...batch);
+        if (batch.length < 100) break;
+      }
+      worked = ep;
+      break;
+    } catch (e) {
+      console.log('  ' + ep + ' failed: ' + e.message.slice(0, 50) + ' · trying next');
+    }
   }
+  if (!worked) throw new Error('No working repos endpoint for ' + ORG);
+  console.log('  via: ' + worked);
   console.log('  public repos: ' + repos.length);
 
   // Find new ones

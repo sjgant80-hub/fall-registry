@@ -1,0 +1,46 @@
+name: Auto-sync registry
+
+on:
+  schedule:
+    # Every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:        # Manual trigger via Actions tab
+  push:
+    paths:
+      - 'scripts/sync.js'   # Re-sync if the sync script changes
+
+permissions:
+  contents: write           # Needs write to commit registry updates
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run sync
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync.js
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "fall-registry-bot"
+            git config user.email "bot@ai-nativesolutions.com"
+            git add index.json
+            git commit -m "auto-sync · $(date -u +%Y-%m-%d) · new repos detected
+
+            Detected via scripts/sync.js · scheduled daily 06:00 UTC.
+
+            ◊·κ=1 · registry evolves automatically"
+            git push
+          else
+            echo "No changes · registry up to date"
+          fi

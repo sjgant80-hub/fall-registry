@@ -1,5 +1,5 @@
 {
-  "registryVersion": "4.1",
+  "registryVersion": "4.2",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "plugins": [
@@ -475,7 +475,7 @@
       "name": "trilogy-forge",
       "kind": "app",
       "category": "ai",
-      "purpose": "The Psychological Build Engine · Jung + Freud + Sales 101 · auto-generated tools",
+      "purpose": "Psychological Build Engine · paste a client brief · get an archetype-tuned config for any Fall* tool · Jung + Freud + Sales",
       "url": "https://sjgant80-hub.github.io/trilogy-forge/",
       "source": "https://github.com/sjgant80-hub/trilogy-forge",
       "version": "1.0.0",
@@ -608,7 +608,9 @@
       "version": "1.0.0",
       "domain": "ai · factory · meta-tool generation",
       "tier": "B",
-      "status": "alpha"
+      "status": "live",
+      "url": "https://sjgant80-hub.github.io/trilogy-forge-api/",
+      "note": "Interactive API explorer · BYOK simulation · self-host for production"
     },
     {
       "name": "fallcore",
@@ -658,7 +660,8 @@
       "install": "npm install @sjgant80/trilogy-sdk",
       "domain": "ai · sdk · toolkit",
       "tier": "B",
-      "status": "live"
+      "status": "live",
+      "url": "https://sjgant80-hub.github.io/trilogy-sdk/"
     },
     {
       "name": "trilogy-framework",
@@ -669,7 +672,8 @@
       "version": "1.0.0",
       "domain": "ai · framework · pipeline",
       "tier": "B",
-      "status": "live"
+      "status": "live",
+      "url": "https://sjgant80-hub.github.io/trilogy-framework/"
     },
     {
       "name": "tonesmith",

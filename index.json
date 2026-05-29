@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.20",
-  "updatedAt": "2026-05-29",
+  "registryVersion": "5.21",
+  "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -755,6 +755,24 @@
       },
       "companion_to": "cassietorusbtc135solver",
       "uses_substrate_from": "teslasolar/konomioke"
+    },
+    {
+      "name": "shadowcompass",
+      "kind": "app",
+      "category": "wellness · self-exploration",
+      "purpose": "Sovereign single-file Jungian shadow work tool. 4 free-forever modes (Shadow Mirror · Pattern Detector · Dream Decoder · Projection Checker) + 4 Pro modes (Deep Profile · Active Imagination · Individuation Map · Daily Practice). Persistent IndexedDB journal. Recursive subagent tree (L0/L1×7/L2) for AI readings. BYO Claude API key. Konomi tier-aware licence (sovereign free · 14-day trial · pro Ed25519). Legal modal + crisis keyword detection (988/116123/112). PWA manifest baked. v20.1 build gate cleared.",
+      "url": "https://sjgant80-hub.github.io/shadowcompass/",
+      "source": "https://github.com/sjgant80-hub/shadowcompass",
+      "version": "2.0.0",
+      "prime": 233,
+      "domain": "wellness · Jungian psychology · shadow integration · self-exploration",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-30",
+      "payment": {
+        "useDefault": false,
+        "note": "free forever (sovereign) · pro £36.99 once or £4.99/mo · 14-day trial"
+      }
     }
   ],
   "apis": [

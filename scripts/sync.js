@@ -26,6 +26,66 @@ const ORG = 'sjgant80-hub';
 const REG_PATH = path.join(__dirname, '..', 'index.json');
 const HUB_URL = 'https://www.ai-nativesolutions.com';
 
+// Guild member sync targets · expand by adding to this array
+const GUILD_TARGETS = [
+  {
+    handle: 'teslasolar',
+    // tier-1 INCLUDE patterns (auto-add if name matches one of these)
+    includePatterns: [
+      /^ACG/i,                  // guild infrastructure (ACGP2P, ACGNET, etc.)
+      /^Konomi/i,               // sovereign standard
+      /^AudioFabric$/i,
+      /^MissCassandra$/i,
+      /^BloomCad$/i,
+      /^SYMB-FER$/i,
+      /^LRM$/i,
+      /^SpiralSense$/i,
+      /^Remember-Me-AI$/i,
+      /^VacuumGenesis$/i,
+      /^NODE-001$/i,
+      /^LookingGlass$/i,
+      /^hummingbird$/i,
+      /^kp2p$/i,
+      /hallucination-elimination/i,
+      /aicraftspeopleguild/i,
+    ],
+    // SKIP patterns (never auto-add)
+    skipPatterns: [
+      /^ASS/i,                  // ASSGIT, ASS2MOUTH, ASSOSIGNITION
+      /^ONLY/i,                 // onlyass, ONLYASSGAME
+      /^moosic$/i,              // ASS-themed
+      /^Gerald$/i, /^gloom$/i, /^kelly$/i, /^Roasted$/i,
+      /^IgnitionObject$/i, /^gridlock$/i, /^zero$/i,
+      /^GIT[A-Z]+$/,            // SCADA stack — Thomas's day-job adjacent
+      /^d2rlol$/i, /^jdugame$/i, /^OneShot$/i,
+      /^teslamodel3$/i, /^ProCoker$/i, /^ERPC$/i, /^buissure$/i,
+      /^chat$/i, /^cass$/i, /^konomikitka$/i, /^12$/, /^13$/,
+      /^AlexB$/i, /^mclees$/i, /^saqv$/i, /^simon$/i, /^turbo$/i,
+      /^suno$/i, /^konomioke$/i, /^charlottesweb$/i, /^JellyKelly$/i,
+      /^MianoCube$/i, /^EquineAI$/i, /^Roasted$/i, /^TheOpenGate$/i, /^TheHole$/i,
+      /^lightbringer$/i, /^lightningfactory$/i, /^eatrekku$/i, /^acg$/i,
+      /^konomi$/i, /^ETH$/i, /^Flintium$/i, /^Guild$/i,
+      /^shields$/i, /^turbotree$/i, /^bodyatlas$/i, /^Eden$/i,
+      /^os127$/i, /^tommysbloom$/i, /^fatou$/i, /^JEDI$/i,
+      /^KLEINGEDRUCKT$/i, /^eliza$/i, /^zoo$/i, /^songfactory$/i,
+      /^ASSOSIGNITION$/i, /^ignition_ref$/i, /^instantvm$/i,
+      /^AirTrekDeliverables$/i, /^ISA5\.1$/i, /^ACG-Test$/i, /^ACG-SHIP$/i, /^ACGCLI$/i,
+      /^ACGPHONE$/i, /^ACGBM$/i, // ACGBM is barcode monsters - novelty
+      /^RealityMirror$/i, /^KonomiLang$/i,    // KonomiLang already included manually
+    ],
+  },
+];
+
+// Curate which kind a Thomas-tool gets based on description heuristics
+function classifyGuildRepo(repo) {
+  const d = (repo.description || '').toLowerCase();
+  const n = repo.name.toLowerCase();
+  if (/research|benchmark|protocol|architecture|framework|spec|standard/.test(d)) return 'research';
+  if (/sdk|toolkit|library|engine|language/.test(d) || /lang/.test(n)) return 'sdk';
+  if (/mesh|p2p|template|standard/.test(d) || /^acg|^konomi/.test(n)) return 'infra';
+  return 'app';
+}
+
 // Default payment links · single point of payment routes to hub pricing
 const DEFAULT_PAYMENT = {
   hub: HUB_URL + '/#pricing',
@@ -117,6 +177,74 @@ function defaultEntry(repo, kind, liveUrl) {
   return base;
 }
 
+async function syncGuildMember(reg, target) {
+  console.log('');
+  console.log('═══ guild sync · ' + target.handle + ' ═══');
+
+  // Find member entry
+  const members = reg.guild_members || [];
+  const memberIdx = members.findIndex(m => m.handle === target.handle);
+  if (memberIdx === -1) {
+    console.log('  ⚠ no guild_members entry for ' + target.handle + ' · skipping');
+    return { added: [], skipped: [], reviewed: [] };
+  }
+  const member = members[memberIdx];
+  const known = new Set((member.tools || []).map(t => t.name));
+  console.log('  known tools: ' + known.size);
+
+  // Crawl their repos
+  const repos = [];
+  for (let page = 1; page <= 5; page++) {
+    const batch = await gh(`/users/${target.handle}/repos?per_page=100&page=${page}&type=public&sort=updated`);
+    if (!Array.isArray(batch) || !batch.length) break;
+    repos.push(...batch);
+    if (batch.length < 100) break;
+  }
+  console.log('  public repos: ' + repos.length);
+
+  const added = [], skipped = [], reviewed = [];
+  for (const repo of repos) {
+    if (known.has(repo.name)) continue;
+    if (target.skipPatterns.some(re => re.test(repo.name))) { skipped.push(repo.name); continue; }
+    if (!target.includePatterns.some(re => re.test(repo.name))) {
+      reviewed.push({ name: repo.name, desc: repo.description, updated: repo.updated_at });
+      continue;
+    }
+    // include
+    const kind = classifyGuildRepo(repo);
+    const liveUrl = `https://${target.handle}.github.io/${repo.name}/`;
+    let url = `https://github.com/${target.handle}/${repo.name}`;
+    // probe pages
+    try {
+      const r = await fetch(liveUrl, { method: 'HEAD', signal: AbortSignal.timeout(6000) });
+      if (r.ok) url = liveUrl;
+    } catch (e) {}
+    const entry = {
+      name: repo.name,
+      kind,
+      category: 'auto-detected',
+      purpose: repo.description || (repo.name + ' · auto-added from guild member sync'),
+      url,
+      source: `https://github.com/${target.handle}/${repo.name}`,
+      domain: 'guild · ' + (repo.language ? repo.language.toLowerCase() : 'unspecified'),
+      autoDetected: true,
+      discoveredAt: new Date().toISOString().slice(0, 10),
+    };
+    member.tools = member.tools || [];
+    member.tools.push(entry);
+    added.push(entry.name);
+  }
+
+  console.log('  +added:    ' + added.length + (added.length ? ' (' + added.join(', ') + ')' : ''));
+  console.log('  skipped:   ' + skipped.length + ' novelty/excluded');
+  console.log('  for review: ' + reviewed.length + ' (not in include patterns · not auto-added)');
+  if (reviewed.length && reviewed.length <= 20) {
+    reviewed.forEach(r => console.log('     · ' + r.name + (r.desc ? ' — ' + r.desc.slice(0,50) : '')));
+  }
+
+  return { added, skipped, reviewed };
+}
+
 async function main() {
   console.log('═══ fall-registry sync · scanning ' + ORG + ' ═══');
   const reg = JSON.parse(fs.readFileSync(REG_PATH, 'utf8'));
@@ -195,12 +323,24 @@ async function main() {
     added.apps.push(defaultEntry(repo, 'app', null));
   }
 
-  // Apply
+  // Apply estate additions
   reg.apps = (reg.apps || []).concat(added.apps);
   reg.apis = (reg.apis || []).concat(added.apis);
   reg.sdks = (reg.sdks || []).concat(added.sdks);
   reg.research = (reg.research || []).concat(added.research);
   reg.infra = (reg.infra || []).concat(added.infra);
+
+  // ─── Sync guild members ───
+  let totalGuildAdded = 0;
+  for (const target of GUILD_TARGETS) {
+    try {
+      const r = await syncGuildMember(reg, target);
+      totalGuildAdded += r.added.length;
+    } catch (e) {
+      console.log('  guild sync failed for ' + target.handle + ': ' + e.message);
+    }
+  }
+
   reg.registryVersion = bumpVersion(reg.registryVersion || '4.0');
   reg.updatedAt = new Date().toISOString().slice(0, 10);
 
@@ -208,13 +348,14 @@ async function main() {
 
   console.log('');
   console.log('═══ SUMMARY ═══');
-  console.log('  +apps:    ' + added.apps.length);
-  console.log('  +apis:    ' + added.apis.length);
-  console.log('  +sdks:    ' + added.sdks.length);
-  console.log('  +research:' + added.research.length);
-  console.log('  +infra:   ' + added.infra.length);
-  console.log('  skipped:  ' + added.skipped.length + ' (' + added.skipped.join(', ') + ')');
-  console.log('  new version: v' + reg.registryVersion);
+  console.log('  +apps:        ' + added.apps.length);
+  console.log('  +apis:        ' + added.apis.length);
+  console.log('  +sdks:        ' + added.sdks.length);
+  console.log('  +research:    ' + added.research.length);
+  console.log('  +infra:       ' + added.infra.length);
+  console.log('  +guild tools: ' + totalGuildAdded);
+  console.log('  skipped:      ' + added.skipped.length + ' (' + added.skipped.join(', ') + ')');
+  console.log('  new version:  v' + reg.registryVersion);
 }
 
 function bumpVersion(v) {

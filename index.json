@@ -1,327 +1,90 @@
 {
-  "registryVersion": "3",
-  "updatedAt": "2026-05-28",
+  "registryVersion": "4",
+  "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "plugins": [
-    {
-      "name": "fall-palette",
-      "purpose": "Ctrl+K command palette · auto-discovers nav + actions · fuzzy search · keyboard native",
-      "url": "https://sjgant80-hub.github.io/fall-palette/fall-palette.js",
-      "source": "https://github.com/sjgant80-hub/fall-palette",
-      "version": 2,
-      "hotLoadable": true,
-      "kind": "ui",
-      "size": 12000,
-      "global": "window.fallPalette",
-      "changelog": {
-        "v2": "◊ glyph on selected row · group counts in footer · v1 cleanup on upgrade",
-        "v1": "initial release"
-      }
-    },
-    {
-      "name": "fall-bloom",
-      "purpose": "Text -> 7-ring vector decomposition · spine primes 2,3,5,7,11,13,17 · v18/v19 aligned",
-      "url": "https://sjgant80-hub.github.io/fall-bloom/bloom.js",
-      "source": "https://github.com/sjgant80-hub/fall-bloom",
-      "version": 1,
-      "hotLoadable": true,
-      "kind": "math",
-      "size": 5500,
-      "global": "window.bloom"
-    },
-    {
-      "name": "fall-hot",
-      "purpose": "Hot-load plugin updates without redeploying · poll-and-inject pattern · BroadcastChannel multi-tab sync",
-      "url": "https://sjgant80-hub.github.io/fall-hot/fall-hot.js",
-      "source": "https://github.com/sjgant80-hub/fall-hot",
-      "version": 1,
-      "hotLoadable": false,
-      "kind": "meta",
-      "size": 6500,
-      "global": "window.fallHot",
-      "notes": "Meta-plugin · do not hot-load itself · would create a recursive update cycle"
-    }
+    { "name": "fall-palette", "purpose": "Ctrl+K command palette · auto-discovers nav + actions · fuzzy search · keyboard native", "url": "https://sjgant80-hub.github.io/fall-palette/fall-palette.js", "source": "https://github.com/sjgant80-hub/fall-palette", "version": 2, "hotLoadable": true, "kind": "ui", "size": 12000, "global": "window.fallPalette" },
+    { "name": "fall-bloom", "purpose": "Text to 7-ring vector decomposition · spine primes 2,3,5,7,11,13,17", "url": "https://sjgant80-hub.github.io/fall-bloom/bloom.js", "source": "https://github.com/sjgant80-hub/fall-bloom", "version": 1, "hotLoadable": true, "kind": "math", "size": 5500, "global": "window.bloom" },
+    { "name": "fall-hot", "purpose": "Hot-load plugin updates without redeploying · poll-and-inject · BroadcastChannel multi-tab sync", "url": "https://sjgant80-hub.github.io/fall-hot/fall-hot.js", "source": "https://github.com/sjgant80-hub/fall-hot", "version": 1, "hotLoadable": false, "kind": "meta", "size": 6500, "global": "window.fallHot" }
   ],
   "apps": [
-    {
-      "name": "fallaccount-trades",
-      "purpose": "Sovereign accounts app for UK builders, plumbers, sparkies, plasterers · CIS both directions · MTD ready · receipt photo scan via cascade · ask-the-books NL query",
-      "url": "https://sjgant80-hub.github.io/fallaccount-trades/",
-      "source": "https://github.com/sjgant80-hub/fallaccount-trades",
-      "version": "1.2.0",
-      "prime": 31,
-      "kind": "domain-app",
-      "domain": "trades · sole trader · UK accounting",
-      "audience": "builders · plumbers · electricians · plasterers · trades sole traders",
-      "size": 88900,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallaccount-trades",
-      "apiActions": [
-        "ping",
-        "tax_snapshot",
-        "ask",
-        "kcc_totals"
-      ],
-      "features": [
-        "5 views · dashboard · receipts · jobs · invoices · tax",
-        "6 agents · Ω + α scanner · β invoicer · γ jobs · δ tax · ε MTD",
-        "T0 regex receipt parser + T3 vision (Claude/GPT/Gemini/OpenRouter) + T2 Ollama llava",
-        "UK 2025/26 tax engine · PA taper · NI Class 4 · CIS 20%/30%/gross",
-        "Smart insights auto-detect · forgot-to-invoice · overdue · approaching brackets",
-        "Ask-the-books NL search · 7 built-in T0 handlers + LLM fallback"
-      ],
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "fallflip",
-      "purpose": "LinkedIn self-promo mirror · paste comment + profile · get reply for your post + counter-comment for theirs + optional DM · proportional · never petty",
-      "url": "https://sjgant80-hub.github.io/fallflip/",
-      "source": "https://github.com/sjgant80-hub/fallflip",
-      "version": "1.0.0",
-      "prime": 211,
-      "kind": "domain-app",
-      "domain": "linkedin · self-promo defence · mirror",
-      "audience": "creators getting their content hijacked by self-promoters",
-      "size": 40000,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallflip",
-      "apiActions": [
-        "ping"
-      ],
-      "features": [
-        "5-level spam detection · subtle → bot · regex offline",
-        "α analyser + β reply + γ counter + δ tone/DM",
-        "Auto-tool-selection · matches spammer's domain to your relevant tool",
-        "Repeat-offender blacklist · auto-sharpen templates",
-        "T0 templates always · T3 Gemini/Claude/GPT/OpenRouter sharpening"
-      ],
-      "rule": "only flip when they started it · mirror not attack",
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "fallgravity",
-      "purpose": "LinkedIn algorithm strategy · live post scorer /80 · 5 hook generators · 90-min boost coordinator · comment responder · carousel builder · guild roster",
-      "url": "https://sjgant80-hub.github.io/fallgravity/",
-      "source": "https://github.com/sjgant80-hub/fallgravity",
-      "version": "1.0.0",
-      "prime": 199,
-      "kind": "domain-app",
-      "domain": "linkedin · algorithm · post strategy",
-      "audience": "creators planning posts for max algorithmic reach",
-      "size": 64700,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallgravity",
-      "apiActions": [
-        "ping",
-        "score",
-        "hooks",
-        "boost_state"
-      ],
-      "features": [
-        "5 views · Compose · Boost · Carousel · Analytics · Guild",
-        "α scorer · 8 dimensions /80 · live as you type",
-        "5 hook types · story · reveal · problem · question · paradox",
-        "γ 90-min boost window · 3 engagement tiers · guild alert via fall-signal",
-        "δ comment responder · depth · casual · technical",
-        "ε analytics · auto-detect best format · link penalty · boost impact",
-        "Guild · topic-affinity matched alerts · no spam"
-      ],
-      "rule": "strategy not automation · never auto-post · never engagement pods",
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "fallmap",
-      "purpose": "Workflow → consulting cost exposer · side-by-side comparison · what £20k consultant builds vs sovereign alternative · big green savings number",
-      "url": "https://sjgant80-hub.github.io/fallmap/",
-      "source": "https://github.com/sjgant80-hub/fallmap",
-      "version": "1.0.0",
-      "prime": 241,
-      "kind": "domain-app",
-      "domain": "consulting · workflow mapping · cost calculator",
-      "audience": "SMEs being pitched by consultants · founders evaluating SaaS stacks",
-      "size": 43500,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallmap",
-      "apiActions": [
-        "ping",
-        "map"
-      ],
-      "features": [
-        "α workflow parser · 16 step types · verb classification",
-        "β SaaS DB · 30+ tools with real UK pricing + failure modes",
-        "γ cost calc · 4 rate tiers · indie/mid/high/luxury",
-        "δ sovereign mapper · routes each step to existing Fall* tool",
-        "Side-by-side comparison · red consultant col · green sovereign col",
-        "Big savings card · year 1 + year 2+ ongoing",
-        "Export report · LinkedIn share copy · CTA modal (3 tiers)"
-      ],
-      "rule": "arrows shouldn't cost £20,000",
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "fallslot",
-      "purpose": "Share a calendar link · availability rules · .ics generator · mailto host notify · sovereign single HTML · obsoletes Calendly (£2,400/yr · 10-person team)",
-      "url": "https://sjgant80-hub.github.io/fallslot/",
-      "source": "https://github.com/sjgant80-hub/fallslot",
-      "version": "1.0.0",
-      "prime": 263,
-      "kind": "domain-app",
-      "domain": "scheduling · booking · calendar links",
-      "audience": "consultants · freelancers · trades · sales · creators booking demos",
-      "obsoletes": [
-        "Calendly",
-        "Cal.com",
-        "Acuity",
-        "Doodle"
-      ],
-      "size": 36000,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallslot",
-      "apiActions": [
-        "ping",
-        "available",
-        "bookings"
-      ],
-      "features": [
-        "Availability rules · days · times · slot length · buffer · min notice · max ahead",
-        "Block specific dates (holidays, focus days)",
-        "Public booking page · slot grid · booker form",
-        ".ics generator (RFC 5545) · works with Google/Apple/Outlook",
-        "mailto: host notification · no third-party email server",
-        "Booked list · upcoming + past · cancel · re-download .ics",
-        "Email signature copy · share link · iframe embed-ready"
-      ],
-      "grift_exposed": "Calendly Teams 6/user/mo · 10-person team = ,400/yr · SSO add-on +6/user/yr · year-2 renewal hike",
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "fallform",
-      "purpose": "Forms · no response cap ever · 8 field types · public URL · iframe embed · CSV export · optional webhook + mailto notify · obsoletes Typeform/JotForm",
-      "url": "https://sjgant80-hub.github.io/fallform/",
-      "source": "https://github.com/sjgant80-hub/fallform",
-      "version": "1.0.0",
-      "prime": 269,
-      "kind": "domain-app",
-      "domain": "forms · surveys · intake",
-      "audience": "every business needing forms · freelancers · agencies · trades quote-requests",
-      "obsoletes": [
-        "Typeform",
-        "JotForm",
-        "SurveyMonkey",
-        "Wufoo"
-      ],
-      "size": 39000,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "fallform",
-      "apiActions": [
-        "ping",
-        "forms",
-        "responses"
-      ],
-      "features": [
-        "Multi-form manager · tabs",
-        "8 field types · text · email · phone · number · date · paragraph · radio · checkbox",
-        "Required toggle · help text · field reordering",
-        "Live preview · public URL with ?f=<id>&mode=fill",
-        "Iframe embed code",
-        "Optional webhook POST per submission",
-        "Optional mailto: notify",
-        "CSV export · JSON backup"
-      ],
-      "grift_exposed": "Typeform 5/mo for 100 responses · partial completions count toward cap · 3/mo for 10k",
-      "shipped": "2026-05-28"
-    },
-    {
-      "name": "falllist",
-      "purpose": "Newsletter · BYOM (Resend/Postmark/Mailgun/SendGrid) · 0% platform fee · markdown editor · public sign-up page · obsoletes Mailchimp + Substack",
-      "url": "https://sjgant80-hub.github.io/falllist/",
-      "source": "https://github.com/sjgant80-hub/falllist",
-      "version": "1.0.0",
-      "prime": 271,
-      "kind": "domain-app",
-      "domain": "newsletter · email marketing · creator economy",
-      "audience": "creators · indie hackers · solopreneurs · paid newsletter writers",
-      "obsoletes": [
-        "Mailchimp",
-        "Substack",
-        "ConvertKit",
-        "Beehiiv",
-        "Ghost (newsletter)"
-      ],
-      "size": 45000,
-      "tier": "C",
-      "hotLoadable": false,
-      "messageTarget": "falllist",
-      "apiActions": [
-        "ping",
-        "subscriber_count",
-        "sent_count"
-      ],
-      "features": [
-        "Subscriber list management · localStorage",
-        "CSV import + export",
-        "Public sign-up page · ?signup=1 mode",
-        "iframe embed for sign-up form",
-        "Markdown editor with live preview",
-        "4 mailer providers · Resend · Postmark · Mailgun · SendGrid",
-        "Test send to yourself",
-        "Send history · delivery stats · copy HTML",
-        "Per-send rate limit · 100ms delay · gentle on mailer APIs"
-      ],
-      "grift_exposed": "Mailchimp 50/mo at 10k contacts · charges for unsubscribed · Substack 10% forever + Stripe fees on top",
-      "shipped": "2026-05-28"
-    }
+    { "name": "fallaccount-trades", "kind": "app", "category": "accounting", "purpose": "Sovereign accounts for UK builders/plumbers/sparkies · CIS · MTD · receipt-photo scan · ask-the-books NL", "url": "https://sjgant80-hub.github.io/fallaccount-trades/", "source": "https://github.com/sjgant80-hub/fallaccount-trades", "version": "1.2.0", "prime": 31, "domain": "trades · sole trader · UK accounting", "obsoletes": ["Xero", "QuickBooks", "FreeAgent"], "grift_exposed": "Xero £36/mo · QuickBooks £17/mo · per-feature gating", "size": 88900, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallflip", "kind": "app", "category": "linkedin", "purpose": "LinkedIn self-promo mirror · paste comment + profile · get reply + counter + optional DM", "url": "https://sjgant80-hub.github.io/fallflip/", "source": "https://github.com/sjgant80-hub/fallflip", "version": "1.0.0", "prime": 211, "domain": "linkedin · self-promo defence", "size": 40000, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallgravity", "kind": "app", "category": "linkedin", "purpose": "LinkedIn algorithm strategy · live post scorer /80 · 5 hook generators · 90-min boost coordinator", "url": "https://sjgant80-hub.github.io/fallgravity/", "source": "https://github.com/sjgant80-hub/fallgravity", "version": "1.0.0", "prime": 199, "domain": "linkedin · algorithm · post strategy", "obsoletes": ["Buffer", "Hootsuite"], "grift_exposed": "Buffer £15/mo · Hootsuite £79/mo · features bundled with irrelevant networks", "size": 64700, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallmap", "kind": "app", "category": "consulting", "purpose": "Workflow to consulting cost exposer · side-by-side comparison · big green savings number", "url": "https://sjgant80-hub.github.io/fallmap/", "source": "https://github.com/sjgant80-hub/fallmap", "version": "1.0.0", "prime": 241, "domain": "consulting · workflow mapping · cost calculator", "grift_exposed": "£20k discovery + £2k/mo retainer for arrows on a flowchart", "size": 43500, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallslot", "kind": "app", "category": "scheduling", "purpose": "Share a calendar link · availability rules · .ics generator · mailto host notify", "url": "https://sjgant80-hub.github.io/fallslot/", "source": "https://github.com/sjgant80-hub/fallslot", "version": "1.0.0", "prime": 263, "domain": "scheduling · booking", "obsoletes": ["Calendly", "Cal.com", "Acuity"], "grift_exposed": "Calendly Teams $16/user/mo · $2,400/yr for 10-person team", "size": 36000, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallform", "kind": "app", "category": "forms", "purpose": "Forms · no response cap ever · 8 field types · public URL · iframe embed · CSV export", "url": "https://sjgant80-hub.github.io/fallform/", "source": "https://github.com/sjgant80-hub/fallform", "version": "1.0.0", "prime": 269, "domain": "forms · surveys · intake", "obsoletes": ["Typeform", "JotForm", "SurveyMonkey"], "grift_exposed": "Typeform $25/mo for 100 responses · partial completions count toward cap", "size": 39000, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "falllist", "kind": "app", "category": "newsletter", "purpose": "Newsletter · BYOM (Resend/Postmark/Mailgun/SendGrid) · 0% platform fee · markdown editor", "url": "https://sjgant80-hub.github.io/falllist/", "source": "https://github.com/sjgant80-hub/falllist", "version": "1.0.0", "prime": 271, "domain": "newsletter · email marketing", "obsoletes": ["Mailchimp", "Substack", "ConvertKit", "Beehiiv"], "grift_exposed": "Mailchimp $350/mo at 10k · charges for unsubscribed · Substack 10% forever", "size": 45000, "tier": "C", "status": "live", "shipped": "2026-05-28" },
+    { "name": "fallforce", "kind": "app", "category": "crm", "purpose": "Sovereign CRM · single HTML · client governance · stress-tested by Mansoor for procurement", "url": "https://sjgant80-hub.github.io/fallforce/", "source": "https://github.com/sjgant80-hub/fallforce", "version": "2.0.0", "prime": 709, "domain": "crm · sales · pipeline · governance", "obsoletes": ["Salesforce", "HubSpot CRM", "Pipedrive"], "grift_exposed": "Salesforce £25-300/mo per user · HubSpot tiered to oblivion", "tier": "C", "status": "live" },
+    { "name": "fallsalescrm", "kind": "app", "category": "crm", "purpose": "Sovereign Salesforce replacement · single HTML · data stays yours", "url": "https://sjgant80-hub.github.io/fallsalescrm/", "source": "https://github.com/sjgant80-hub/fallsalescrm", "version": "1.0.0", "prime": 727, "domain": "crm · sales", "obsoletes": ["Salesforce"], "tier": "C", "status": "live" },
+    { "name": "fallreach", "kind": "app", "category": "sales", "purpose": "Sovereign AI SDR · your hardware · your keys · your pipeline · no per-seat SaaS", "url": "https://sjgant80-hub.github.io/fallreach/", "source": "https://github.com/sjgant80-hub/fallreach", "version": "1.0.0", "prime": 107, "domain": "sales · sdr · outbound", "obsoletes": ["Outreach", "Apollo", "SalesLoft"], "grift_exposed": "Outreach $130/user/mo · Apollo $99/user/mo", "tier": "C", "status": "live" },
+    { "name": "fallaccount", "kind": "app", "category": "accounting", "purpose": "FallAccount Elite · sovereign accounting for UK sole traders · any LLM · generic SME", "url": "https://sjgant80-hub.github.io/fallaccount/", "source": "https://github.com/sjgant80-hub/fallaccount", "version": "1.5.0", "prime": 31, "domain": "accounting · sole trader · UK", "obsoletes": ["Xero", "QuickBooks"], "tier": "C", "status": "live" },
+    { "name": "falloffice", "kind": "app", "category": "operations", "purpose": "Sovereign office operations · admin · documents · scheduling", "url": "https://sjgant80-hub.github.io/falloffice/", "source": "https://github.com/sjgant80-hub/falloffice", "version": "1.0.0", "prime": 7, "domain": "operations · admin", "tier": "C", "status": "live" },
+    { "name": "falllearn", "kind": "app", "category": "education", "purpose": "Sovereign AI tutor · learning paths · spaced repetition · single HTML", "url": "https://sjgant80-hub.github.io/falllearn/", "source": "https://github.com/sjgant80-hub/falllearn", "version": "1.0.0", "prime": 5, "domain": "education · learning · AI tutor", "tier": "C", "status": "live" },
+    { "name": "fallgrade", "kind": "app", "category": "education", "purpose": "Sovereign assessment tool · marking · feedback · single HTML", "url": "https://sjgant80-hub.github.io/fallgrade/", "source": "https://github.com/sjgant80-hub/fallgrade", "version": "1.0.0", "prime": 13, "domain": "education · grading", "tier": "C", "status": "live" },
+    { "name": "falllead", "kind": "app", "category": "sales", "purpose": "Sovereign lead capture and qualification · forms + scoring + routing", "url": "https://sjgant80-hub.github.io/falllead/", "source": "https://github.com/sjgant80-hub/falllead", "version": "1.0.0", "prime": 173, "domain": "sales · lead generation", "tier": "C", "status": "live" },
+    { "name": "fallgo", "kind": "app", "category": "operations", "purpose": "Sovereign go-to-market launcher · checklist + tracking", "url": "https://sjgant80-hub.github.io/fallgo/", "source": "https://github.com/sjgant80-hub/fallgo", "version": "1.0.0", "prime": 191, "domain": "operations · gtm · launch", "tier": "C", "status": "live" },
+    { "name": "fallguild", "kind": "app", "category": "linkedin", "purpose": "Gravity coordination for the ACG Guild · LinkedIn boost window tracker", "url": "https://sjgant80-hub.github.io/fallguild/", "source": "https://github.com/sjgant80-hub/fallguild", "version": "1.0.0", "prime": 257, "domain": "linkedin · guild coordination", "tier": "C", "status": "live" },
+    { "name": "fallconcierge", "kind": "app", "category": "ai", "purpose": "Sovereign AI concierge with Jungian archetype profiling + Freudian shadow detection", "url": "https://sjgant80-hub.github.io/fallconcierge/", "source": "https://github.com/sjgant80-hub/fallconcierge", "version": "1.0.0", "prime": 281, "domain": "ai · psychology · concierge", "tier": "C", "status": "live" },
+    { "name": "fallforensics", "kind": "app", "category": "intelligence", "purpose": "Sovereign prompt forensics · attack surface mapper · injection detector", "url": "https://sjgant80-hub.github.io/fallforensics/", "source": "https://github.com/sjgant80-hub/fallforensics", "version": "1.0.0", "prime": 293, "domain": "intelligence · security · llm forensics", "tier": "C", "status": "live" },
+    { "name": "fallconsensus", "kind": "app", "category": "governance", "purpose": "Sovereign consensus engine · multi-agent agreement · disagreement-as-signal", "url": "https://sjgant80-hub.github.io/fallconsensus/", "source": "https://github.com/sjgant80-hub/fallconsensus", "version": "1.0.0", "prime": 311, "domain": "governance · consensus · multi-agent", "tier": "C", "status": "live" },
+    { "name": "fallcall", "kind": "app", "category": "operations", "purpose": "Sovereign call notes · transcription + summary · single HTML", "url": "https://sjgant80-hub.github.io/fallcall/", "source": "https://github.com/sjgant80-hub/fallcall", "version": "1.0.0", "prime": 317, "domain": "operations · call notes · meeting", "obsoletes": ["Otter.ai", "Fireflies"], "tier": "C", "status": "live" },
+    { "name": "gymos", "kind": "app", "category": "fitness", "purpose": "Sovereign gym operations · onboarding agents · member management · phase gates", "url": "https://sjgant80-hub.github.io/gymos/", "source": "https://github.com/sjgant80-hub/gymos", "version": "2.0.0", "prime": 79, "domain": "fitness · gym ops · member management", "obsoletes": ["Mindbody", "Zen Planner"], "grift_exposed": "Mindbody $159/mo base · per-feature gating", "tier": "C", "status": "live" },
+    { "name": "audiofabric", "kind": "app", "category": "music", "purpose": "3D music visualisation · send a track · get a 3D HTML back · $99 per song", "url": "https://sjgant80-hub.github.io/audiofabric/", "source": "https://github.com/sjgant80-hub/audiofabric", "version": "1.0.0", "prime": 23, "domain": "music · visualisation · 3D", "tier": "C", "status": "live" },
+    { "name": "datascope", "kind": "app", "category": "intelligence", "purpose": "Sovereign AI intelligence platform for creators and investors · niche analysis", "url": "https://sjgant80-hub.github.io/datascope/", "source": "https://github.com/sjgant80-hub/datascope", "version": "1.0.0", "prime": 331, "domain": "intelligence · research · creator economy", "tier": "C", "status": "live" },
+    { "name": "exitengine", "kind": "app", "category": "operations", "purpose": "Exit engine · business sale prep · valuation + due diligence checklist", "url": "https://sjgant80-hub.github.io/exitengine/", "source": "https://github.com/sjgant80-hub/exitengine", "version": "1.0.0", "prime": 337, "domain": "operations · exit · M&A", "tier": "C", "status": "live" },
+    { "name": "smbaios", "kind": "app", "category": "operations", "purpose": "AI-powered SMB OS · operations dashboard · single HTML", "url": "https://sjgant80-hub.github.io/smbaios/", "source": "https://github.com/sjgant80-hub/smbaios", "version": "1.0.0", "prime": 347, "domain": "operations · smb · dashboard", "tier": "C", "status": "live" },
+    { "name": "groundlevel", "kind": "app", "category": "operations", "purpose": "Ground level · operational intelligence for field teams", "url": "https://sjgant80-hub.github.io/groundlevel/", "source": "https://github.com/sjgant80-hub/groundlevel", "version": "1.0.0", "prime": 349, "domain": "operations · field · ground intel", "tier": "C", "status": "live" },
+    { "name": "konomi-swarm", "kind": "app", "category": "governance", "purpose": "Colony primitive · every approval is a pheromone deposit · sovereign JS MIT", "url": "https://sjgant80-hub.github.io/konomi-swarm/", "source": "https://github.com/sjgant80-hub/konomi-swarm", "version": "1.0.0", "prime": 353, "domain": "governance · stigmergy · multi-agent", "tier": "C", "status": "live" },
+    { "name": "fall127agents", "kind": "app", "category": "ai", "purpose": "127-agent sovereign framework · the right way to do AI · single HTML", "url": "https://sjgant80-hub.github.io/fall127agents/", "source": "https://github.com/sjgant80-hub/fall127agents", "version": "1.0.0", "prime": 127, "domain": "ai · multi-agent · framework", "tier": "C", "status": "live" },
+    { "name": "trilogy-forge", "kind": "app", "category": "ai", "purpose": "The Psychological Build Engine · Jung + Freud + Sales 101 · auto-generated tools", "url": "https://sjgant80-hub.github.io/trilogy-forge/", "source": "https://github.com/sjgant80-hub/trilogy-forge", "version": "1.0.0", "prime": 401, "domain": "ai · psychology · tool generation", "tier": "C", "status": "live" },
+    { "name": "forge-upgrade", "kind": "app", "category": "ai", "purpose": "Upload any HTML/Replit/Lovable/.md spec · get it back sovereign · single HTML", "url": "https://sjgant80-hub.github.io/forge-upgrade/", "source": "https://github.com/sjgant80-hub/forge-upgrade", "version": "1.0.0", "prime": 419, "domain": "ai · sovereignty migration", "tier": "C", "status": "live" },
+    { "name": "cassietorusbtc135solver", "kind": "app", "category": "intelligence", "purpose": "BTC puzzle 135 solver · WebGPU kangaroo + resonance · coupled prob-torus", "url": "https://sjgant80-hub.github.io/cassietorusbtc135solver/", "source": "https://github.com/sjgant80-hub/cassietorusbtc135solver", "version": "2.0.0", "prime": 135, "domain": "intelligence · cryptography · BTC puzzle", "tier": "C", "status": "live" },
+    { "name": "oracleengine", "kind": "app", "category": "intelligence", "purpose": "OracleEngine v2 · The Watcher · 8+1 agents · 7 models · 510510-cell probability torus", "url": "https://sjgant80-hub.github.io/oracleengine/", "source": "https://github.com/sjgant80-hub/oracleengine", "version": "2.0.0", "prime": 433, "domain": "intelligence · prediction · prob-torus", "tier": "C", "status": "live" }
   ],
-  "recommendedWatch": [
-    "fall-palette",
-    "fall-bloom"
+  "apis": [
+    { "name": "deep-api", "kind": "api", "category": "research", "purpose": "AI Deep Research API · ask anything · get structured intelligence reports", "url": "https://deep-api.onrender.com/", "source": "https://github.com/sjgant80-hub/deep-api", "version": "1.0.0", "domain": "ai · research · structured intelligence", "tier": "B", "status": "live" },
+    { "name": "docmind-api", "kind": "api", "category": "documents", "purpose": "AI Document Intelligence API · receipts · invoices · bank statements · contracts", "url": "https://docmind-api.onrender.com/", "source": "https://github.com/sjgant80-hub/docmind-api", "version": "1.0.0", "domain": "ai · ocr · document intelligence", "tier": "B", "status": "live" },
+    { "name": "flux-api", "kind": "api", "category": "content", "purpose": "AI Content Engine API · blog posts · social media · email campaigns · ad copy", "url": "https://flux-api.onrender.com/", "source": "https://github.com/sjgant80-hub/flux-api", "version": "1.0.0", "domain": "ai · content generation", "tier": "B", "status": "live" },
+    { "name": "fallcube-api", "kind": "api", "category": "storage", "purpose": "Sovereign File Storage API · upload · search · analyze · stream · zero cloud lock-in", "url": "https://fallcube-api.onrender.com/", "source": "https://github.com/sjgant80-hub/fallcube-api", "version": "1.0.0", "domain": "ai · file storage · semantic search", "tier": "B", "status": "live" },
+    { "name": "fallscout", "kind": "api", "category": "intelligence", "purpose": "LinkedIn Intelligence API · scrape · research · craft tailored outreach", "url": "https://fallscout.onrender.com/", "source": "https://github.com/sjgant80-hub/fallscout", "version": "1.0.0", "domain": "ai · linkedin · outreach intelligence", "tier": "B", "status": "live" },
+    { "name": "forge-lab", "kind": "api", "category": "factory", "purpose": "Forge Lab · Domain Expert Tool Builder · POST workflow + expert · GET sovereign HTML", "url": "https://forge-lab.onrender.com/", "source": "https://github.com/sjgant80-hub/forge-lab", "version": "1.0.0", "prime": 47, "domain": "ai · tool factory · sovereign generator", "tier": "B", "status": "live" },
+    { "name": "trilogy-forge-api", "kind": "api", "category": "factory", "purpose": "The factory that makes factories · POST config · GET a sovereign HTML app · psychology baked in", "source": "https://github.com/sjgant80-hub/trilogy-forge-api", "version": "1.0.0", "domain": "ai · factory · meta-tool generation", "tier": "B", "status": "alpha" },
+    { "name": "fallcore", "kind": "api", "category": "infra", "purpose": "FallCore · on-prem brain · Anthropic-API-compatible local proxy · Docker deploy", "url": "https://fallcore.onrender.com/", "source": "https://github.com/sjgant80-hub/fallcore", "version": "1.0.0", "domain": "ai · local LLM · enterprise · Docker", "tier": "B", "status": "live" },
+    { "name": "fallcore-factory", "kind": "api", "category": "factory", "purpose": "FallCore Factory · the factory that mints branded FallCore deployments", "url": "https://fallcore-factory.onrender.com/", "source": "https://github.com/sjgant80-hub/fallcore-factory", "version": "1.0.0", "domain": "ai · factory · deployment automation", "tier": "B", "status": "live" },
+    { "name": "fallcore-mcp", "kind": "api", "category": "mcp", "purpose": "FallCore MCP server · the 5th turtle · exposes any FallCore deployment via Model Context Protocol", "source": "https://github.com/sjgant80-hub/fallcore-mcp", "version": "1.0.0", "domain": "ai · mcp · claude code · tool exposure", "tier": "B", "status": "live" }
   ],
+  "sdks": [
+    { "name": "trilogy-sdk", "kind": "sdk", "category": "ai-toolkit", "purpose": "The AI API Toolkit · DocMind + Deep + Flux · one npm install · three AI APIs", "source": "https://github.com/sjgant80-hub/trilogy-sdk", "version": "1.0.0", "package": "@sjgant80/trilogy-sdk", "install": "npm install @sjgant80/trilogy-sdk", "domain": "ai · sdk · toolkit", "tier": "B", "status": "live" },
+    { "name": "trilogy-framework", "kind": "sdk", "category": "ai-framework", "purpose": "The AI Pipeline Framework · Input to Intelligence to Output as one declarative unit", "source": "https://github.com/sjgant80-hub/trilogy-framework", "version": "1.0.0", "domain": "ai · framework · pipeline", "tier": "B", "status": "live" },
+    { "name": "tonesmith", "kind": "sdk", "category": "text", "purpose": "ToneEngine · 12 tone categories · MIT · open source · NPM-installable", "source": "https://github.com/sjgant80-hub/tonesmith", "version": "1.0.0", "package": "tonesmith", "install": "npm install tonesmith", "domain": "text · tone analysis · MIT npm", "tier": "A", "status": "live" }
+  ],
+  "research": [
+    { "name": "kinetic-braid-prior-art", "kind": "research", "category": "defensive-publication", "purpose": "Physics-Aware AI prior art commons · defensive publication", "source": "https://github.com/sjgant80-hub/kinetic-braid-prior-art", "domain": "research · ai physics · commons", "tier": "R", "status": "published" },
+    { "name": "congenial-giggle", "kind": "research", "category": "diagnostic", "purpose": "OSDB · Open-Source Diagnostic Braid · diagnostic architecture for AI systems", "source": "https://github.com/sjgant80-hub/congenial-giggle", "domain": "research · ai diagnostics", "tier": "R", "status": "published" },
+    { "name": "probable-telegram", "kind": "research", "category": "diagnostic", "purpose": "Diagnostic Braid · open-source architecture detecting AI failure modes", "source": "https://github.com/sjgant80-hub/probable-telegram", "domain": "research · ai safety", "tier": "R", "status": "published" },
+    { "name": "fuzzy-palm-tree", "kind": "research", "category": "energy", "purpose": "THRL · phase-locked resonant energy loop · high-Q oscillator system", "source": "https://github.com/sjgant80-hub/fuzzy-palm-tree", "domain": "research · energy · resonance", "tier": "R", "status": "published" },
+    { "name": "legendary-journey", "kind": "research", "category": "energy", "purpose": "Closed-Loop Harmonic Energy Scheme · defensive publication · public domain", "source": "https://github.com/sjgant80-hub/legendary-journey", "domain": "research · energy", "tier": "R", "status": "published" },
+    { "name": "probable-octo-chainsaw", "kind": "research", "category": "intelligence-architecture", "purpose": "Thermodynamic Intelligence lattice · research framework", "source": "https://github.com/sjgant80-hub/probable-octo-chainsaw", "domain": "research · ai architecture", "tier": "R", "status": "published" },
+    { "name": "scaling-octo-couscous", "kind": "research", "category": "intelligence-architecture", "purpose": "Thermodynamic Intelligence lattice · scaling variant", "source": "https://github.com/sjgant80-hub/scaling-octo-couscous", "domain": "research · ai architecture", "tier": "R", "status": "published" },
+    { "name": "solid-fiesta", "kind": "research", "category": "intelligence-architecture", "purpose": "AI Orchestration · Spore Mycelial Cognition Architecture (MCA) · defensive", "source": "https://github.com/sjgant80-hub/solid-fiesta", "domain": "research · ai orchestration · mycelial", "tier": "R", "status": "published" },
+    { "name": "solid-journey", "kind": "research", "category": "intelligence-architecture", "purpose": "Spore 001 · The Mycelial Cognition Architecture initial publication", "source": "https://github.com/sjgant80-hub/solid-journey", "domain": "research · ai orchestration", "tier": "R", "status": "published" },
+    { "name": "laughing-octo-guacamole", "kind": "research", "category": "governance", "purpose": "Planetary Stigmergic Governance Mesh · governance research", "source": "https://github.com/sjgant80-hub/laughing-octo-guacamole", "domain": "research · governance · planetary mesh", "tier": "R", "status": "published" },
+    { "name": "upgraded-fiesta", "kind": "research", "category": "policy", "purpose": "Policy-Phi-Fighter · open-source tool for policy phi calculations", "source": "https://github.com/sjgant80-hub/upgraded-fiesta", "domain": "research · policy · phi", "tier": "R", "status": "published" }
+  ],
+  "infra": [
+    { "name": "fall-registry", "kind": "infra", "purpose": "This file · canonical index of all sovereign tools · machine-readable manifest", "url": "https://raw.githubusercontent.com/sjgant80-hub/fall-registry/main/index.json", "source": "https://github.com/sjgant80-hub/fall-registry" },
+    { "name": "fall-signal", "kind": "infra", "purpose": "BroadcastChannel mesh standard · cross-tool event protocol", "source": "https://github.com/sjgant80-hub/fallsignal" },
+    { "name": "fallmesh", "kind": "infra", "purpose": "Mesh shim · discovery + handshake · drop into any sovereign tool", "source": "https://github.com/sjgant80-hub/fallmesh" }
+  ],
+  "recommendedWatch": ["fall-palette", "fall-bloom"],
   "exclusionPolicy": {
     "neverHotLoad": [
       "audit-chained tools (e.g. apex-procurement.html)",
       "client deliverables (anything under */clients/*)",
       "tools with active legal/compliance review",
-      "all entries under apps[] — they are single-file deliverables, not plugins"
+      "all entries under apps[] · they are single-file deliverables"
     ],
-    "rationale": "Hot-loading invalidates the proof property of audited code. The configHash recorded at decision time must match what's actually running. Client builds also require explicit user consent for the update cadence. Apps deploy as static HTML — updates ship via git push not runtime injection."
-  },
-  "schema": {
-    "plugin": {
-      "name": "string · unique kebab-case",
-      "purpose": "string · one line",
-      "url": "string · canonical CDN URL",
-      "source": "string · repo URL",
-      "version": "number · matches window.<global>._v",
-      "hotLoadable": "boolean · false = meta or sensitive",
-      "kind": "ui | math | mesh | meta | data",
-      "size": "number · bytes approx",
-      "global": "string · window.<name> after load",
-      "notes": "string · optional"
-    },
-    "app": {
-      "name": "string · unique kebab-case · matches repo name",
-      "purpose": "string · one line · public-facing pitch",
-      "url": "string · live Pages URL",
-      "source": "string · repo URL",
-      "version": "string · semver",
-      "prime": "number · mesh-channel prime · unique per app",
-      "kind": "domain-app | platform | client-fork",
-      "domain": "string · subject domain",
-      "audience": "string · who this serves",
-      "size": "number · single-file HTML size in bytes",
-      "tier": "A | B | C · risk/audit tier · C = Simon-owned, no client gate",
-      "hotLoadable": "boolean · always false for apps · they're deliverables",
-      "messageTarget": "string · postMessage target for cross-tool API",
-      "apiActions": "string[] · supported {target,action} requests",
-      "features": "string[] · bulleted summary",
-      "rule": "string · optional · one-line ethos",
-      "shipped": "YYYY-MM-DD · first public deploy"
-    }
+    "rationale": "Hot-loading invalidates the proof property of audited code."
   }
 }

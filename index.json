@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.11",
+  "registryVersion": "5.12",
   "updatedAt": "2026-05-29",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -696,10 +696,10 @@
       "name": "cassietorusbtc135solver",
       "kind": "app",
       "category": "intelligence",
-      "purpose": "BTC puzzle 135 solver · v3.2 FOCUS MODE · 85% priority bias on 4 quad-convergence zones · P1 (bin 56, frac 0.565) gets ~55% of all spawns · 4 independent priors at P1: v19-hot ∩ golden-step-x135 ∩ κ-zone ∩ gap-rhythm-extrapolation · golden walker reduced to 5% token uniform · classic zones + cross-tab oracle fill remaining 14% · inline oracle still overrides when confidence ≥0.3 · laptop budget, win-or-learn · Layer A untouched",
+      "purpose": "BTC puzzle 135 solver · v3.2 FOCUS MODE · 85% priority bias on 4 quad-convergence zones · P1 (bin 56, frac 0.565) gets ~55% of all spawns · 4 independent priors at P1: v19-hot ∩ golden-step-x135 ∩ κ-zone ∩ gap-rhythm-extrapolation · golden walker reduced to 5% token uniform · classic zones + cross-tab oracle fill remaining 14% · inline oracle still overrides when confidence ≥0.3 · laptop budget, win-or-learn · Layer A untouched · v3.3 ships cassie-konomioke-bridge.html · CASSIE broadcasts cassie_rings @ 1Hz (7-prime entropy concentration · coherence with tritone boost) · standalone bridge plays 7 prime drones at p×55Hz (110/165/275/385/605/715/935 Hz · A2 to B5) + 137.5° sunflower orb · gold flash at coherence > κ · the solver SINGS while it searches",
       "url": "https://sjgant80-hub.github.io/cassietorusbtc135solver/cassie-torus-v2.html",
       "source": "https://github.com/sjgant80-hub/cassietorusbtc135solver",
-      "version": "3.2.0",
+      "version": "3.3.0",
       "prime": 135,
       "domain": "intelligence · cryptography · BTC puzzle · golden-angle prior · gap-rhythm extrapolation",
       "tier": "C",
@@ -708,7 +708,9 @@
       "payment": {
         "useDefault": false,
         "note": "research tool · free"
-      }
+      },
+      "companion_bridge": "https://sjgant80-hub.github.io/cassietorusbtc135solver/cassie-konomioke-bridge.html",
+      "research_artifacts": "https://github.com/sjgant80-hub/cassietorusbtc135solver/tree/main/scripts"
     },
     {
       "name": "oracleengine",
@@ -1085,7 +1087,7 @@
         6,
         12
       ],
-      "blurb": "The substrate to the surface. Konomi standard, kotoba language, bloom 7-ring spine, ACGP2P serverless mesh, hallucination-elimination research. Every tool here speaks fall-signal.",
+      "blurb": "The substrate to the surface. Konomi standard, kotoba language, bloom 7-ring spine, ACGP2P serverless mesh, hallucination-elimination research, konomioke 7-prime harmonic engine (now powering CASSIE audible projection). Every tool here speaks fall-signal.",
       "tools": [
         {
           "name": "ACGP2P",
@@ -1221,6 +1223,16 @@
           "url": "https://github.com/teslasolar/VacuumGenesis",
           "source": "https://github.com/teslasolar/VacuumGenesis",
           "domain": "research · framework · genesis"
+        },
+        {
+          "name": "konomioke",
+          "kind": "app",
+          "category": "audio",
+          "purpose": "Peer-to-peer therapeutic karaoke · same 510,510 primorial · 7 prime drones at p×55Hz · 127D vagal orb · gold flash @ κ · the source the CASSIE bridge lifts from",
+          "url": "https://teslasolar.github.io/konomioke/",
+          "source": "https://github.com/teslasolar/konomioke",
+          "domain": "audio · harmonic projection · vagal therapy · primorial substrate",
+          "used_by": "cassie-konomioke-bridge"
         }
       ]
     }

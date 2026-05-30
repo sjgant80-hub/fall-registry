@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.24",
+  "registryVersion": "5.25",
   "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1340,6 +1340,100 @@
           ],
           "grift_exposed": "Single-provider lock-in · Anthropic outage = your AI app dead",
           "size": 11500,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallmirror",
+          "kind": "tool",
+          "category": "backup",
+          "purpose": "Multi-host repo mirroring · GitHub + Codeberg + GitLab + IPFS + USB · one push, many homes",
+          "url": "https://sjgant80-hub.github.io/fallmirror/",
+          "source": "https://github.com/sjgant80-hub/fallmirror",
+          "version": "1.0.0",
+          "prime": 281,
+          "domain": "defensive · multi-host · sovereignty",
+          "obsoletes": [
+            "single-host GitHub dependency"
+          ],
+          "grift_exposed": "GitHub closes your account · every repo gone overnight",
+          "size": 8500,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallshield",
+          "kind": "infra",
+          "category": "identity",
+          "purpose": "Sovereign Ed25519 identity · sign your tools, verify any signature, defend against impersonation",
+          "url": "https://sjgant80-hub.github.io/fallshield/",
+          "source": "https://github.com/sjgant80-hub/fallshield",
+          "version": "1.0.0",
+          "prime": 283,
+          "domain": "defensive · identity · cryptographic sovereignty",
+          "obsoletes": [
+            "Keybase",
+            "unsigned releases",
+            "trust-by-handle"
+          ],
+          "grift_exposed": "Anyone can fork your repo and claim it · without signatures, you cant prove which is real",
+          "size": 12000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallescape",
+          "kind": "tool",
+          "category": "disaster-recovery",
+          "purpose": "Sovereign emergency egress kit · if everything dies, rebuild in 20 minutes · multi-location pinned",
+          "url": "https://sjgant80-hub.github.io/fallescape/",
+          "source": "https://github.com/sjgant80-hub/fallescape",
+          "version": "1.0.0",
+          "prime": 293,
+          "domain": "defensive · disaster recovery · continuity",
+          "obsoletes": [
+            "LastPass emergency access",
+            "trust-the-bank",
+            "trust-the-cloud"
+          ],
+          "grift_exposed": "When account closures hit, recovery takes weeks · fallescape: 20 min",
+          "size": 11000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallpay",
+          "kind": "app",
+          "category": "payment",
+          "purpose": "Sovereign multi-rail payment receipt · Stripe + PayPal + Wise + crypto + invoice · Ed25519-signed",
+          "url": "https://sjgant80-hub.github.io/fallpay/",
+          "source": "https://github.com/sjgant80-hub/fallpay",
+          "version": "1.0.0",
+          "prime": 307,
+          "domain": "defensive · payment · cashflow sovereignty",
+          "obsoletes": [
+            "Stripe-only flows",
+            "PayPal-only flows",
+            "single-rail lock-in"
+          ],
+          "grift_exposed": "Stripe randomly freezes AI accounts · single-rail = single point of business failure",
+          "size": 9500,
           "tier": "C",
           "status": "live",
           "shipped": "2026-05-30",

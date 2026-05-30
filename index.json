@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.26",
+  "registryVersion": "5.27",
   "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1506,6 +1506,58 @@
           "size": 9000,
           "tier": "C",
           "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallanno",
+          "kind": "platform",
+          "category": "data-annotation",
+          "purpose": "Sovereign data annotation · workers own attribution · multi-rail pay · the DataAnnotation/Scale alternative",
+          "url": "https://sjgant80-hub.github.io/fallanno/",
+          "source": "https://github.com/sjgant80-hub/fallanno",
+          "version": "1.0.0-landing",
+          "prime": 331,
+          "domain": "data labelling · RLHF · sovereign workforce · Sodor Islands",
+          "obsoletes": [
+            "DataAnnotation.tech",
+            "Scale AI",
+            "Surge",
+            "Outlier",
+            "Toloka",
+            "Appen",
+            "Lionbridge"
+          ],
+          "grift_exposed": "Annotators built modern AI · paid least, credited never, banned without recourse",
+          "size": 14000,
+          "tier": "C",
+          "status": "landing-live · MVP Q2 2026",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallskin",
+          "kind": "platform",
+          "category": "premium-upgrade",
+          "purpose": "Premium fitted upgrades for any sovereign tool · desktop · mobile · SSO · white-label · sovereignty preserved",
+          "url": "https://sjgant80-hub.github.io/fallskin/",
+          "source": "https://github.com/sjgant80-hub/fallskin",
+          "version": "1.0.0-landing",
+          "prime": 337,
+          "domain": "premium upgrades · enterprise · resale · sovereign monetization",
+          "obsoletes": [
+            "Electron-only native (no source)",
+            "SaaS-only enterprise upgrades",
+            "subscription support contracts"
+          ],
+          "grift_exposed": "Native apps usually mean lock-in · fallskin delivers source + sovereignty",
+          "size": 13000,
+          "tier": "C",
+          "status": "landing-live · catalogue open for bespoke",
           "shipped": "2026-05-30",
           "payment": {
             "useDefault": true

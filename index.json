@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.22",
+  "registryVersion": "5.23",
   "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1296,6 +1296,32 @@
           "source": "https://github.com/teslasolar/konomioke",
           "domain": "audio · harmonic projection · vagal therapy · primorial substrate",
           "used_by": "cassie-konomioke-bridge"
+        },
+        {
+          "name": "fallvault",
+          "kind": "app",
+          "category": "backup",
+          "purpose": "Sovereign emergency backup · one HTML file · AES-256-GCM in your browser · only your passphrase decrypts · MIT",
+          "url": "https://sjgant80-hub.github.io/fallvault/",
+          "source": "https://github.com/sjgant80-hub/fallvault",
+          "version": "1.0.0",
+          "prime": 271,
+          "domain": "backup · sovereignty · disaster recovery",
+          "obsoletes": [
+            "Dropbox",
+            "iCloud",
+            "Backblaze",
+            "Carbonite",
+            "OneDrive"
+          ],
+          "grift_exposed": "Dropbox $12/mo · iCloud $10/mo · Backblaze $9/mo · all read your files server-side · fallvault keeps the key on your machine",
+          "size": 11000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
         }
       ]
     }

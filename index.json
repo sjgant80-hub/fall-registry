@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.25",
+  "registryVersion": "5.26",
   "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1434,6 +1434,76 @@
           ],
           "grift_exposed": "Stripe randomly freezes AI accounts · single-rail = single point of business failure",
           "size": 9500,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallcdn",
+          "kind": "tool",
+          "category": "self-host",
+          "purpose": "Self-hosted Pages alternative · serve estate from your laptop via Tailscale/Cloudflare/Caddy",
+          "url": "https://sjgant80-hub.github.io/fallcdn/",
+          "source": "https://github.com/sjgant80-hub/fallcdn",
+          "version": "1.0.0",
+          "prime": 311,
+          "domain": "defensive · self-hosting · zero-vendor",
+          "obsoletes": [
+            "GitHub Pages dependency",
+            "Vercel",
+            "Netlify",
+            "Cloudflare Pages lock-in"
+          ],
+          "grift_exposed": "If GitHub closes Pages, your sovereign site is gone · fallcdn serves from your laptop",
+          "size": 8000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallnet",
+          "kind": "infra",
+          "category": "p2p-mesh",
+          "purpose": "Browser-to-browser P2P mesh · WebRTC · zero hosting · operators serve each other",
+          "url": "https://sjgant80-hub.github.io/fallnet/",
+          "source": "https://github.com/sjgant80-hub/fallnet",
+          "version": "1.0.0",
+          "prime": 313,
+          "domain": "defensive · p2p · zero-hosting",
+          "obsoletes": [
+            "all centralized hosting"
+          ],
+          "grift_exposed": "All centralized hosting has a single point of failure · P2P does not",
+          "size": 11000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallonion",
+          "kind": "tool",
+          "category": "tor-mirror",
+          "purpose": "Tor hidden service mirror · for users in censored jurisdictions · .onion address",
+          "url": "https://sjgant80-hub.github.io/fallonion/",
+          "source": "https://github.com/sjgant80-hub/fallonion",
+          "version": "1.0.0",
+          "prime": 317,
+          "domain": "defensive · censorship-resistance · privacy",
+          "obsoletes": [
+            "VPN-only access",
+            "clearnet-only sites in censored countries"
+          ],
+          "grift_exposed": "When the firewall blocks your domain, only Tor reaches your customer",
+          "size": 9000,
           "tier": "C",
           "status": "live",
           "shipped": "2026-05-30",

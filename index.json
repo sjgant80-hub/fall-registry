@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.23",
+  "registryVersion": "5.24",
   "updatedAt": "2026-05-30",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1316,6 +1316,30 @@
           ],
           "grift_exposed": "Dropbox $12/mo · iCloud $10/mo · Backblaze $9/mo · all read your files server-side · fallvault keeps the key on your machine",
           "size": 11000,
+          "tier": "C",
+          "status": "live",
+          "shipped": "2026-05-30",
+          "payment": {
+            "useDefault": true
+          }
+        },
+        {
+          "name": "fallcompass",
+          "kind": "infra",
+          "category": "llm-cascade",
+          "purpose": "Sovereign LLM cascade router · 8 providers · drop-in shim · auto-failover when Anthropic/OpenAI/etc gates",
+          "url": "https://sjgant80-hub.github.io/fallcompass/",
+          "source": "https://github.com/sjgant80-hub/fallcompass",
+          "version": "1.0.0",
+          "prime": 277,
+          "domain": "infrastructure · defensive sovereignty · LLM routing",
+          "obsoletes": [
+            "LangChain provider abstraction",
+            "LiteLLM",
+            "Portkey"
+          ],
+          "grift_exposed": "Single-provider lock-in · Anthropic outage = your AI app dead",
+          "size": 11500,
           "tier": "C",
           "status": "live",
           "shipped": "2026-05-30",

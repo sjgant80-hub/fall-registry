@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.28",
+  "registryVersion": "5.29",
   "updatedAt": "2026-05-31",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -1028,6 +1028,143 @@
       "payment": {
         "useDefault": true
       }
+    },
+    {
+      "name": "fallinvoice",
+      "kind": "app",
+      "category": "accounting",
+      "purpose": "Sovereign invoice + one-click pay (PayPal/Stripe/Wise/Bank/BTC/USDC) + 3-stage chase emails · PYMNTS hierarchy-of-convenience compliant",
+      "url": "https://sjgant80-hub.github.io/fallinvoice/",
+      "source": "https://github.com/sjgant80-hub/fallinvoice",
+      "version": "1.0.0",
+      "prime": 349,
+      "domain": "accounting · invoicing · UK + global",
+      "obsoletes": [
+        "Xero invoicing",
+        "QuickBooks invoicing",
+        "FreshBooks"
+      ],
+      "grift_exposed": "Xero Early caps 20 invoices/mo · QuickBooks £17/mo per-feature gating",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallflow",
+      "kind": "app",
+      "category": "accounting",
+      "purpose": "14-day cash-runway early-warning · paste bank CSV → Friday-by-Friday red/green wall · cliff-date countdown · the alert your accountant cant give you",
+      "url": "https://sjgant80-hub.github.io/fallflow/",
+      "source": "https://github.com/sjgant80-hub/fallflow",
+      "version": "1.0.0",
+      "prime": 353,
+      "domain": "accounting · cash flow · UK banks",
+      "obsoletes": [
+        "Float",
+        "Pulse",
+        "Fluidly"
+      ],
+      "grift_exposed": "cash-flow SaaS £50-200/mo · most surface red AFTER you miss payroll",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallhire",
+      "kind": "app",
+      "category": "hr",
+      "purpose": "Sovereign hiring pipeline + 7-dimension interview scorecards + radar-chart compare · drag-drop kanban · single HTML",
+      "url": "https://sjgant80-hub.github.io/fallhire/",
+      "source": "https://github.com/sjgant80-hub/fallhire",
+      "version": "1.0.0",
+      "prime": 359,
+      "domain": "hr · recruitment · interviewing",
+      "obsoletes": [
+        "Greenhouse Starter",
+        "Lever Hire",
+        "Workable lite"
+      ],
+      "grift_exposed": "ATS £150-500/seat/mo · scorecards rarely compared properly",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallcarousel",
+      "kind": "app",
+      "category": "marketing",
+      "purpose": "LinkedIn carousel builder · 8 themes · 4 slide types · 4 hook templates · exports PDF/PNG/HTML · rides 1.39x carousel + 1.61x meta-topic reach",
+      "url": "https://sjgant80-hub.github.io/fallcarousel/",
+      "source": "https://github.com/sjgant80-hub/fallcarousel",
+      "version": "1.0.0",
+      "prime": 367,
+      "domain": "marketing · linkedin · content",
+      "obsoletes": [
+        "Carousel.com",
+        "AuthoredUp paid",
+        "Canva LinkedIn templates"
+      ],
+      "grift_exposed": "carousel SaaS £20-60/mo · templates locked behind tiers",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallcrm",
+      "kind": "app",
+      "category": "sales",
+      "purpose": "Sovereign CRM · contacts + 7-stage pipeline + email templates + analytics · the delete-HubSpot wedge · single HTML file",
+      "url": "https://sjgant80-hub.github.io/fallcrm/",
+      "source": "https://github.com/sjgant80-hub/fallcrm",
+      "version": "1.0.0",
+      "prime": 373,
+      "domain": "sales · crm · solo operators",
+      "obsoletes": [
+        "HubSpot Sales Pro",
+        "Salesforce Essentials",
+        "Pipedrive"
+      ],
+      "grift_exposed": "HubSpot Pro $450/mo · Salesforce $300/seat/mo · per-seat collapse",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallap",
+      "kind": "app",
+      "category": "accounting",
+      "purpose": "Invoice rewriter · paste/upload your invoice → returns one-click pay landing (PYMNTS hierarchy of convenience) · QR code · 7→1 friction-points removed",
+      "url": "https://sjgant80-hub.github.io/fallap/",
+      "source": "https://github.com/sjgant80-hub/fallap",
+      "version": "1.0.0",
+      "prime": 383,
+      "domain": "accounting · accounts payable · friction",
+      "obsoletes": [
+        "Bill.com landing pages",
+        "manual PDF chase"
+      ],
+      "grift_exposed": "AP SaaS £40-200/mo · still doesnt fix the buyer-side friction",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
     }
   ],
   "apis": [
@@ -1180,6 +1317,49 @@
       "domain": "ai · mcp · claude code",
       "tier": "B",
       "status": "live",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fall-raas",
+      "kind": "api",
+      "category": "research",
+      "purpose": "Research-as-a-Service · 5-angle fan-out + 3-vote adversarial verification + cited synthesis · drop-in JS SDK · BYO Anthropic key · sovereign",
+      "url": "https://sjgant80-hub.github.io/fall-raas/",
+      "source": "https://github.com/sjgant80-hub/fall-raas",
+      "version": "1.0.0",
+      "prime": 397,
+      "domain": "substrate · research · verification",
+      "obsoletes": [
+        "Perplexity Pro research",
+        "ChatGPT Deep Research"
+      ],
+      "grift_exposed": "centralised research engines · no audit · cant prove the refute panel ran",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fall-verify",
+      "kind": "api",
+      "category": "verification",
+      "purpose": "Adversarial verification endpoint · 3-vote refute panel · did Claude hallucinate? · returns confidence + sources + suggested correction · drop-in SDK",
+      "url": "https://sjgant80-hub.github.io/fall-verify/",
+      "source": "https://github.com/sjgant80-hub/fall-verify",
+      "version": "1.0.0",
+      "prime": 401,
+      "domain": "substrate · verification · hallucination gate",
+      "obsoletes": [
+        "none (first public adversarial-verify primitive at this depth)"
+      ],
+      "grift_exposed": "52% of plausible LLM claims fail adversarial verification (deep-research run May 2026)",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-31",
       "payment": {
         "useDefault": true
       }
@@ -1369,6 +1549,31 @@
       "kind": "infra",
       "purpose": "Mesh shim · discovery + handshake · drop into any sovereign tool",
       "source": "https://github.com/sjgant80-hub/fallmesh"
+    },
+    {
+      "name": "fall-substrate",
+      "kind": "infra",
+      "category": "substrate",
+      "purpose": "FLAGSHIP · the cognitive substrate · research-question → cited findings → spec → generated sovereign HTML → live on Pages · 6-phase pipeline · Konomi-signed audit chain",
+      "url": "https://sjgant80-hub.github.io/fall-substrate/",
+      "source": "https://github.com/sjgant80-hub/fall-substrate",
+      "version": "1.0.0",
+      "prime": 389,
+      "domain": "substrate · research-to-tool · flagship",
+      "obsoletes": [
+        "Bolt.new",
+        "Lovable",
+        "v0.dev",
+        "GPT Engineer"
+      ],
+      "grift_exposed": "vibe-coded tools without research grounding · no audit chain · platform lock-in",
+      "featured": true,
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
     }
   ],
   "guild_members": [
@@ -1835,5 +2040,25 @@
       17
     ],
     "phi_is_home": true
+  },
+  "cognitive_substrate": {
+    "version": "1.0",
+    "flagship": "fall-substrate",
+    "positioning": "The sovereign cognitive substrate · research → spec → tool → ship · adversarially verified · Konomi-signed audit chain",
+    "products": [
+      "fall-substrate",
+      "fall-raas",
+      "fall-verify"
+    ],
+    "roadmap_phase_2": [
+      "fall-cogmesh (prime 409)",
+      "fall-rcube (prime 419)"
+    ],
+    "roadmap_phase_3": [
+      "fall-sdk (prime 421) · TS/Py/Rust",
+      "fall-mcp² (prime 431)"
+    ],
+    "architecture_doc": "https://sjgant80-hub.github.io/fall-substrate/SOVEREIGN-COGNITIVE-SUBSTRATE.md",
+    "attribution": "Simon Gant · ◊·κ=1 · prime 389"
   }
 }

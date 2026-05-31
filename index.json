@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.27",
-  "updatedAt": "2026-05-30",
+  "registryVersion": "5.28",
+  "updatedAt": "2026-05-31",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -87,6 +87,23 @@
       "kind": "meta",
       "size": 6500,
       "global": "window.fallHot"
+    },
+    {
+      "name": "fall-vetter",
+      "kind": "plugin",
+      "category": "plugin",
+      "purpose": "Drop-in guild signup gate · R2 validate · name/email/LinkedIn/social-fallback pre-block · sovereign single-file",
+      "url": "https://sjgant80-hub.github.io/fall-vetter/",
+      "source": "https://github.com/sjgant80-hub/fall-vetter",
+      "version": "1.0.0",
+      "prime": 347,
+      "domain": "estate · signup · validation",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
     }
   ],
   "apps": [
@@ -791,6 +808,226 @@
         "useDefault": false,
         "note": "free forever · MIT · fork it"
       }
+    },
+    {
+      "name": "fallaccount",
+      "kind": "app",
+      "category": "accounting",
+      "purpose": "Sovereign accounting autopilot for UK sole traders · receipt scan · bank cat · tax · MTD · invoicing · any LLM · single HTML file",
+      "url": "https://sjgant80-hub.github.io/fallaccount/",
+      "source": "https://github.com/sjgant80-hub/fallaccount",
+      "version": "1.0.0",
+      "prime": 31,
+      "domain": "accounting · sole trader · UK",
+      "obsoletes": [
+        "Xero",
+        "QuickBooks",
+        "FreeAgent"
+      ],
+      "grift_exposed": "Xero GBP36/mo · QuickBooks GBP17/mo · per-feature gating",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-28",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallvault",
+      "kind": "app",
+      "category": "security",
+      "purpose": "Sovereign emergency backup · AES-256-GCM in browser · passphrase never leaves your machine",
+      "url": "https://sjgant80-hub.github.io/fallvault/",
+      "source": "https://github.com/sjgant80-hub/fallvault",
+      "version": "1.0.0",
+      "prime": 271,
+      "domain": "defensive · backup · crypto",
+      "obsoletes": [
+        "1Password",
+        "LastPass",
+        "cloud backups"
+      ],
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallcompass",
+      "kind": "app",
+      "category": "infra",
+      "purpose": "Sovereign LLM cascade router · 8 providers · first success wins · keeps tools alive when one gates",
+      "url": "https://sjgant80-hub.github.io/fallcompass/",
+      "source": "https://github.com/sjgant80-hub/fallcompass",
+      "version": "1.0.0",
+      "prime": 277,
+      "domain": "defensive · llm · routing",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallmirror",
+      "kind": "app",
+      "category": "infra",
+      "purpose": "Sovereign multi-host repo mirroring · GitHub + GitLab + Bitbucket + Codeberg · one push, all live",
+      "url": "https://sjgant80-hub.github.io/fallmirror/",
+      "source": "https://github.com/sjgant80-hub/fallmirror",
+      "version": "1.0.0",
+      "prime": 281,
+      "domain": "defensive · repo · mirror",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallshield",
+      "kind": "app",
+      "category": "security",
+      "purpose": "Sovereign Ed25519 identity · sign/verify · konomi audit chain · works offline",
+      "url": "https://sjgant80-hub.github.io/fallshield/",
+      "source": "https://github.com/sjgant80-hub/fallshield",
+      "version": "1.0.0",
+      "prime": 283,
+      "domain": "defensive · identity · crypto",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallescape",
+      "kind": "app",
+      "category": "security",
+      "purpose": "Sovereign emergency egress kit · panic-export your data · go-bag for your digital life",
+      "url": "https://sjgant80-hub.github.io/fallescape/",
+      "source": "https://github.com/sjgant80-hub/fallescape",
+      "version": "1.0.0",
+      "prime": 293,
+      "domain": "defensive · backup · egress",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallpay",
+      "kind": "app",
+      "category": "payments",
+      "purpose": "Sovereign multi-rail receipt · PayPal/Stripe/Wise/crypto · proof-of-payment without their dashboard",
+      "url": "https://sjgant80-hub.github.io/fallpay/",
+      "source": "https://github.com/sjgant80-hub/fallpay",
+      "version": "1.0.0",
+      "prime": 307,
+      "domain": "defensive · payments · receipts",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallcdn",
+      "kind": "app",
+      "category": "infra",
+      "purpose": "Sovereign self-hosted Pages alternative · serve static sites from any box · no GitHub dependency",
+      "url": "https://sjgant80-hub.github.io/fallcdn/",
+      "source": "https://github.com/sjgant80-hub/fallcdn",
+      "version": "1.0.0",
+      "prime": 311,
+      "domain": "defensive · hosting · cdn",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallnet",
+      "kind": "app",
+      "category": "infra",
+      "purpose": "Sovereign peer-to-peer mesh · WebRTC + signalling · estate-wide presence without a server",
+      "url": "https://sjgant80-hub.github.io/fallnet/",
+      "source": "https://github.com/sjgant80-hub/fallnet",
+      "version": "1.0.0",
+      "prime": 313,
+      "domain": "defensive · mesh · p2p",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallonion",
+      "kind": "app",
+      "category": "security",
+      "purpose": "Sovereign Tor hidden service helper · publish .onion endpoints from any sovereign tool",
+      "url": "https://sjgant80-hub.github.io/fallonion/",
+      "source": "https://github.com/sjgant80-hub/fallonion",
+      "version": "1.0.0",
+      "prime": 317,
+      "domain": "defensive · privacy · tor",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallanno",
+      "kind": "app",
+      "category": "work",
+      "purpose": "Sovereign data annotation platform · workers own attribution · multi-rail pay · audit-chained · DataAnnotation alternative",
+      "url": "https://sjgant80-hub.github.io/fallanno/",
+      "source": "https://github.com/sjgant80-hub/fallanno",
+      "version": "1.0.0",
+      "prime": 331,
+      "domain": "work · annotation · gig",
+      "obsoletes": [
+        "DataAnnotation.tech",
+        "Scale AI worker portal"
+      ],
+      "grift_exposed": "middlemen capture · no attribution · per-task gates",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallskin",
+      "kind": "app",
+      "category": "service",
+      "purpose": "Premium fitted upgrades for any sovereign tool · native desktop · mobile · SSO · white-label · sovereignty preserved",
+      "url": "https://sjgant80-hub.github.io/fallskin/",
+      "source": "https://github.com/sjgant80-hub/fallskin",
+      "version": "1.0.0",
+      "prime": 337,
+      "domain": "service · upgrades · enterprise",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
     }
   ],
   "apis": [
@@ -804,10 +1041,11 @@
       "version": "1.0.0",
       "domain": "ai · research",
       "tier": "B",
-      "status": "live",
+      "status": "down",
       "payment": {
         "useDefault": true
-      }
+      },
+      "note": "service offline · cold start may revive"
     },
     {
       "name": "docmind-api",

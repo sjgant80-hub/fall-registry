@@ -1182,6 +1182,36 @@
       "payment": {
         "useDefault": true
       }
+    },
+    {
+      "name": "fallmind",
+      "kind": "app",
+      "category": "estate",
+      "purpose": "Sovereign self-trained LLM estate · Stage 1-5 pipeline · trains a small LM on Simon's prompts + specs · runs locally via Ollama · mesh-routed via bloom similarity",
+      "url": "https://sjgant80-hub.github.io/fallmind/",
+      "source": "https://github.com/sjgant80-hub/fallmind",
+      "version": "1.0.0",
+      "prime": 587,
+      "domain": "sovereignty · LLM · self-train · LoRA · estate cascade",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-02",
+      "rings": [
+        "R4",
+        "R6"
+      ],
+      "bloom": [
+        4,
+        7,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "payment": {
+        "useDefault": true
+      }
     }
   ],
   "apis": [

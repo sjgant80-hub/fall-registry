@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.29",
-  "updatedAt": "2026-05-31",
+  "registryVersion": "5.30",
+  "updatedAt": "2026-06-02",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -107,6 +107,23 @@
     }
   ],
   "apps": [
+    {
+      "name": "fallfind",
+      "kind": "app",
+      "category": "estate",
+      "purpose": "The searchable sovereign-estate browser · pulls from fall-registry · pain-to-tool matching · the live documented portfolio",
+      "url": "https://sjgant80-hub.github.io/fallfind/",
+      "source": "https://github.com/sjgant80-hub/fallfind",
+      "version": "1.0.0",
+      "prime": 433,
+      "domain": "estate · portfolio · discovery",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-02",
+      "payment": {
+        "useDefault": true
+      }
+    },
     {
       "name": "fallaccount-trades",
       "kind": "app",

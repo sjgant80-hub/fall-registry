@@ -1,6 +1,6 @@
 {
   "registryVersion": "5.30",
-  "updatedAt": "2026-06-03T01:34:47.800122Z",
+  "updatedAt": "2026-06-03T01:58:43.404145+00:00",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -1226,6 +1226,23 @@
       "rings": [
         "R3",
         "R5"
+      ],
+      "tier": "A",
+      "status": "live"
+    },
+    {
+      "name": "fallharmony",
+      "kind": "app",
+      "category": "estate",
+      "purpose": "Operational cockpit · env-first debug · session hygiene · 30-min env time-box · pre-exit checklist · codified OP1-OP5 + 7 lessons",
+      "url": "https://sjgant80-hub.github.io/fallharmony/",
+      "source": "https://github.com/sjgant80-hub/fallharmony",
+      "version": "1.0.0",
+      "prime": 601,
+      "domain": "estate",
+      "rings": [
+        "R0",
+        "R6"
       ],
       "tier": "A",
       "status": "live"

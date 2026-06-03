@@ -1,6 +1,6 @@
 {
   "registryVersion": "5.30",
-  "updatedAt": "2026-06-02",
+  "updatedAt": "2026-06-03T01:34:47.800122Z",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -1212,6 +1212,23 @@
       "payment": {
         "useDefault": true
       }
+    },
+    {
+      "name": "fallfence",
+      "kind": "app",
+      "category": "estate",
+      "purpose": "Sovereign debating engine · reads opponent archetype · picks fencing technique · 3 response options · IndexedDB exchange log",
+      "url": "https://sjgant80-hub.github.io/fallfence/",
+      "source": "https://github.com/sjgant80-hub/fallfence",
+      "version": "1.0.0",
+      "prime": 599,
+      "domain": "estate",
+      "rings": [
+        "R3",
+        "R5"
+      ],
+      "tier": "A",
+      "status": "live"
     }
   ],
   "apis": [

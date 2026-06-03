@@ -1,6 +1,6 @@
 {
   "registryVersion": "5.30",
-  "updatedAt": "2026-06-03T01:58:43.404145+00:00",
+  "updatedAt": "2026-06-03T06:43:23.967171+00:00",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -1217,7 +1217,7 @@
       "name": "fallfence",
       "kind": "app",
       "category": "estate",
-      "purpose": "Sovereign debating engine · reads opponent archetype · picks fencing technique · 3 response options · IndexedDB exchange log",
+      "purpose": "Sovereign debating engine ï¿½ reads opponent archetype ï¿½ picks fencing technique ï¿½ 3 response options ï¿½ IndexedDB exchange log",
       "url": "https://sjgant80-hub.github.io/fallfence/",
       "source": "https://github.com/sjgant80-hub/fallfence",
       "version": "1.0.0",
@@ -1234,7 +1234,7 @@
       "name": "fallharmony",
       "kind": "app",
       "category": "estate",
-      "purpose": "Operational cockpit · env-first debug · session hygiene · 30-min env time-box · pre-exit checklist · codified OP1-OP5 + 7 lessons",
+      "purpose": "Operational cockpit ï¿½ env-first debug ï¿½ session hygiene ï¿½ 30-min env time-box ï¿½ pre-exit checklist ï¿½ codified OP1-OP5 + 7 lessons",
       "url": "https://sjgant80-hub.github.io/fallharmony/",
       "source": "https://github.com/sjgant80-hub/fallharmony",
       "version": "1.0.0",
@@ -1242,6 +1242,23 @@
       "domain": "estate",
       "rings": [
         "R0",
+        "R6"
+      ],
+      "tier": "A",
+      "status": "live"
+    },
+    {
+      "name": "fall-euaiact",
+      "kind": "app",
+      "category": "estate",
+      "purpose": "EU AI Act sovereign compliance toolkit Â· risk classifier Â· article navigator Â· audit hookup Â· transparency badges Â· Annex IV checklist",
+      "url": "https://sjgant80-hub.github.io/fall-euaiact/",
+      "source": "https://github.com/sjgant80-hub/fall-euaiact",
+      "version": "1.0.0",
+      "prime": 607,
+      "domain": "estate",
+      "rings": [
+        "R2",
         "R6"
       ],
       "tier": "A",

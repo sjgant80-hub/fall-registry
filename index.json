@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.30",
-  "updatedAt": "2026-06-03T06:43:23.967171+00:00",
+  "registryVersion": "5.31",
+  "updatedAt": "2026-06-11",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -415,13 +415,13 @@
       "name": "falllearn",
       "kind": "app",
       "category": "education",
-      "purpose": "Sovereign AI tutor · learning paths · spaced repetition · single HTML",
+      "purpose": "L8 of the AIOS · adaptive sovereign tutor · BYOK in JSON-schema rails · 6 curriculum tracks (personal · corp · legal · fitness · creator · agency) · cube-aware · forge-from-lesson",
       "url": "https://sjgant80-hub.github.io/falllearn/",
       "source": "https://github.com/sjgant80-hub/falllearn",
-      "version": "1.0.0",
+      "version": "2.2.0",
       "prime": 5,
-      "domain": "education · learning · AI tutor",
-      "tier": "C",
+      "domain": "education · tutor · AIOS-shell",
+      "tier": "A",
       "status": "live",
       "payment": {
         "useDefault": true
@@ -1263,6 +1263,960 @@
       ],
       "tier": "A",
       "status": "live"
+    },
+    {
+      "name": "ai-nativesolutions",
+      "kind": "app",
+      "purpose": "ai native the right way",
+      "source": "https://github.com/sjgant80-hub/ai-nativesolutions",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/ai-nativesolutions/",
+      "shipped": "2026-05-05"
+    },
+    {
+      "name": "aicraftspeopleguild.github.io-1",
+      "kind": "app",
+      "purpose": "AI Craftspeople Guild",
+      "source": "https://github.com/sjgant80-hub/aicraftspeopleguild.github.io-1",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-05-29"
+    },
+    {
+      "name": "botler",
+      "kind": "app",
+      "purpose": "sovereign personal memory agent · WebLLM offline · OAuth client-side · your machine your data · prime 619",
+      "source": "https://github.com/sjgant80-hub/botler",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/botler/",
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "contact",
+      "kind": "app",
+      "purpose": "Direct line to Simon · GitHub Issue Forms · email auto-collected · auto-reply · no middleman · MIT",
+      "source": "https://github.com/sjgant80-hub/contact",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-05-29"
+    },
+    {
+      "name": "fall-kqtt-bridge",
+      "kind": "app",
+      "purpose": "◊ fall-kqtt-bridge · BroadcastChannel('fall-signal') ↔ GS.KQTT · 50-LOC bridge for teslasolar/GoldenShower · live demo · prime 401",
+      "source": "https://github.com/sjgant80-hub/fall-kqtt-bridge",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fall-kqtt-bridge/",
+      "shipped": "2026-06-01"
+    },
+    {
+      "name": "fallback",
+      "kind": "app",
+      "purpose": "◊ FallBack · sovereign rights & refund engine · drop your bank statement · the AI drafts the letters · money goes back to you · MIT · free forever",
+      "source": "https://github.com/sjgant80-hub/fallback",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fallback/",
+      "shipped": "2026-06-11"
+    },
+    {
+      "name": "fallcorp",
+      "kind": "app",
+      "purpose": "◊ FallCorp · the bundled sovereign SMB stack · 17 organs in one shell · shared contacts · Konomi SSO · MIT · prime 1327",
+      "source": "https://github.com/sjgant80-hub/fallcorp",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fallcorp/",
+      "shipped": "2026-06-11"
+    },
+    {
+      "name": "fallscribe",
+      "kind": "app",
+      "purpose": "◊ FallScribe · sovereign meeting-notes engine · browser MediaRecorder + Web Speech + WebLLM · obsoletes Granola for £0 · single-file · MIT · forever",
+      "source": "https://github.com/sjgant80-hub/fallscribe",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fallscribe/",
+      "shipped": "2026-06-11"
+    },
+    {
+      "name": "fallstack",
+      "kind": "app",
+      "purpose": "◊ FallStack · sovereign SaaS audit + migration engine · drop your accounting · we map every sub to a free sovereign replacement · the savings dashboard · MIT · prime 1321",
+      "source": "https://github.com/sjgant80-hub/fallstack",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fallstack/",
+      "shipped": "2026-06-11"
+    },
+    {
+      "name": "GoldenShower",
+      "kind": "app",
+      "purpose": "Goldeneye for Gitpages",
+      "source": "https://github.com/sjgant80-hub/GoldenShower",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-01"
+    },
+    {
+      "name": "groundlevel-mcp",
+      "kind": "app",
+      "purpose": "MCP stdio server for the GroundLevel SDK · use UK legal research from Claude Code, Cursor, any MCP client · 7 tools + 4 resources",
+      "source": "https://github.com/sjgant80-hub/groundlevel-mcp",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "groundlevel-mvp",
+      "kind": "app",
+      "purpose": "groundlevel-mvp",
+      "source": "https://github.com/sjgant80-hub/groundlevel-mvp",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-02-19"
+    },
+    {
+      "name": "groundlevel-obsidian",
+      "kind": "app",
+      "purpose": "Obsidian plugin · search UK case database, run 7-strand weave, score risk, draft court documents, audit compliance · citations inserted at cursor · zero network calls",
+      "source": "https://github.com/sjgant80-hub/groundlevel-obsidian",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "groundlevel-sdk",
+      "kind": "app",
+      "purpose": "Sovereign legal research SDK · 50+ landmark UK cases · 7-strand weave engine · risk scoring · compliance audit · document drafting · zero dependencies",
+      "source": "https://github.com/sjgant80-hub/groundlevel-sdk",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "groundlevel-shim",
+      "kind": "app",
+      "purpose": "One <script> tag adds 6 cited UK legal letter templates + floating widget to any site. ~29KB. Zero deps. MIT.",
+      "source": "https://github.com/sjgant80-hub/groundlevel-shim",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "groundlevel-worker",
+      "kind": "app",
+      "purpose": "Cloudflare Worker REST API for GroundLevel SDK · POST /case-search /weave /risk /draft /compliance-audit · OpenAPI 3.1 · self-host in 5 min",
+      "source": "https://github.com/sjgant80-hub/groundlevel-worker",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "honestly",
+      "kind": "app",
+      "purpose": "◊ HONESTLY · verified search · the Perplexity killer · 3-vote adversarial verification on every claim · Konomi-signed answer envelopes · BYOK search + LLM · sovereign single-file · MIT",
+      "source": "https://github.com/sjgant80-hub/honestly",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/honestly/",
+      "shipped": "2026-06-08"
+    },
+    {
+      "name": "kard",
+      "kind": "app",
+      "purpose": "◊ KARD · the κ-deck duel · sovereign single-file AI-augmentable card game · 7 factions · 56 cards · audit-chained matches · pro-slot for plug-in engines · MIT",
+      "source": "https://github.com/sjgant80-hub/kard",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/kard/",
+      "shipped": "2026-06-08"
+    },
+    {
+      "name": "konomi-signer",
+      "kind": "app",
+      "purpose": "Sovereign Ed25519 trial signer · imported by every estate product's forge.html · key stays on laptop · MIT · ◊·κ=1",
+      "source": "https://github.com/sjgant80-hub/konomi-signer",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-05-31"
+    },
+    {
+      "name": "nhs-reinjection",
+      "kind": "app",
+      "purpose": "Sovereign single-file calculator. Audited contractor margins × verified outsourced NHS spend → realistic estimate of profit currently extracted from the NHS. With MP letter generator. MIT.",
+      "source": "https://github.com/sjgant80-hub/nhs-reinjection",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/nhs-reinjection/",
+      "shipped": "2026-06-07"
+    },
+    {
+      "name": "operator",
+      "kind": "app",
+      "purpose": "◊ OPERATOR · sovereign single-file management consulting · 5-phase engagement engine · Porter / 7S / BCG / Value-Driver Tree · Minto pyramid deck · audit-chained · Konomi-signed · MIT · McKinsey frameworks without the £1M deck",
+      "source": "https://github.com/sjgant80-hub/operator",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/operator/",
+      "shipped": "2026-06-08"
+    },
+    {
+      "name": "operator-mcp",
+      "kind": "app",
+      "purpose": "◊ operator-mcp · Claude Desktop MCP server for OPERATOR · 4 tools wrapping the @sjgant80-hub/operator SDK · MCKINSEY framework cascade for AI agents · MIT",
+      "source": "https://github.com/sjgant80-hub/operator-mcp",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-06-09"
+    },
+    {
+      "name": "super-barnacle",
+      "kind": "app",
+      "purpose": "Cool shit with ai and energy or whateva",
+      "source": "https://github.com/sjgant80-hub/super-barnacle",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-01-21"
     }
   ],
   "apis": [
@@ -1672,6 +2626,16 @@
       "payment": {
         "useDefault": true
       }
+    },
+    {
+      "name": "fallsignal",
+      "kind": "infra",
+      "purpose": "fallsignal · auto-detected",
+      "source": "https://github.com/sjgant80-hub/fallsignal",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-06-11",
+      "shipped": "2026-05-18"
     }
   ],
   "guild_members": [
@@ -2103,6 +3067,105 @@
           "payment": {
             "useDefault": true
           }
+        },
+        {
+          "name": "kp2p",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "konomi peer to peer ",
+          "url": "https://teslasolar.github.io/kp2p/",
+          "source": "https://github.com/teslasolar/kp2p",
+          "domain": "guild · html",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "ACG-Ballroom",
+          "kind": "infra",
+          "category": "auto-detected",
+          "purpose": "ACG Ballroom - The floor is yours. ",
+          "url": "https://teslasolar.github.io/ACG-Ballroom/",
+          "source": "https://github.com/teslasolar/ACG-Ballroom",
+          "domain": "guild · javascript",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "LookingGlass",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "Konomi Looking Glass",
+          "url": "https://teslasolar.github.io/LookingGlass/",
+          "source": "https://github.com/teslasolar/LookingGlass",
+          "domain": "guild · html",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "hummingbird",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "🐦 KONOMI TORI 好みトリ Hummingbird Communication Translator",
+          "url": "https://teslasolar.github.io/hummingbird/",
+          "source": "https://github.com/teslasolar/hummingbird",
+          "domain": "guild · javascript",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "ACGNET",
+          "kind": "infra",
+          "category": "auto-detected",
+          "purpose": "ACG NET",
+          "url": "https://teslasolar.github.io/ACGNET/",
+          "source": "https://github.com/teslasolar/ACGNET",
+          "domain": "guild · html",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "AudioFabric",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "Therapeutic",
+          "url": "https://teslasolar.github.io/AudioFabric/",
+          "source": "https://github.com/teslasolar/AudioFabric",
+          "domain": "guild · html",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "BloomCad",
+          "kind": "sdk",
+          "category": "auto-detected",
+          "purpose": "Bloom Fabric Pattern Engine",
+          "url": "https://teslasolar.github.io/BloomCad/",
+          "source": "https://github.com/teslasolar/BloomCad",
+          "domain": "guild · html",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "aicraftspeopleguild.github.io-1",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "AI Craftspeople Guild",
+          "url": "https://github.com/teslasolar/aicraftspeopleguild.github.io-1",
+          "source": "https://github.com/teslasolar/aicraftspeopleguild.github.io-1",
+          "domain": "guild · unspecified",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
+        },
+        {
+          "name": "aicraftspeopleguild.github.io",
+          "kind": "app",
+          "category": "auto-detected",
+          "purpose": "I'm trying",
+          "url": "https://teslasolar.github.io/aicraftspeopleguild.github.io/",
+          "source": "https://github.com/teslasolar/aicraftspeopleguild.github.io",
+          "domain": "guild · css",
+          "autoDetected": true,
+          "discoveredAt": "2026-06-11"
         }
       ]
     }

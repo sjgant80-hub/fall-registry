@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="aios-organ" content="fall-registry" />
+<meta name="aios-layer" content="L3.organs.discovery" />
+<meta name="prime" content="773" />
+<title>◊ fall-registry · the AI Native Solutions estate index</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='2' y='26' font-size='28' fill='%23b8974a'%3E%E2%97%8A%3C/text%3E%3C/svg%3E" />
+<style>
+:root{
+  --ox:#8b1a1a; --brass:#b8974a; --cream:#c4bfb2; --void:#0b0a0f;
+  --green:#3a7d3a; --dim:#7c7466; --line:rgba(184,151,74,.2);
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--void);color:var(--cream);min-height:100vh;line-height:1.55}
+body{background:radial-gradient(ellipse at top, rgba(139,26,26,.06), transparent 50%),radial-gradient(ellipse at bottom, rgba(184,151,74,.04), transparent 50%),var(--void);background-attachment:fixed}
+.ribbon{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--brass);text-transform:uppercase;letter-spacing:.2em;padding:14px 24px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;background:rgba(0,0,0,.3);position:sticky;top:0;z-index:50;backdrop-filter:blur(8px)}
+.ribbon b{color:var(--cream)}
+.ribbon a{color:var(--brass);text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:48px 24px 96px}
+h1{font-family:'Libre Baskerville',Georgia,serif;font-weight:400;font-size:44px;margin:0 0 12px;letter-spacing:-.015em}
+h1 .glyph{color:var(--brass);font-family:'IBM Plex Mono',monospace}
+.sub{color:var(--dim);font-size:14px;font-family:'IBM Plex Mono',monospace;letter-spacing:.05em;margin-bottom:24px}
+.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:28px 0 18px}
+input[type="search"]{flex:1;min-width:240px;padding:11px 16px;background:rgba(0,0,0,.45);border:1px solid var(--line);color:var(--cream);font-family:inherit;font-size:14px;border-radius:2px;outline:none}
+input[type="search"]:focus{border-color:var(--brass)}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;background:rgba(0,0,0,.4);border:1px solid var(--line);color:var(--cream);font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;cursor:pointer;border-radius:2px;transition:all .15s}
+.chip:hover{border-color:var(--brass)}
+.chip.on{background:var(--brass);color:var(--void);border-color:var(--brass)}
+.chip .n{opacity:.6;font-size:10px}
+.totals{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em;margin:12px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{background:rgba(255,255,255,.025);border:1px solid var(--line);padding:18px;border-radius:2px;display:flex;flex-direction:column;gap:8px;transition:all .15s}
+.card:hover{border-color:var(--brass);background:rgba(184,151,74,.04);transform:translateY(-2px)}
+.card .name{font-family:'Libre Baskerville',serif;font-size:18px;color:var(--cream);margin:0}
+.card .purpose{font-size:13px;color:var(--cream);opacity:.85;line-height:1.5;flex:1}
+.card .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.tag{display:inline-block;padding:2px 7px;font-size:9px;text-transform:uppercase;letter-spacing:.1em;border-radius:1px;font-family:'IBM Plex Mono',monospace;border:1px solid var(--line);color:var(--dim)}
+.tag.kind{color:var(--brass);border-color:var(--brass)}
+.tag.tier{color:var(--green);border-color:var(--green)}
+.tag.tier.B{color:var(--brass);border-color:var(--brass)}
+.tag.tier.C{color:var(--dim)}
+.tag.live{background:rgba(58,125,58,.12);color:var(--green);border-color:var(--green)}
+.tag.private{background:rgba(139,26,26,.12);color:var(--ox);border-color:var(--ox)}
+.tag.prime{color:var(--cream);border-color:var(--line)}
+.card .links{display:flex;gap:8px;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.card .links a{flex:1;text-align:center;padding:6px 8px;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;border:1px solid var(--line);color:var(--dim);text-decoration:none;border-radius:2px;transition:all .15s}
+.card .links a:hover{border-color:var(--brass);color:var(--brass)}
+.card .links a.primary{border-color:var(--brass);color:var(--brass)}
+.card .links a.primary:hover{background:var(--brass);color:var(--void)}
+.empty,.loading{padding:48px;text-align:center;color:var(--dim);font-family:'IBM Plex Mono',monospace;font-size:13px;border:1px dashed var(--line);border-radius:2px;margin-top:20px}
+footer{padding:32px 24px;text-align:center;color:var(--dim);font-family:'IBM Plex Mono',monospace;font-size:11px;border-top:1px solid var(--line);margin-top:64px}
+footer a{color:var(--brass)}
+.section-head{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--brass);text-transform:uppercase;letter-spacing:.2em;margin:36px 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.section-head .n{color:var(--dim);font-size:10px;margin-left:8px}
+</style>
+<script src="https://sjgant80-hub.github.io/fall-euaiact/cdn/audit-shim.js" data-tool="fall-registry" data-tier="full" defer></script>
+<script src="https://sjgant80-hub.github.io/fall-euaiact/cdn/nas-shim.js" data-tool="fall-registry" data-organ="L3.organs.discovery"></script>
+</head>
+<body>
+
+<div class="ribbon">
+  <span><b>◊ fall-registry</b> · the AI Native Solutions estate index · prime 773</span>
+  <span><a href="index.json">raw json</a> · <a href="https://ai-nativesolutions.com">hub</a> · <a href="https://github.com/sjgant80-hub/fall-registry">source</a></span>
+</div>
+
+<main class="wrap">
+  <h1><span class="glyph">◊</span> The estate · all organs.</h1>
+  <p class="sub">/sovereign · single-file · MIT · forever/ /everything that ships/ /every prime/ /every tier/</p>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="search by name, purpose, domain, prime…" autofocus />
+    <div id="kind-chips"></div>
+  </div>
+  <div class="totals" id="totals">loading registry…</div>
+
+  <div id="loading" class="loading">/loading index.json…/</div>
+  <div id="results"></div>
+</main>
+
+<footer>
+  ◊ fall-registry · prime 773 · the canonical estate index<br>
+  <span id="meta-line">…</span><br>
+  Architecture lineage: <b>Thomas Frumkin</b> · MianoCube · NiceAssOS substrate<br>
+  Implementation: <a href="https://www.linkedin.com/in/simon-gant-295b56180/">Simon Gant</a> · <a href="https://ai-nativesolutions.com">AI Native Solutions</a><br>
+  <a href="https://github.com/sjgant80-hub/fall-registry/blob/main/index.json">raw index.json</a> ·
+  <a href="https://github.com/sjgant80-hub">all repos</a> ·
+  <span style="color:var(--dim)">for the people · not the few</span>
+</footer>
+
+<script>
+'use strict';
+
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => Array.from(document.querySelectorAll(s));
+
+const STATE = {
+  data: null,
+  entries: [],   // normalized [{name, kind, category, purpose, url, source, tier, status, prime, domain, version, shipped}]
+  filterKind: null,
+  q: '',
+};
+
+const CATEGORY_ORDER = ['apps','apis','sdks','research','infra','plugins'];
+const CATEGORY_LABEL = {
+  apps: 'Apps',
+  apis: 'APIs',
+  sdks: 'SDKs',
+  research: 'Research substrate',
+  infra: 'Infrastructure',
+  plugins: 'Plugins',
+};
+
+async function loadRegistry() {
+  try {
+    const r = await fetch('index.json', { cache: 'no-cache' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    STATE.data = data;
+
+    // flatten into entries
+    const entries = [];
+    for (const cat of CATEGORY_ORDER) {
+      const arr = data[cat];
+      if (!Array.isArray(arr)) continue;
+      for (const e of arr) {
+        entries.push({ ...e, _section: cat });
+      }
+    }
+    STATE.entries = entries;
+
+    // meta line
+    const updated = data.updatedAt ? new Date(data.updatedAt).toISOString().split('T')[0] : '?';
+    $('#meta-line').textContent = `registry v${data.registryVersion || '?'} · ${entries.length} entries · last updated ${updated}`;
+
+    $('#loading').style.display = 'none';
+    renderChips();
+    render();
+  } catch (e) {
+    $('#loading').textContent = '✗ could not load registry: ' + e.message;
+    console.error(e);
+  }
+}
+
+function renderChips() {
+  const counts = {};
+  for (const e of STATE.entries) counts[e._section] = (counts[e._section] || 0) + 1;
+  const wrap = $('#kind-chips');
+  wrap.innerHTML = '';
+
+  const all = document.createElement('button');
+  all.className = 'chip' + (STATE.filterKind === null ? ' on' : '');
+  all.innerHTML = `all <span class="n">${STATE.entries.length}</span>`;
+  all.onclick = () => { STATE.filterKind = null; renderChips(); render(); };
+  wrap.appendChild(all);
+
+  for (const cat of CATEGORY_ORDER) {
+    if (!counts[cat]) continue;
+    const c = document.createElement('button');
+    c.className = 'chip' + (STATE.filterKind === cat ? ' on' : '');
+    c.innerHTML = `${cat} <span class="n">${counts[cat]}</span>`;
+    c.onclick = () => { STATE.filterKind = STATE.filterKind === cat ? null : cat; renderChips(); render(); };
+    wrap.appendChild(c);
+  }
+}
+
+function matchesQuery(e, q) {
+  if (!q) return true;
+  const hay = `${e.name || ''} ${e.purpose || ''} ${e.domain || ''} ${e.category || ''} ${e.prime || ''} ${e.url || ''} ${e.tier || ''}`.toLowerCase();
+  return q.toLowerCase().split(/\s+/).every(tok => hay.includes(tok));
+}
+
+function render() {
+  const filtered = STATE.entries.filter(e => {
+    if (STATE.filterKind && e._section !== STATE.filterKind) return false;
+    if (!matchesQuery(e, STATE.q)) return false;
+    return true;
+  });
+  $('#totals').textContent = `showing ${filtered.length} of ${STATE.entries.length} organs${STATE.q ? ` matching "${STATE.q}"` : ''}${STATE.filterKind ? ` in ${STATE.filterKind}` : ''}`;
+
+  const target = $('#results');
+  target.innerHTML = '';
+  if (!filtered.length) {
+    const e = document.createElement('div');
+    e.className = 'empty';
+    e.textContent = '/nothing matches/ · try a different search';
+    target.appendChild(e);
+    return;
+  }
+
+  // Group by _section when no filter; flat when filtered
+  const groups = {};
+  for (const e of filtered) {
+    const k = STATE.filterKind ? '_' : e._section;
+    groups[k] = groups[k] || [];
+    groups[k].push(e);
+  }
+
+  for (const cat of (STATE.filterKind ? ['_'] : CATEGORY_ORDER)) {
+    const arr = groups[cat];
+    if (!arr) continue;
+    if (!STATE.filterKind) {
+      const h = document.createElement('div');
+      h.className = 'section-head';
+      h.innerHTML = `${CATEGORY_LABEL[cat] || cat} <span class="n">${arr.length}</span>`;
+      target.appendChild(h);
+    }
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    // sort by prime asc, then name asc
+    arr.sort((a,b) => (a.prime||9999) - (b.prime||9999) || (a.name||'').localeCompare(b.name||''));
+    for (const e of arr) {
+      grid.appendChild(card(e));
+    }
+    target.appendChild(grid);
+  }
+}
+
+function card(e) {
+  const c = document.createElement('div');
+  c.className = 'card';
+  c.innerHTML = `
+    <h3 class="name">${escapeHtml(e.name || '?')}</h3>
+    <div class="purpose">${escapeHtml(e.purpose || e.description || '')}</div>
+    <div class="meta">
+      ${e.kind ? `<span class="tag kind">${escapeHtml(e.kind)}</span>` : ''}
+      ${e.tier ? `<span class="tag tier ${e.tier}">tier ${escapeHtml(e.tier)}</span>` : ''}
+      ${e.status === 'live' ? '<span class="tag live">live</span>' : ''}
+      ${e.status === 'private' ? '<span class="tag private">private</span>' : ''}
+      ${e.prime ? `<span class="tag prime">prime ${e.prime}</span>` : ''}
+      ${e.shipped ? `<span class="tag">shipped ${escapeHtml(String(e.shipped).slice(0,10))}</span>` : ''}
+    </div>
+    <div class="links">
+      ${e.url ? `<a class="primary" href="${escapeAttr(e.url)}" target="_blank" rel="noopener">open →</a>` : ''}
+      ${e.source ? `<a href="${escapeAttr(e.source)}" target="_blank" rel="noopener">repo</a>` : ''}
+    </div>
+  `;
+  return c;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+window.addEventListener('DOMContentLoaded', () => {
+  $('#q').addEventListener('input', (e) => {
+    STATE.q = e.target.value.trim();
+    render();
+  });
+  loadRegistry();
+});
+</script>
+
+</body>
+</html>

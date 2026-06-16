@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.319",
+  "registryVersion": "5.329",
   "updatedAt": "2026-06-15",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -600,6 +600,40 @@
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallasset",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign Bridge + Lightroom wedge · File System Access API + drag-drop fallback · grid (lazy-load thumbnails) + loupe + compare views · tags/rating/labels metadata · 7-slider non-destructive edit (crop/rotate/flip + adjust) · collections · combined filters · Ω autopilot",
+      "url": "https://sjgant80-hub.github.io/fallasset/",
+      "source": "https://github.com/sjgant80-hub/fallasset",
+      "version": "1.0.0",
+      "prime": 467,
+      "domain": "creative · photo · organisation",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallaudio",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign Audition wedge · record (getUserMedia + MediaRecorder) · waveform with playhead+zoom · cut/trim/copy/paste/fade/normalize/reverse · gain/speed/lowpass/highpass effects · WAV (16-bit PCM inline) + webm export · multi-clip · Ω autopilot",
+      "url": "https://sjgant80-hub.github.io/fallaudio/",
+      "source": "https://github.com/sjgant80-hub/fallaudio",
+      "version": "1.0.0",
+      "prime": 461,
+      "domain": "creative · audio · podcast · voice",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }
@@ -1249,6 +1283,23 @@
       }
     },
     {
+      "name": "fallmotion",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign After Effects-lite · SVG scene + keyframe timeline · 4 layer types (shape/text/image/group) · 4 easings · position/scale/rotation/opacity tweens · 4 templates (logo reveal/lower third/slideshow/counter) · WEBM (MediaRecorder) + GIF89a inline encoder + SVG export · Ω autopilot",
+      "url": "https://sjgant80-hub.github.io/fallmotion/",
+      "source": "https://github.com/sjgant80-hub/fallmotion",
+      "version": "1.0.0",
+      "prime": 463,
+      "domain": "creative · motion · animation",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
       "name": "fallnet",
       "kind": "app",
       "category": "infra",
@@ -1295,6 +1346,23 @@
       "tier": "A",
       "status": "live",
       "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallpage",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign InDesign wedge · multi-page layout · 8 block types (heading/para/image/quote/columns/spacer/divider/TOC) · A4/Letter/Legal/A3/A5/custom (mm) · masters · print-to-PDF · 5 templates (brochure/one-pager/report/invoice/product-sheet) · Ω autopilot",
+      "url": "https://sjgant80-hub.github.io/fallpage/",
+      "source": "https://github.com/sjgant80-hub/fallpage",
+      "version": "1.0.0",
+      "prime": 457,
+      "domain": "creative · layout · print",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }
@@ -1395,6 +1463,23 @@
       ],
       "tier": "C",
       "status": "live",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallscene",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign Dimension wedge · Three.js 3D scene builder · 6 primitives · TransformControls translate/rotate/scale · materials (color/metalness/roughness/opacity) · lighting (point/directional) · camera presets · GLB + PNG + JSON export · Ω autopilot · 3 templates (product render / logo plinth / hero shot)",
+      "url": "https://sjgant80-hub.github.io/fallscene/",
+      "source": "https://github.com/sjgant80-hub/fallscene",
+      "version": "1.0.0",
+      "prime": 479,
+      "domain": "creative · 3D · render",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }
@@ -1542,6 +1627,23 @@
       "shipped": "2026-06-11"
     },
     {
+      "name": "fallstudio",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "The hub · sovereign Adobe Creative Cloud alternative · indexes the 8 creative tools (FallMage/PDF/Vector/Page/Audio/Motion/Asset/Scene) · live status pings · Ω autopilot routes any creative intent to the right tool · cross-tool launcher via ?intent= param · estate manifest export",
+      "url": "https://sjgant80-hub.github.io/fallstudio/",
+      "source": "https://github.com/sjgant80-hub/fallstudio",
+      "version": "1.0.0",
+      "prime": 491,
+      "domain": "creative · suite hub · launcher",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
       "name": "fallvault",
       "kind": "app",
       "category": "security",
@@ -1559,6 +1661,23 @@
       "tier": "A",
       "status": "live",
       "shipped": "2026-05-29",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallvector",
+      "kind": "app",
+      "category": "creative",
+      "purpose": "Sovereign Illustrator wedge · pure SVG editor · pen/rect/ellipse/line/text · layers with z-index · 12-color estate palette · SVG + PNG export · paste-import SVG · 20-state undo · Ω autopilot",
+      "url": "https://sjgant80-hub.github.io/fallvector/",
+      "source": "https://github.com/sjgant80-hub/fallvector",
+      "version": "1.0.0",
+      "prime": 439,
+      "domain": "creative · vector · SVG",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }

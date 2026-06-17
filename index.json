@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.377",
+  "registryVersion": "5.387",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -2589,6 +2589,23 @@
       "domain": "ai · psychology · tool generation",
       "tier": "C",
       "status": "live",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "warhummer-69k",
+      "kind": "app",
+      "category": "visualization",
+      "purpose": "WARHUMMER 69K · vox imperialis · 69,000-node Fibonacci-sphere vagal-tone war detector · real-time Web Audio FFT analysis · vagal band (80-200Hz · chest-resonant register) energy → threat meter · sector classification QUIESCENT→EXTERMINATUS · warhammer-40k gothic parody aesthetic · 3 Thomas upgrade hooks (geometry / classifier / fallsignal) for FemtoLLM + konomigami coupling · single InstancedMesh draw call at 60fps · spec by Phoenix 2026-06-17",
+      "url": "https://sjgant80-hub.github.io/warhummer-69k/",
+      "source": "https://github.com/sjgant80-hub/warhummer-69k",
+      "version": "1.0.0",
+      "prime": 769,
+      "domain": "visualization · audio · parody · vagal-tone · bio-acoustic · game · interactive",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-17",
       "payment": {
         "useDefault": true
       }

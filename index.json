@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.396",
+  "registryVersion": "5.406",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -2169,44 +2169,19 @@
     {
       "name": "kard",
       "kind": "app",
-      "purpose": "◊ KARD · the κ-deck duel · sovereign single-file AI-augmentable card game · 7 factions · 56 cards · audit-chained matches · pro-slot for plug-in engines · MIT",
-      "source": "https://github.com/sjgant80-hub/kard",
-      "status": "live",
-      "autoDetected": true,
-      "discoveredAt": "2026-06-11",
-      "payment": {
-        "hub": "https://www.ai-nativesolutions.com/#pricing",
-        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
-        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
-        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
-        "paypal": "https://paypal.me/sjgant80",
-        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
-        "accepted": [
-          "stripe",
-          "visa",
-          "mastercard",
-          "paypal",
-          "apple_pay",
-          "github_sponsors"
-        ],
-        "tiers": {
-          "lite": {
-            "amount_usd": 997,
-            "label": "Lite · brand + config"
-          },
-          "pro": {
-            "amount_usd": 2500,
-            "label": "Pro · custom agents + compliance"
-          },
-          "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
-          }
-        }
-      },
+      "category": "game",
+      "purpose": "◊ KARD v3 · the registry duel · sovereign single-HTML 3D collectible card game where every fall* repo IS a card · live registry → card pool via algo (prime→cost, tier→rarity, category→faction · 8 factions ARCHITECT/BARON/BANKER/MAGE/SEER/JUSTICAR/HERALD/SCRIBE, abilities derived from mod-127 spine factors: Battlecry/Pierce/Spell Power/Lifesteal/Charge/Divine Shield/Deathrattle) · Three.js 3D Hearthstone-style hex table · deck builder (30 cards, ≤2 copies) · turn-based vs greedy AI · IDB match history + deck slots · KONOMI.nft hook interface (mint/verify/transfer/list, localStorage stub, KONOMI_NFT_HOOK marker for Thomas chain swap) · Ω autopilot Ctrl+K · v2 preserved at archive/v2.html",
       "url": "https://sjgant80-hub.github.io/kard/",
-      "shipped": "2026-06-08"
+      "source": "https://github.com/sjgant80-hub/kard",
+      "version": "3.0.0",
+      "prime": 787,
+      "domain": "game · collectible card · 3d · estate-aware · konomi nft · hearthstone-like",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-17",
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "konomi-cube",

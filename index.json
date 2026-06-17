@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.387",
+  "registryVersion": "5.396",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -2604,7 +2604,7 @@
       "prime": 769,
       "domain": "visualization · audio · parody · vagal-tone · bio-acoustic · game · interactive",
       "tier": "B",
-      "status": "live",
+      "status": "private",
       "shipped": "2026-06-17",
       "payment": {
         "useDefault": true

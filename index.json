@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.358",
-  "updatedAt": "2026-06-15",
+  "registryVersion": "5.367",
+  "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -2209,6 +2209,23 @@
       }
     },
     {
+      "name": "konomi-cube-v2",
+      "kind": "app",
+      "category": "visualization",
+      "purpose": "紙 konomi-cube v2 · the interactive fold engine · Three.js + inlined konomigami-lib · 7 base fold operators visualised as live mesh deformations · 6 mutations · glyph palette + sequence input + named-forms (primorial/crane/mersenne/fibonacci/shield) · number→fold input · audio-reactive (mic → bass/treble → κ → fold angle) · GLB + JSON export · history scrubber · shield notification on irreducible inputs · v20.4 §23 socket VI made visible",
+      "url": "https://sjgant80-hub.github.io/konomi-cube-v2/",
+      "source": "https://github.com/sjgant80-hub/konomi-cube-v2",
+      "version": "2.0.0",
+      "prime": 691,
+      "domain": "visualization · fold engine · geometric · interactive · audio-reactive",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-17",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
       "name": "konomi-signer",
       "kind": "app",
       "purpose": "Sovereign Ed25519 trial signer · imported by every estate product's forge.html · key stays on laptop · MIT · ◊·κ=1",
@@ -2264,6 +2281,23 @@
       "payment": {
         "useDefault": false,
         "note": "MIT · free"
+      }
+    },
+    {
+      "name": "konomigami-lib",
+      "kind": "lib",
+      "category": "infrastructure",
+      "purpose": "紙 konomigami-lib · the fold algebra · pure-JS ES module implementing v20.4 socket VI (Thomas Frumkin substrate spec) · 7 base fold operators (●〜┃♡△◐◯) + 6 mutations (火水空雷響華) · state vector ↔ integer ↔ glyph sequence via prime factorization · φ-coherence · adapter contract for geometric renderers · named-form library · zero dependencies · 50/50 smoke tests pass",
+      "url": "https://sjgant80-hub.github.io/konomigami-lib/",
+      "source": "https://github.com/sjgant80-hub/konomigami-lib",
+      "version": "1.0.0",
+      "prime": 677,
+      "domain": "infrastructure · fold algebra · substrate · konomigami",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-17",
+      "payment": {
+        "useDefault": true
       }
     },
     {

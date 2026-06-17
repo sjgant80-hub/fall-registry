@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.367",
+  "registryVersion": "5.377",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -573,6 +573,23 @@
       "tier": "C",
       "status": "live",
       "shipped": "2026-05-28",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "falladviser",
+      "kind": "app",
+      "category": "finance",
+      "purpose": "FallAdviser · sovereign UK financial-adviser tool · UK 2025-26 tax rules baked in (income tax bands incl. 60% PA-taper trap · NI Class 1 · dividend tax · CGT 18/24% · ISA £20k + LISA £4k · pension AA £60k + taper · state pension qualifying years) · 7 tabs (dashboard/profile/tax/pension/portfolio/Q&A/reports) · T0 deterministic Q&A for ISA-vs-SIPP/CGT/60%-trap/state-pension · T3 BYOK for free-form questions with full profile context · estate-aware (pulls fall-registry) · si-didy postMessage integration · Mansoor P3 audit chain · informational only, not regulated advice",
+      "url": "https://sjgant80-hub.github.io/falladviser/",
+      "source": "https://github.com/sjgant80-hub/falladviser",
+      "version": "1.0.0",
+      "prime": 719,
+      "domain": "finance · UK tax · pension · portfolio · adviser",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-17",
       "payment": {
         "useDefault": true
       }

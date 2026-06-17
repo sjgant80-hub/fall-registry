@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.348",
+  "registryVersion": "5.358",
   "updatedAt": "2026-06-15",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -462,6 +462,23 @@
       },
       "url": "https://sjgant80-hub.github.io/fall-kqtt-bridge/",
       "shipped": "2026-06-01"
+    },
+    {
+      "name": "fall-mcp-bridge",
+      "kind": "mcp",
+      "category": "infrastructure",
+      "purpose": "Uniform MCP server in front of any LLM · 8 adapters (ollama/llamacpp/mlx/lmstudio/anthropic/openai/openrouter/femto-konomi-cube) · 3 MCP tools (complete/list_models/probe) · fallback chain · provider lock-in dies here. Surfaced by Thomas Frumkin LinkedIn post 2026-06-12.",
+      "url": "https://sjgant80-hub.github.io/fall-mcp-bridge/",
+      "source": "https://github.com/sjgant80-hub/fall-mcp-bridge",
+      "version": "1.0.0",
+      "prime": 593,
+      "domain": "infrastructure · MCP · model substrate · sovereignty",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fall-prompt-gate",

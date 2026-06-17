@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.329",
+  "registryVersion": "5.338",
   "updatedAt": "2026-06-15",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -681,6 +681,40 @@
       "shipped": "2026-06-11"
     },
     {
+      "name": "fallbase",
+      "kind": "app",
+      "category": "enterprise",
+      "purpose": "FallBase · sovereign Oracle Database wedge · multi-DB · schema designer · SQL subset (SELECT/WHERE/JOIN/GROUP BY/HAVING/ORDER BY/LIMIT + 5 aggregates) · CSV/JSON import with type inference · foreign keys with restrict/cascade/set-null · secondary indexes · postMessage API for sibling tools",
+      "url": "https://sjgant80-hub.github.io/fallbase/",
+      "source": "https://github.com/sjgant80-hub/fallbase",
+      "version": "1.0.0",
+      "prime": 523,
+      "domain": "enterprise · database · SQL",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallbuild",
+      "kind": "app",
+      "category": "enterprise",
+      "purpose": "FallBuild · sovereign Oracle APEX wedge · drag-drop low-code app builder · 8 widget types (text/form/table/chart/button/image/container/filter) · FallBase data bindings · 5 templates (CRUD/dashboard/lead-capture/calculator/internal-tool) · standalone-HTML export with runtime baked",
+      "url": "https://sjgant80-hub.github.io/fallbuild/",
+      "source": "https://github.com/sjgant80-hub/fallbuild",
+      "version": "1.0.0",
+      "prime": 547,
+      "domain": "enterprise · low-code · app builder · APEX",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
       "name": "fallcall",
       "kind": "app",
       "category": "operations",
@@ -1175,6 +1209,23 @@
       }
     },
     {
+      "name": "fallledger",
+      "kind": "app",
+      "category": "enterprise",
+      "purpose": "FallLedger · sovereign Oracle GL / NetSuite ledger · double-entry bookkeeping · 38-account UK SME chart of accounts · auto-imports journal entries from FallInvoice/FallAP/FallAccount via fall-signal · Trial Balance · P&L · Balance Sheet · Cash Flow · VAT (MTD informational) · period close",
+      "url": "https://sjgant80-hub.github.io/fallledger/",
+      "source": "https://github.com/sjgant80-hub/fallledger",
+      "version": "1.0.0",
+      "prime": 541,
+      "domain": "enterprise · ledger · bookkeeping · accounting",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
       "name": "falllist",
       "kind": "app",
       "category": "newsletter",
@@ -1444,6 +1495,23 @@
       "grift_exposed": "Outreach $130/user/mo · Apollo $99/user/mo",
       "tier": "C",
       "status": "live",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallreport",
+      "kind": "app",
+      "category": "enterprise",
+      "purpose": "FallReport · sovereign Oracle Analytics / Hyperion wedge · pivot tables · hand-rolled canvas charts (bar/line/area/pie/scatter) · dashboards with drag/resize cards · KPI cards with period-vs-period comparison · FallBase + FallLedger postMessage feeds · PDF/PNG/CSV export",
+      "url": "https://sjgant80-hub.github.io/fallreport/",
+      "source": "https://github.com/sjgant80-hub/fallreport",
+      "version": "1.0.0",
+      "prime": 557,
+      "domain": "enterprise · analytics · dashboards · BI",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }
@@ -2423,6 +2491,23 @@
         }
       },
       "shipped": "2026-01-21"
+    },
+    {
+      "name": "temuoracle",
+      "kind": "app",
+      "category": "enterprise",
+      "purpose": "TemuOracle · the hub for the sovereign Oracle Corp / NetSuite wedge · indexes 17 sovereign Fall* enterprise tools · pricing comparison · live status pings · Ω autopilot routes enterprise intents · forkable brand (defaults to FallEnterprise) · \"the same enterprise software for the price your wallet recognised\"",
+      "url": "https://sjgant80-hub.github.io/temuoracle/",
+      "source": "https://github.com/sjgant80-hub/temuoracle",
+      "version": "1.0.0",
+      "prime": 521,
+      "domain": "enterprise · hub · ERP",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-15",
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "trilogy-forge",

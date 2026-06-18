@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.427",
+  "registryVersion": "5.428",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -581,15 +581,89 @@
       "name": "falladviser",
       "kind": "app",
       "category": "finance",
-      "purpose": "FallAdviser · sovereign UK financial-adviser tool · UK 2025-26 tax rules baked in (income tax bands incl. 60% PA-taper trap · NI Class 1 · dividend tax · CGT 18/24% · ISA £20k + LISA £4k · pension AA £60k + taper · state pension qualifying years) · 7 tabs (dashboard/profile/tax/pension/portfolio/Q&A/reports) · T0 deterministic Q&A for ISA-vs-SIPP/CGT/60%-trap/state-pension · T3 BYOK for free-form questions with full profile context · estate-aware (pulls fall-registry) · si-didy postMessage integration · Mansoor P3 audit chain · informational only, not regulated advice",
+      "purpose": "FallAdviser v1 · sovereign UK financial-adviser tool · SINGLE-USER (superseded by falladviser-v2 for multi-client IFA firm use) · UK 2025-26 tax rules · 7 tabs · T0/T3 cascade · audit chain · informational only",
       "url": "https://sjgant80-hub.github.io/falladviser/",
       "source": "https://github.com/sjgant80-hub/falladviser",
       "version": "1.0.0",
       "prime": 719,
-      "domain": "finance · UK tax · pension · portfolio · adviser",
+      "domain": "finance · UK tax · pension · portfolio · single-user",
+      "tier": "B",
+      "status": "live · superseded-by falladviser-v2",
+      "shipped": "2026-06-17",
+      "supersededBy": "falladviser-v2",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "falladviser-v2",
+      "kind": "app",
+      "category": "finance",
+      "purpose": "◊ FallAdviser v2 · IFA-FIRM BUNDLE ANCHOR · sovereign multi-client + multi-adviser UK financial advice for 1-10 person FCA-registered firms · firms/advisers/clients/scenarios IDB stores · multi-client deck (selector + filter by adviser/risk/ATR/overdue-review) · all v1 tax + pension + portfolio engines per-client · NEW 2025-26 rules: marriage allowance, HICBC taper 60-80k, carry-forward (3-year pension AA), tapered AA (£260k threshold), BPR/APR with post-2026 £1m cap, Scotland income tax (5-band incl. 48% top), personal savings allowance + starting rate · CGT lot tracking with FIFO matching + bed-and-ISA suggestion + tax-aware withdrawal sequencing · ATR 10-question questionnaire scored 1-7 · scenarios store with 3-way compare · annual review workflow with FallPaper handoff · BroadcastChannel `fall-client` mesh · Mansoor P3 extended audit chain (reasoning + configVersion + Ed25519 sig support) · 11 tabs · 13 T0 rules · 197KB single sovereign HTML · part of IFA bundle [falladviser-v2 + fallonboard + fallpaper + fallpractice]",
+      "url": "https://sjgant80-hub.github.io/falladviser-v2/",
+      "source": "https://github.com/sjgant80-hub/falladviser-v2",
+      "version": "2.0.0",
+      "prime": 719,
+      "domain": "finance · UK tax · multi-client · IFA firm · pension · portfolio · suitability",
       "tier": "A",
       "status": "live",
-      "shipped": "2026-06-17",
+      "shipped": "2026-06-18",
+      "bundle": "ifa-firm",
+      "bundleRole": "anchor",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallonboard",
+      "kind": "app",
+      "category": "finance",
+      "purpose": "◊ FallOnboard · IFA-FIRM BUNDLE · sovereign FCA-shaped client onboarding · 9-step KYC/AML wizard (identity · contact · relationships · KYC core PEP+sanctions · source of funds/wealth · vulnerable customer FG21/1 assessment · document capture with SHA-256 + IDB blob storage + expiry tracking · AML risk grade calculation · confirm/commit) · client list with KYC status / risk grade / overdue review filters · client detail edit + re-sanction-check + KYC certificate export · firm + adviser setup screens · 12 T0 rules (PEP / AML docs / SoF vs SoW / FG21/1 vulnerability / retention / sanctions / CDD-SDD-EDD / JMLSG / POCA-SAR-tipping-off / Consumer Duty / COBS 9 / audit chain) · T3 BYOK fallback · shared fall-client schema · Mansoor P3 extended audit · 136KB · part of IFA bundle",
+      "url": "https://sjgant80-hub.github.io/fallonboard/",
+      "source": "https://github.com/sjgant80-hub/fallonboard",
+      "version": "1.0.0",
+      "prime": 727,
+      "domain": "finance · KYC · AML · IFA firm · client onboarding · FCA compliance",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-18",
+      "bundle": "ifa-firm",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallpaper",
+      "kind": "app",
+      "category": "finance",
+      "purpose": "◊ FallPaper · IFA-FIRM BUNDLE · sovereign FCA-shaped document generator · 8 templates (engagement letter / fact-find / suitability report COBS 9.4 / annual review pack / MiFID II costs & charges / CIDD client investment disclosure / vulnerable customer assessment note FG21/1 / tax year-end letter) · template engine with placeholder interpolation from fall-client schema · live preview + inline-edit + commit with audit chain entry · document library filtered by client/template/status · template editor with locked regulatory clauses · PDF export via FallPDF postMessage handoff · annual-review postMessage receiver from falladviser-v2 · 12 T0 rules (engagement/fact-find/suitability/annual review/MiFID/CIDD/vulnerable/tax year-end/FSCS/FOS/ATR-CFL-K&E/cooling off) · T3 BYOK · 128KB · part of IFA bundle",
+      "url": "https://sjgant80-hub.github.io/fallpaper/",
+      "source": "https://github.com/sjgant80-hub/fallpaper",
+      "version": "1.0.0",
+      "prime": 733,
+      "domain": "finance · document generation · IFA firm · suitability · FCA compliance",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-18",
+      "bundle": "ifa-firm",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallpractice",
+      "kind": "app",
+      "category": "finance",
+      "purpose": "◊ FallPractice · IFA-FIRM BUNDLE · sovereign IFA firm accounting · multi-adviser fee ledger (5 types: initial / ongoing / one-off / transactional / trail-commission) with allocation splits · recurring fee schedules with cron-on-open auto-invoicing · per-client fee dashboard with RIY calc · per-adviser P&L (YTD/MTD/AUM/% firm total) · firm P&L with configurable expense lines · CASS client money segregation tracker with reconciliation cadence (amber 25d / red 45d per CASS 7.13) · PI insurance + FCA fees + professional body accruals with expiry alerts · invoice generator with FallPaper handoff · VAT handling (most adviser advice exempt; configurable per-entry) · GABRIEL/RegData reminder dashboard · 12 T0 rules (CASS/VAT/reconciliation/FCA fee/PI min/RegData/audit/trail/Consumer Duty/retention/SM&CR/FSCS) · 108KB · part of IFA bundle",
+      "url": "https://sjgant80-hub.github.io/fallpractice/",
+      "source": "https://github.com/sjgant80-hub/fallpractice",
+      "version": "1.0.0",
+      "prime": 739,
+      "domain": "finance · accounting · IFA firm · CASS · adviser fees · PI · FCA",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-18",
+      "bundle": "ifa-firm",
       "payment": {
         "useDefault": true
       }

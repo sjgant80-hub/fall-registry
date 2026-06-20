@@ -1,5 +1,5 @@
 {
-  "registryVersion": "5.430",
+  "registryVersion": "5.431",
   "updatedAt": "2026-06-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -667,6 +667,22 @@
       "payment": {
         "useDefault": true
       }
+    },
+    {
+      "name": "fallrelay",
+      "kind": "app+mcp",
+      "category": "developer-tools",
+      "purpose": "◊ FallRelay · Phoenix's token-saver · sovereign WebLLM-in-browser + MCP server for Claude Code subagent offload · single-file index.html hosts MLC WebLLM (Llama 3.2 1B default, swap to Phi-3.5 mini / Qwen 2.5 / Gemma 2) running in user's WebGPU · paired stdio MCP server (mcp-server/server.mjs) bridges Claude Code tool calls via WebSocket localhost:17345 · exposes local_complete + local_status tools · Claude routes routine work (summaries, classification, format conversion, draft prose) through user's browser instead of burning Sonnet API tokens · weights cached in IndexedDB after one-off download (~1.2-3GB) · live KPIs: total calls, tokens generated, estimated GBP cost saved, average latency · zero ongoing API cost · keep browser tab open while coding · 14KB HTML + ~150-line Node MCP server",
+      "url": "https://sjgant80-hub.github.io/fallrelay/",
+      "source": "https://github.com/sjgant80-hub/fallrelay",
+      "version": "1.0.0",
+      "prime": 1009,
+      "domain": "developer-tools · WebLLM · MCP · token-saving · Claude Code · sovereign inference",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-18",
+      "internal": true,
+      "payment": {"useDefault": true}
     },
     {
       "name": "falllegal",

@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.441,
+  "registryVersion": 5.442,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3739,6 +3739,22 @@
         "personal"
       ],
       "foldSequence": "●〜┃♡△◐◯",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
+    },
+    {
+      "name": "fallrecall",
+      "category": "sovereignty",
+      "subCategory": "memory-liberation",
+      "wedge": "fall-recall",
+      "role": "tool",
+      "url": "https://sjgant80-hub.github.io/fallrecall/",
+      "repo": "https://github.com/sjgant80-hub/fallrecall",
+      "prime": 1231,
+      "description": "fallrecall · AI-history liberation tool · single HTML PWA · imports ChatGPT/Claude/Gemini/generic exports · cascade-analyses your conversation flavour (voice, interests, preferences, anti-preferences, decision style) · generates portable system prompts in 4 formats for paste anywhere · cross-seed mesh exposes profile to fellow FallSeeds (agents/creator-os) for cross-seed flavour pull · MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-21",
+      "version": "1.0.0",
+      "meshChannel": "fall-recall",
       "seal": "◊·κ=1",
       "licence": "MIT"
     }

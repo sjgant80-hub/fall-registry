@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.432",
-  "updatedAt": "2026-06-17",
+  "registryVersion": 5.433,
+  "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -682,7 +682,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "internal": true,
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallinsurance",
@@ -699,7 +701,9 @@
       "shipped": "2026-06-18",
       "bundle": "insurance-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallinsuranceonboard",
@@ -715,7 +719,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "insurance-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallinsurancepractice",
@@ -731,7 +737,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "insurance-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallmortgage",
@@ -748,7 +756,9 @@
       "shipped": "2026-06-18",
       "bundle": "mortgage-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallestate",
@@ -765,7 +775,9 @@
       "shipped": "2026-06-18",
       "bundle": "estate-agent-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallvet",
@@ -782,7 +794,9 @@
       "shipped": "2026-06-18",
       "bundle": "vet-practice",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallvetonboard",
@@ -798,7 +812,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "vet-practice",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "falllegal",
@@ -815,7 +831,9 @@
       "shipped": "2026-06-18",
       "bundle": "law-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "falllegalpaper",
@@ -831,7 +849,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "law-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "falllegalpractice",
@@ -847,7 +867,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "law-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallclaimpaper",
@@ -863,7 +885,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "claims-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallclaimpractice",
@@ -879,7 +903,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "claims-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "falllegalonboard",
@@ -895,7 +921,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "law-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallbooks",
@@ -912,7 +940,9 @@
       "shipped": "2026-06-18",
       "bundle": "accountancy-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallbooksonboard",
@@ -928,7 +958,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "accountancy-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallbookspaper",
@@ -944,7 +976,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "accountancy-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallbookspractice",
@@ -960,7 +994,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "accountancy-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallclaim",
@@ -977,7 +1013,9 @@
       "shipped": "2026-06-18",
       "bundle": "claims-firm",
       "bundleRole": "anchor",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallclaimonboard",
@@ -993,7 +1031,9 @@
       "status": "live",
       "shipped": "2026-06-18",
       "bundle": "claims-firm",
-      "payment": {"useDefault": true}
+      "payment": {
+        "useDefault": true
+      }
     },
     {
       "name": "fallanno",
@@ -2982,6 +3022,329 @@
       "tier": "B",
       "status": "private",
       "shipped": "2026-06-17",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallinsurancepaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK insurance broker document generation — IDD demands & needs, suitability letters, statement of fees, KFI, ICOBS 5/6/7 compliance · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallinsurancepaper/",
+      "source": "https://github.com/sjgant80-hub/fallinsurancepaper",
+      "version": "1.0.0",
+      "prime": 853,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "insurance-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallmortgageonboard",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK mortgage applicant onboarding — KYC, income evidence, AML/PEP, vulnerable customer (FCA FG21/1), consent capture · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallmortgageonboard/",
+      "source": "https://github.com/sjgant80-hub/fallmortgageonboard",
+      "version": "1.0.0",
+      "prime": 863,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "mortgage-firm",
+      "bundleRole": "onboard",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallmortgagepaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK mortgage document generation — KFI/ESIS, suitability, IDD, MCOB 4.7A disclosures, decision-in-principle letters · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallmortgagepaper/",
+      "source": "https://github.com/sjgant80-hub/fallmortgagepaper",
+      "version": "1.0.0",
+      "prime": 877,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "mortgage-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallmortgagepractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK mortgage broker practice management — pipeline, procuration fees, CASS, PI insurance, FCA Gabriel reporting · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallmortgagepractice/",
+      "source": "https://github.com/sjgant80-hub/fallmortgagepractice",
+      "version": "1.0.0",
+      "prime": 881,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "mortgage-firm",
+      "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallestateonboard",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK estate/letting agent onboarding — vendor/landlord/tenant ID, AML 2017, right-to-rent, redress scheme registration · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallestateonboard/",
+      "source": "https://github.com/sjgant80-hub/fallestateonboard",
+      "version": "1.0.0",
+      "prime": 887,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "estate-agent-firm",
+      "bundleRole": "onboard",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallestatepaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK estate/letting document generation — sole/multi agency agreements, AST, S21/S8/S13, prescribed info, inventory · single HTML · IDB · PRIME 907",
+      "url": "https://sjgant80-hub.github.io/fallestatepaper/",
+      "source": "https://github.com/sjgant80-hub/fallestatepaper",
+      "version": "1.0.0",
+      "prime": 907,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "estate-agent-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallestatepractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK estate/letting firm management — CMP daily reconciliation, deposit protection 30-day, rent ledger, landlord statements, firm P&L · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallestatepractice/",
+      "source": "https://github.com/sjgant80-hub/fallestatepractice",
+      "version": "1.0.0",
+      "prime": 911,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "estate-agent-firm",
+      "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallclinic",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK healthcare clinic anchor — patient records, appointments, prescriptions, CQC compliance · GDPR Art.9 special category · Caldicott · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallclinic/",
+      "source": "https://github.com/sjgant80-hub/fallclinic",
+      "version": "1.0.0",
+      "prime": 919,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "clinic-firm",
+      "bundleRole": "anchor",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallcliniconboard",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK clinic patient onboarding — 6-step wizard: demographics, medical history, allergies, GDPR/MCA consent, safeguarding (FGM/Prevent), documents · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallcliniconboard/",
+      "source": "https://github.com/sjgant80-hub/fallcliniconboard",
+      "version": "1.0.0",
+      "prime": 929,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "clinic-firm",
+      "bundleRole": "onboard",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallclinicpaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK clinical document generation — referral letters, FP10 prescriptions, fit notes (Med3), consent (Montgomery), DNAR/ReSPECT, MCCD · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallclinicpaper/",
+      "source": "https://github.com/sjgant80-hub/fallclinicpaper",
+      "version": "1.0.0",
+      "prime": 937,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "clinic-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallclinicpractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK clinic practice management — appointments, NHS/private revenue, prescribing costs, CQC, staff CPD, P&L · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallclinicpractice/",
+      "source": "https://github.com/sjgant80-hub/fallclinicpractice",
+      "version": "1.0.0",
+      "prime": 941,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "clinic-firm",
+      "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallvetpaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK veterinary document generation — consent to treatment/surgery, euthanasia authorisation, referrals, vaccination certs, FP10, CD register entries · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallvetpaper/",
+      "source": "https://github.com/sjgant80-hub/fallvetpaper",
+      "version": "1.0.0",
+      "prime": 967,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "vet-practice",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallvetpractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK veterinary practice management — appointments, drug costs, CD register (MDR 2001), staff CPD/RCVS, 14-pt compliance checklist, P&L · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallvetpractice/",
+      "source": "https://github.com/sjgant80-hub/fallvetpractice",
+      "version": "1.0.0",
+      "prime": 971,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "vet-practice",
+      "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallrecruit",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK recruitment agency anchor — candidates, clients, vacancies, placements, AWR tracking, IR35 status, 12-pt compliance · single HTML · IDB · PRIME 977",
+      "url": "https://sjgant80-hub.github.io/fallrecruit/",
+      "source": "https://github.com/sjgant80-hub/fallrecruit",
+      "version": "1.0.0",
+      "prime": 977,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "recruitment-firm",
+      "bundleRole": "anchor",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallrecruitonboard",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK recruitment onboarding — 6-step candidate wizard (RTW Immigration Act 2006, DBS, GDPR, equal-ops) + 4-step client wizard (IR35 size, terms, insurance) · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallrecruitonboard/",
+      "source": "https://github.com/sjgant80-hub/fallrecruitonboard",
+      "version": "1.0.0",
+      "prime": 983,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "recruitment-firm",
+      "bundleRole": "onboard",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallrecruitpaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK recruitment document generation — Terms of Business (hirer/candidate), assignment schedules, AWR 12-week notifications, IR35 SDS cover, interview/offer/reference · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallrecruitpaper/",
+      "source": "https://github.com/sjgant80-hub/fallrecruitpaper",
+      "version": "1.0.0",
+      "prime": 991,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "recruitment-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallrecruitpractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK recruitment agency practice management — perm fees, temp margin (charge−pay), invoicing, consultant commissions, AWR alerts, agency P&L · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallrecruitpractice/",
+      "source": "https://github.com/sjgant80-hub/fallrecruitpractice",
+      "version": "1.0.0",
+      "prime": 997,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "recruitment-firm",
+      "bundleRole": "practice",
       "payment": {
         "useDefault": true
       }

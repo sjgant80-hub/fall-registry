@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.44,
+  "registryVersion": 5.441,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3711,6 +3711,34 @@
         "monk"
       ],
       "foldSequence": "●〜┃♡△◐",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
+    },
+    {
+      "name": "fallseed-agents",
+      "category": "seed",
+      "subCategory": "level-3-seed",
+      "wedge": "fall-agents",
+      "role": "seed",
+      "bundleRole": "seed",
+      "url": "https://sjgant80-hub.github.io/fallseed-agents/",
+      "repo": "https://github.com/sjgant80-hub/fallseed-agents",
+      "prime": 1223,
+      "level": 3,
+      "parent": null,
+      "description": "FallSeed Agents · level-3 actor-tier seed · 6 agent role presets (Sales/Research/Marketing/Support/Ops/Personal) with per-role system prompts, task libraries, in-tab scheduler, transcript log + cross-seed mesh protocol. Single HTML PWA. MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-21",
+      "version": "2.0.0",
+      "meshChannel": "fall-agents",
+      "roles": [
+        "sales",
+        "research",
+        "marketing",
+        "support",
+        "ops",
+        "personal"
+      ],
+      "foldSequence": "●〜┃♡△◐◯",
       "seal": "◊·κ=1",
       "licence": "MIT"
     }

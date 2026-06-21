@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.442,
+  "registryVersion": 5.443,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3755,6 +3755,33 @@
       "shipped": "2026-06-21",
       "version": "1.0.0",
       "meshChannel": "fall-recall",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
+    },
+    {
+      "name": "fallseed-village",
+      "category": "seed",
+      "subCategory": "level-4-seed",
+      "wedge": "fall-village",
+      "role": "seed",
+      "bundleRole": "seed",
+      "url": "https://sjgant80-hub.github.io/fallseed-village/",
+      "repo": "https://github.com/sjgant80-hub/fallseed-village",
+      "prime": 1277,
+      "level": 4,
+      "parent": null,
+      "description": "FallSeed Village · level-4 institution-tier seed · 5 institution presets (Village/Guild/DAO/Housing-Coop/Parish) · multi-actor governance via signed JSON bundles (Web Crypto Ed25519) · members/charter/proposals/votes/ledger/bundles · single HTML PWA · ships today without Socket VIII (live P2P mesh) · upgrades transparently when ACGP2P lands · MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-21",
+      "version": "1.0.0",
+      "meshChannel": "fall-village",
+      "institutions": [
+        "village",
+        "guild",
+        "dao",
+        "housing-coop",
+        "parish"
+      ],
+      "foldSequence": "●〜┃♡△◐◯",
       "seal": "◊·κ=1",
       "licence": "MIT"
     }

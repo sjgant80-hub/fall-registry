@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.439,
+  "registryVersion": 5.44,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3685,6 +3685,34 @@
       "seal": "◊·κ=1",
       "licence": "MIT",
       "parent": null
+    },
+    {
+      "name": "fallseed-creator-os",
+      "category": "seed",
+      "subCategory": "level-2-seed",
+      "wedge": "fall-creator",
+      "role": "seed",
+      "bundleRole": "seed",
+      "url": "https://sjgant80-hub.github.io/fallseed-creator-os/",
+      "repo": "https://github.com/sjgant80-hub/fallseed-creator-os",
+      "prime": 1213,
+      "level": 2,
+      "parent": null,
+      "description": "FallSeed Creator-OS · level-2 behaviour-tier seed · 6 persona presets (Creator/Investor/Researcher/Writer/Nomad/Monk). Goals/routines/journal/knowledge/agents/dashboard. Single HTML PWA. MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-21",
+      "version": "2.0.0",
+      "meshChannel": "fall-creator",
+      "personas": [
+        "creator",
+        "investor",
+        "researcher",
+        "writer",
+        "nomad",
+        "monk"
+      ],
+      "foldSequence": "●〜┃♡△◐",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
     }
   ],
   "apis": [

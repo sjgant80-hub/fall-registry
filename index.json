@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.433,
+  "registryVersion": 5.434,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3344,6 +3344,82 @@
       "status": "live",
       "shipped": "2026-06-21",
       "bundle": "recruitment-firm",
+      "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallhr",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK HR anchor for SMEs · employees, holiday tracker, absence with Bradford Factor, performance reviews, contracts, 12-pt compliance · ERA 1996/WTR 1998/Equality Act 2010/ACAS Code · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallhr/",
+      "source": "https://github.com/sjgant80-hub/fallhr",
+      "version": "1.0.0",
+      "prime": 1009,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "hr-firm",
+      "bundleRole": "anchor",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallhronboard",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK new starter onboarding · 7-step wizard: personal, job, RTW (Immigration Act 2006), HMRC starter declaration, bank, pension auto-enrolment, policies & consent · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallhronboard/",
+      "source": "https://github.com/sjgant80-hub/fallhronboard",
+      "version": "1.0.0",
+      "prime": 1013,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "hr-firm",
+      "bundleRole": "onboard",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallhrpaper",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK HR document generation · 8 templates: offer letter, S.1 statement, employment contract, disciplinary, grievance, redundancy, settlement agreement (s.203), reference · ACAS Code locked clauses · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallhrpaper/",
+      "source": "https://github.com/sjgant80-hub/fallhrpaper",
+      "version": "1.0.0",
+      "prime": 1019,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "hr-firm",
+      "bundleRole": "paper",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallhrpractice",
+      "kind": "app",
+      "category": "business-vertical",
+      "purpose": "Sovereign UK HR/payroll practice management · payroll runs (PAYE/NI/pension/student loan), pension auto-enrolment, holiday accrual (Harpur Trust), SSP, HMRC returns (FPS/EPS/P60/P11D), 13-pt compliance · single HTML · IDB",
+      "url": "https://sjgant80-hub.github.io/fallhrpractice/",
+      "source": "https://github.com/sjgant80-hub/fallhrpractice",
+      "version": "1.0.0",
+      "prime": 1021,
+      "domain": "UK regulated business · sovereign single-HTML",
+      "tier": "B",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "hr-firm",
       "bundleRole": "practice",
       "payment": {
         "useDefault": true

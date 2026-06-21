@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.438,
+  "registryVersion": 5.439,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3384,7 +3384,9 @@
       "bundleRole": "seed",
       "payment": {
         "useDefault": true
-      }
+      },
+      "level": 0,
+      "parent": null
     },
     {
       "name": "fallseed-ifa",
@@ -3409,7 +3411,9 @@
       "bundlePrefix": "falladv",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-law",
@@ -3434,7 +3438,9 @@
       "bundlePrefix": "falllegal",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-accountancy",
@@ -3459,7 +3465,9 @@
       "bundlePrefix": "fallbooks",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-claims",
@@ -3484,7 +3492,9 @@
       "bundlePrefix": "fallclaim",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-insurance",
@@ -3509,7 +3519,9 @@
       "bundlePrefix": "fallinsurance",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-mortgage",
@@ -3534,7 +3546,9 @@
       "bundlePrefix": "fallmortgage",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-estate",
@@ -3559,7 +3573,9 @@
       "bundlePrefix": "fallestate",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-clinic",
@@ -3584,7 +3600,9 @@
       "bundlePrefix": "fallclinic",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-vet",
@@ -3609,7 +3627,9 @@
       "bundlePrefix": "fallvet",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-recruit",
@@ -3634,7 +3654,9 @@
       "bundlePrefix": "fallrecruit",
       "foldSequence": "●〜┃♡",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "level": 0,
+      "parent": "fallseed-hr"
     },
     {
       "name": "fallseed-compliance",
@@ -3661,7 +3683,8 @@
       ],
       "foldSequence": "●〜┃♡△",
       "seal": "◊·κ=1",
-      "licence": "MIT"
+      "licence": "MIT",
+      "parent": null
     }
   ],
   "apis": [

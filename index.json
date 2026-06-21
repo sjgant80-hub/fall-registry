@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.437,
+  "registryVersion": 5.438,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3633,6 +3633,33 @@
       ],
       "bundlePrefix": "fallrecruit",
       "foldSequence": "●〜┃♡",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
+    },
+    {
+      "name": "fallseed-compliance",
+      "category": "seed",
+      "subCategory": "level-1-seed",
+      "wedge": "fall-compliance",
+      "role": "seed",
+      "bundleRole": "seed",
+      "url": "https://sjgant80-hub.github.io/fallseed-compliance/",
+      "repo": "https://github.com/sjgant80-hub/fallseed-compliance",
+      "prime": 1193,
+      "level": 1,
+      "description": "FallSeed Compliance · the level-1 seed · multi-framework compliance posture (ISO27001 + Cyber Essentials + SOC 2 full, plus PCI-DSS / NIS2 / DORA stubs). Single HTML PWA. 15 tabs: controls register · evidence library · scope wizard · policy templates · audit cycle · gap analysis · cross-mapping · LLM-agnostic build engine · Fork Seed packager. MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-21",
+      "version": "2.0.0",
+      "meshChannel": "fall-compliance",
+      "frameworks": [
+        "iso27001",
+        "cyberessentials",
+        "soc2",
+        "pcidss",
+        "nis2",
+        "dora"
+      ],
+      "foldSequence": "●〜┃♡△",
       "seal": "◊·κ=1",
       "licence": "MIT"
     }

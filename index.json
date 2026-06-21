@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.434,
+  "registryVersion": 5.435,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -3421,6 +3421,25 @@
       "shipped": "2026-06-21",
       "bundle": "hr-firm",
       "bundleRole": "practice",
+      "payment": {
+        "useDefault": true
+      }
+    },
+    {
+      "name": "fallseed-hr",
+      "kind": "app",
+      "category": "meta",
+      "purpose": "Sovereign generative substrate · Progressive Web App for UK HR firms · single HTML · 4 base tools + LLM-agnostic build engine (WebLLM/ollama/groq/openrouter/google/cerebras/anthropic) · streaming · Fork Seed packager turns this HR template into any vertical · ◊·κ=1",
+      "url": "https://sjgant80-hub.github.io/fallseed-hr/",
+      "source": "https://github.com/sjgant80-hub/fallseed-hr",
+      "version": "2.0.0",
+      "prime": 1049,
+      "domain": "meta · generative seed · PWA",
+      "tier": "A",
+      "status": "live",
+      "shipped": "2026-06-21",
+      "bundle": "hr-firm",
+      "bundleRole": "seed",
       "payment": {
         "useDefault": true
       }

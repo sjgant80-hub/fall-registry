@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.444,
+  "registryVersion": 5.445,
   "updatedAt": "2026-06-21",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -2229,7 +2229,7 @@
       "name": "forge-upgrade",
       "kind": "app",
       "category": "ai",
-      "purpose": "Upload any HTML/Replit/Lovable/.md spec · get it back sovereign",
+      "purpose": "Upload any HTML / generated spec / .md · get it back sovereign",
       "url": "https://sjgant80-hub.github.io/forge-upgrade/",
       "source": "https://github.com/sjgant80-hub/forge-upgrade",
       "version": "1.0.0",

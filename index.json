@@ -1,6 +1,6 @@
 {
-  "registryVersion": 5.445,
-  "updatedAt": "2026-06-21",
+  "registryVersion": 5.446,
+  "updatedAt": "2026-06-22",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -3711,6 +3711,28 @@
         "monk"
       ],
       "foldSequence": "●〜┃♡△◐",
+      "seal": "◊·κ=1",
+      "licence": "MIT"
+    },
+    {
+      "name": "fallnote",
+      "category": "seed",
+      "subCategory": "level-2-seed",
+      "wedge": "fall-note",
+      "role": "seed",
+      "bundleRole": "seed",
+      "url": "https://sjgant80-hub.github.io/fallnote/",
+      "repo": "https://github.com/sjgant80-hub/fallnote",
+      "prime": 1283,
+      "level": 2,
+      "parent": null,
+      "description": "fallnote · the Notion killer · level-2 behaviour-tier seed · block-based editor (12 block types) + nested pages + databases with table view (6 property types) + slash menu + wiki links + backlinks + global search + markdown import + JSON workspace export. Single HTML PWA. MIT, IDB-primary, sovereign.",
+      "shipped": "2026-06-22",
+      "version": "1.0.0",
+      "meshChannel": "fall-note",
+      "replaces": ["Notion", "Roam Research", "Coda", "Obsidian (partial)"],
+      "blockTypes": ["paragraph","h1","h2","h3","bullet","numbered","todo","quote","callout","code","divider","link-to-page"],
+      "propertyTypes": ["title","text","number","date","select","multi-select","checkbox"],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },

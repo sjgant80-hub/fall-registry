@@ -1,5 +1,5 @@
 {
-  "registryVersion": 5.447,
+  "registryVersion": 5.448,
   "updatedAt": "2026-06-22",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
@@ -2579,23 +2579,6 @@
       "tier": "A",
       "status": "live",
       "shipped": "2026-06-17",
-      "payment": {
-        "useDefault": true
-      }
-    },
-    {
-      "name": "konomi-cube",
-      "kind": "app",
-      "category": "visualization",
-      "purpose": "Recursive 9-node cube visualization · Three.js · Thomas femto definition (8 vertices + 1 central, nested) · golden-angle spin per nested level · depth 0-5 · meditation tool for cube-recursion cosmology",
-      "url": "https://sjgant80-hub.github.io/konomi-cube/",
-      "source": "https://github.com/sjgant80-hub/konomi-cube",
-      "version": "1.0.0",
-      "prime": 0,
-      "domain": "visualization · cosmology",
-      "tier": "C",
-      "status": "private",
-      "shipped": "2026-06-15",
       "payment": {
         "useDefault": true
       }

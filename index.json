@@ -64,7 +64,8 @@
       "hotLoadable": true,
       "kind": "ui",
       "size": 12000,
-      "global": "window.fallPalette"
+      "global": "window.fallPalette",
+      "prime": 1459
     },
     {
       "name": "fall-bloom",
@@ -75,7 +76,8 @@
       "hotLoadable": true,
       "kind": "math",
       "size": 5500,
-      "global": "window.bloom"
+      "global": "window.bloom",
+      "prime": 1471
     },
     {
       "name": "fall-hot",
@@ -86,7 +88,8 @@
       "hotLoadable": false,
       "kind": "meta",
       "size": 6500,
-      "global": "window.fallHot"
+      "global": "window.fallHot",
+      "prime": 1481
     },
     {
       "name": "fall-vetter",
@@ -164,7 +167,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/ai-nativesolutions/",
-      "shipped": "2026-05-05"
+      "shipped": "2026-05-05",
+      "prime": 1483
     },
     {
       "name": "aicraftspeopleguild.github.io-1",
@@ -205,7 +209,8 @@
           }
         }
       },
-      "shipped": "2026-05-29"
+      "shipped": "2026-05-29",
+      "prime": 1487
     },
     {
       "name": "audiofabric",
@@ -264,7 +269,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/botler/",
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1489
     },
     {
       "name": "cassie-oracle-3",
@@ -352,7 +358,8 @@
           }
         }
       },
-      "shipped": "2026-05-29"
+      "shipped": "2026-05-29",
+      "prime": 1493
     },
     {
       "name": "copy-gate",
@@ -461,7 +468,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/fall-kqtt-bridge/",
-      "shipped": "2026-06-01"
+      "shipped": "2026-06-01",
+      "prime": 1499
     },
     {
       "name": "fall-mcp-bridge",
@@ -561,7 +569,7 @@
       "url": "https://sjgant80-hub.github.io/fallaccount-trades/",
       "source": "https://github.com/sjgant80-hub/fallaccount-trades",
       "version": "1.2.0",
-      "prime": 31,
+      "prime": 1511,
       "domain": "trades · sole trader · UK accounting",
       "obsoletes": [
         "Xero",
@@ -603,7 +611,7 @@
       "url": "https://sjgant80-hub.github.io/falladviser-v2/",
       "source": "https://github.com/sjgant80-hub/falladviser-v2",
       "version": "2.0.0",
-      "prime": 719,
+      "prime": 1523,
       "domain": "finance · UK tax · multi-client · IFA firm · pension · portfolio · suitability",
       "tier": "A",
       "status": "live",
@@ -1043,7 +1051,7 @@
       "url": "https://sjgant80-hub.github.io/fallanno/",
       "source": "https://github.com/sjgant80-hub/fallanno",
       "version": "1.0.0",
-      "prime": 331,
+      "prime": 1531,
       "domain": "work · annotation · gig",
       "obsoletes": [
         "DataAnnotation.tech",
@@ -1153,7 +1161,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/fallback/",
-      "shipped": "2026-06-11"
+      "shipped": "2026-06-11",
+      "prime": 1543
     },
     {
       "name": "fallbase",
@@ -1240,7 +1249,7 @@
       "url": "https://sjgant80-hub.github.io/fallcdn/",
       "source": "https://github.com/sjgant80-hub/fallcdn",
       "version": "1.0.0",
-      "prime": 311,
+      "prime": 1549,
       "domain": "defensive · hosting · cdn",
       "tier": "A",
       "status": "live",
@@ -1290,7 +1299,7 @@
       "url": "https://sjgant80-hub.github.io/fallconsensus/",
       "source": "https://github.com/sjgant80-hub/fallconsensus",
       "version": "1.0.0",
-      "prime": 311,
+      "prime": 1553,
       "domain": "governance · consensus · multi-agent",
       "tier": "C",
       "status": "live",
@@ -1338,7 +1347,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/fallcorp/",
-      "shipped": "2026-06-11"
+      "shipped": "2026-06-11",
+      "prime": 1559
     },
     {
       "name": "fallcrm",
@@ -1485,7 +1495,7 @@
       "url": "https://sjgant80-hub.github.io/fallforensics/",
       "source": "https://github.com/sjgant80-hub/fallforensics",
       "version": "1.0.0",
-      "prime": 293,
+      "prime": 1567,
       "domain": "intelligence · security · llm forensics",
       "tier": "C",
       "status": "live",
@@ -1778,15 +1788,6 @@
         "R4",
         "R6"
       ],
-      "bloom": [
-        4,
-        7,
-        7,
-        6,
-        5,
-        4,
-        3
-      ],
       "payment": {
         "useDefault": true
       }
@@ -1799,7 +1800,7 @@
       "url": "https://sjgant80-hub.github.io/fallmirror/",
       "source": "https://github.com/sjgant80-hub/fallmirror",
       "version": "1.0.0",
-      "prime": 281,
+      "prime": 1571,
       "domain": "defensive · repo · mirror",
       "tier": "A",
       "status": "live",
@@ -1867,7 +1868,7 @@
       "url": "https://sjgant80-hub.github.io/fallonion/",
       "source": "https://github.com/sjgant80-hub/fallonion",
       "version": "1.0.0",
-      "prime": 317,
+      "prime": 1579,
       "domain": "defensive · privacy · tor",
       "tier": "A",
       "status": "live",
@@ -1935,7 +1936,7 @@
       "url": "https://sjgant80-hub.github.io/fallpost/",
       "source": "https://github.com/sjgant80-hub/fallpost",
       "version": "1.0.0",
-      "prime": 359,
+      "prime": 1583,
       "domain": "linkedin · content · voice engine · personal brand",
       "obsoletes": [
         "Taplio",
@@ -1999,7 +2000,7 @@
       "url": "https://sjgant80-hub.github.io/fallsalescrm/",
       "source": "https://github.com/sjgant80-hub/fallsalescrm",
       "version": "1.0.0",
-      "prime": 727,
+      "prime": 1597,
       "domain": "crm · sales",
       "obsoletes": [
         "Salesforce"
@@ -2067,7 +2068,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/fallscribe/",
-      "shipped": "2026-06-11"
+      "shipped": "2026-06-11",
+      "prime": 1601
     },
     {
       "name": "fallshield",
@@ -2094,7 +2096,7 @@
       "url": "https://sjgant80-hub.github.io/fallskin/",
       "source": "https://github.com/sjgant80-hub/fallskin",
       "version": "1.0.0",
-      "prime": 337,
+      "prime": 1607,
       "domain": "service · upgrades · enterprise",
       "tier": "B",
       "status": "live",
@@ -2167,7 +2169,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/fallstack/",
-      "shipped": "2026-06-11"
+      "shipped": "2026-06-11",
+      "prime": 1609
     },
     {
       "name": "fallstudio",
@@ -2194,7 +2197,7 @@
       "url": "https://sjgant80-hub.github.io/fallvault/",
       "source": "https://github.com/sjgant80-hub/fallvault",
       "version": "1.0.0",
-      "prime": 271,
+      "prime": 1613,
       "domain": "defensive · backup · crypto",
       "obsoletes": [
         "1Password",
@@ -2249,7 +2252,7 @@
       "url": "https://sjgant80-hub.github.io/groundlevel/",
       "source": "https://github.com/sjgant80-hub/groundlevel",
       "version": "1.0.0",
-      "prime": 349,
+      "prime": 1619,
       "domain": "operations · field",
       "tier": "C",
       "status": "live",
@@ -2296,7 +2299,8 @@
           }
         }
       },
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1621
     },
     {
       "name": "groundlevel-mvp",
@@ -2337,7 +2341,8 @@
           }
         }
       },
-      "shipped": "2026-02-19"
+      "shipped": "2026-02-19",
+      "prime": 1627
     },
     {
       "name": "groundlevel-obsidian",
@@ -2378,7 +2383,8 @@
           }
         }
       },
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1637
     },
     {
       "name": "groundlevel-sdk",
@@ -2419,7 +2425,8 @@
           }
         }
       },
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1657
     },
     {
       "name": "groundlevel-shim",
@@ -2460,7 +2467,8 @@
           }
         }
       },
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1663
     },
     {
       "name": "groundlevel-worker",
@@ -2501,7 +2509,8 @@
           }
         }
       },
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1667
     },
     {
       "name": "gymos",
@@ -2564,7 +2573,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/honestly/",
-      "shipped": "2026-06-08"
+      "shipped": "2026-06-08",
+      "prime": 1669
     },
     {
       "name": "kard",
@@ -2639,7 +2649,8 @@
           }
         }
       },
-      "shipped": "2026-05-31"
+      "shipped": "2026-05-31",
+      "prime": 1693
     },
     {
       "name": "konomi-swarm",
@@ -2649,7 +2660,7 @@
       "url": "https://sjgant80-hub.github.io/konomi-swarm/",
       "source": "https://github.com/sjgant80-hub/konomi-swarm",
       "version": "1.0.0",
-      "prime": 353,
+      "prime": 1697,
       "domain": "governance · stigmergy",
       "tier": "C",
       "status": "live",
@@ -2715,7 +2726,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/nhs-reinjection/",
-      "shipped": "2026-06-07"
+      "shipped": "2026-06-07",
+      "prime": 1699
     },
     {
       "name": "operator",
@@ -2757,7 +2769,8 @@
         }
       },
       "url": "https://sjgant80-hub.github.io/operator/",
-      "shipped": "2026-06-08"
+      "shipped": "2026-06-08",
+      "prime": 1709
     },
     {
       "name": "operator-mcp",
@@ -2798,17 +2811,18 @@
           }
         }
       },
-      "shipped": "2026-06-09"
+      "shipped": "2026-06-09",
+      "prime": 1721
     },
     {
       "name": "oracleengine",
       "kind": "app",
       "category": "intelligence",
-      "purpose": "OracleEngine v2 · The Watcher · 8+1 agents · 7 models · 510510-cell prob-torus",
+      "purpose": "OracleEngine v2 · The Watcher · 8+1 agents · 7 models · high-dimensional prob-torus",
       "url": "https://sjgant80-hub.github.io/oracleengine/",
       "source": "https://github.com/sjgant80-hub/oracleengine",
       "version": "2.0.0",
-      "prime": 433,
+      "prime": 1723,
       "domain": "intelligence · prediction · prob-torus",
       "tier": "C",
       "status": "live",
@@ -2869,7 +2883,7 @@
       "url": "https://sjgant80-hub.github.io/smbaios/",
       "source": "https://github.com/sjgant80-hub/smbaios",
       "version": "1.0.0",
-      "prime": 347,
+      "prime": 1733,
       "domain": "operations · smb · dashboard",
       "tier": "C",
       "status": "live",
@@ -2916,7 +2930,8 @@
           }
         }
       },
-      "shipped": "2026-01-21"
+      "shipped": "2026-01-21",
+      "prime": 1741
     },
     {
       "name": "temuoracle",
@@ -3282,7 +3297,7 @@
       "url": "https://sjgant80-hub.github.io/fallhr/",
       "source": "https://github.com/sjgant80-hub/fallhr",
       "version": "1.0.0",
-      "prime": 1009,
+      "prime": 1747,
       "domain": "UK regulated business · sovereign single-HTML",
       "tier": "B",
       "status": "live",
@@ -3713,10 +3728,44 @@
       "shipped": "2026-06-22",
       "version": "2.0.0",
       "meshChannel": "fall-note",
-      "replaces": ["Notion", "Roam Research", "Coda", "Obsidian (partial)", "ClickUp", "Airtable (light usage)"],
-      "blockTypes": ["paragraph","h1","h2","h3","bullet","numbered","todo","toggle","quote","callout","code","image","divider","link-to-page"],
-      "propertyTypes": ["title","text","number","date","select","multi-select","checkbox"],
-      "dbViews": ["table","board","calendar"],
+      "replaces": [
+        "Notion",
+        "Roam Research",
+        "Coda",
+        "Obsidian (partial)",
+        "ClickUp",
+        "Airtable (light usage)"
+      ],
+      "blockTypes": [
+        "paragraph",
+        "h1",
+        "h2",
+        "h3",
+        "bullet",
+        "numbered",
+        "todo",
+        "toggle",
+        "quote",
+        "callout",
+        "code",
+        "image",
+        "divider",
+        "link-to-page"
+      ],
+      "propertyTypes": [
+        "title",
+        "text",
+        "number",
+        "date",
+        "select",
+        "multi-select",
+        "checkbox"
+      ],
+      "dbViews": [
+        "table",
+        "board",
+        "calendar"
+      ],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },
@@ -3738,10 +3787,37 @@
       "shipped": "2026-06-22",
       "version": "1.0.0",
       "meshChannel": "kcc-mesh",
-      "tools_exposed": ["list_seeds","get_seed_manifest","get_seed_readme","get_estate_overview","read_kcc_mint_spec","prepare_bid_template","prepare_fork_mint_template","prepare_job_template","lookup_kpid","get_hook_config"],
-      "protocols": ["mcp-over-http","json-rpc-2.0","openapi-compatible"],
-      "compatible_clients": ["claude-desktop","openai-custom-gpt","n8n","zapier","make","langchain","autogen","crewai","curl"],
-      "depends_on": ["fall-registry"],
+      "tools_exposed": [
+        "list_seeds",
+        "get_seed_manifest",
+        "get_seed_readme",
+        "get_estate_overview",
+        "read_kcc_mint_spec",
+        "prepare_bid_template",
+        "prepare_fork_mint_template",
+        "prepare_job_template",
+        "lookup_kpid",
+        "get_hook_config"
+      ],
+      "protocols": [
+        "mcp-over-http",
+        "json-rpc-2.0",
+        "openapi-compatible"
+      ],
+      "compatible_clients": [
+        "claude-desktop",
+        "openai-custom-gpt",
+        "n8n",
+        "zapier",
+        "make",
+        "langchain",
+        "autogen",
+        "crewai",
+        "curl"
+      ],
+      "depends_on": [
+        "fall-registry"
+      ],
       "key_custody": false,
       "seal": "◊·κ=1",
       "licence": "MIT"
@@ -3763,7 +3839,10 @@
       "shipped": "2026-06-22",
       "version": "1.0.0",
       "meshChannel": "kcc-mesh",
-      "depends_on": ["kcc-jobs","fall-kit"],
+      "depends_on": [
+        "kcc-jobs",
+        "fall-kit"
+      ],
       "shared_db": "kcc_jobs_db",
       "seal": "◊·κ=1",
       "licence": "MIT"
@@ -3786,9 +3865,21 @@
       "version": "1.0.0",
       "meshChannel": "kcc-mesh",
       "spec_doc": "https://sjgant80-hub.github.io/kcc-mint/SPEC-KCC-MINT-001.md",
-      "bundle_types": ["agent","job","bid","deliverable","acceptance"],
-      "extends": ["kcc-mint"],
-      "depends_on": ["KonomiStandard","kp2p","kcc-mint"],
+      "bundle_types": [
+        "agent",
+        "job",
+        "bid",
+        "deliverable",
+        "acceptance"
+      ],
+      "extends": [
+        "kcc-mint"
+      ],
+      "depends_on": [
+        "KonomiStandard",
+        "kp2p",
+        "kcc-mint"
+      ],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },
@@ -3810,9 +3901,33 @@
       "version": "1.0.0",
       "meshChannel": "kcc-mesh",
       "spec_doc": "https://sjgant80-hub.github.io/kcc-mint/SPEC-KCC-MINT-001.md",
-      "gen0_mints": ["fall-kit","offgridcommunitiessystem","fallnote","fallrecall","fallseed-creator-os","fallseed-agents","fallseed-village","fallseed-meta","fallseed-compliance","ai-nativesolutions"],
-      "hook_points": ["konomi_pubkey_b64","parent_root_kpid","parent_root_attestation","anchor_chain","anchor_endpoint","api_endpoint","mesh_lib","registry_yjs_doc_name"],
-      "depends_on": ["KonomiStandard","kp2p","LookingGlass"],
+      "gen0_mints": [
+        "fall-kit",
+        "offgridcommunitiessystem",
+        "fallnote",
+        "fallrecall",
+        "fallseed-creator-os",
+        "fallseed-agents",
+        "fallseed-village",
+        "fallseed-meta",
+        "fallseed-compliance",
+        "ai-nativesolutions"
+      ],
+      "hook_points": [
+        "konomi_pubkey_b64",
+        "parent_root_kpid",
+        "parent_root_attestation",
+        "anchor_chain",
+        "anchor_endpoint",
+        "api_endpoint",
+        "mesh_lib",
+        "registry_yjs_doc_name"
+      ],
+      "depends_on": [
+        "KonomiStandard",
+        "kp2p",
+        "LookingGlass"
+      ],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },
@@ -3833,10 +3948,32 @@
       "shipped": "2026-06-22",
       "version": "1.1.0",
       "meshChannel": "fall-signal",
-      "replaces": ["Per-seed AI integration drudge work", "Inconsistent UX across estate seeds"],
-      "consumers": ["offgridcommunitiessystem","fallnote","fallrecall","fallseed-creator-os","fallseed-agents","fallseed-village","fallseed-compliance","fallseed-meta"],
-      "models": ["llama-1b","llama-3b","qwen-7b","llama-8b","llama-70b"],
-      "providers": ["anthropic","openai","google"],
+      "replaces": [
+        "Per-seed AI integration drudge work",
+        "Inconsistent UX across estate seeds"
+      ],
+      "consumers": [
+        "offgridcommunitiessystem",
+        "fallnote",
+        "fallrecall",
+        "fallseed-creator-os",
+        "fallseed-agents",
+        "fallseed-village",
+        "fallseed-compliance",
+        "fallseed-meta"
+      ],
+      "models": [
+        "llama-1b",
+        "llama-3b",
+        "qwen-7b",
+        "llama-8b",
+        "llama-70b"
+      ],
+      "providers": [
+        "anthropic",
+        "openai",
+        "google"
+      ],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },
@@ -3857,10 +3994,36 @@
       "shipped": "2026-06-22",
       "version": "1.0.0",
       "meshChannel": "offgrid-mesh",
-      "replaces": ["LETS systems", "Time-banking SaaS", "Community CRM bloat", "Slack-for-community subscriptions", "Excel ledgers"],
-      "modules": ["members","ledger","governance","calendar","resources","skills","settings"],
-      "ledgerCategories": ["hours","goods","service","tool-loan","gift","adjustment"],
-      "votingMethods": ["consensus","majority","sociocracy","unanimous"],
+      "replaces": [
+        "LETS systems",
+        "Time-banking SaaS",
+        "Community CRM bloat",
+        "Slack-for-community subscriptions",
+        "Excel ledgers"
+      ],
+      "modules": [
+        "members",
+        "ledger",
+        "governance",
+        "calendar",
+        "resources",
+        "skills",
+        "settings"
+      ],
+      "ledgerCategories": [
+        "hours",
+        "goods",
+        "service",
+        "tool-loan",
+        "gift",
+        "adjustment"
+      ],
+      "votingMethods": [
+        "consensus",
+        "majority",
+        "sociocracy",
+        "unanimous"
+      ],
       "seal": "◊·κ=1",
       "licence": "MIT"
     },
@@ -3967,7 +4130,8 @@
       "payment": {
         "useDefault": true
       },
-      "note": "service offline · cold start may revive"
+      "note": "service offline · cold start may revive",
+      "prime": 1753
     },
     {
       "name": "docmind-api",
@@ -3983,7 +4147,8 @@
       "note": "service waking · check back soon",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1759
     },
     {
       "name": "flux-api",
@@ -3998,7 +4163,8 @@
       "status": "offline",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1777
     },
     {
       "name": "fallcube-api",
@@ -4013,7 +4179,8 @@
       "status": "offline",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1783
     },
     {
       "name": "fallscout",
@@ -4028,7 +4195,8 @@
       "status": "offline",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1787
     },
     {
       "name": "forge-lab",
@@ -4060,7 +4228,8 @@
       "note": "Interactive API explorer · BYOK simulation · self-host for production",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1789
     },
     {
       "name": "fallcore",
@@ -4075,7 +4244,8 @@
       "status": "offline",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1801
     },
     {
       "name": "fallcore-factory",
@@ -4090,7 +4260,8 @@
       "status": "live",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1811
     },
     {
       "name": "fallcore-mcp",
@@ -4104,7 +4275,8 @@
       "status": "live",
       "payment": {
         "useDefault": true
-      }
+      },
+      "prime": 1823
     },
     {
       "name": "fall-raas",
@@ -4136,7 +4308,7 @@
       "url": "https://sjgant80-hub.github.io/fall-verify/",
       "source": "https://github.com/sjgant80-hub/fall-verify",
       "version": "1.0.0",
-      "prime": 401,
+      "prime": 1831,
       "domain": "substrate · verification · hallucination gate",
       "obsoletes": [
         "none (first public adversarial-verify primitive at this depth)"
@@ -4167,7 +4339,8 @@
       "payment": {
         "useDefault": true,
         "free_for_self_use": true
-      }
+      },
+      "prime": 1847
     },
     {
       "name": "trilogy-framework",
@@ -4183,7 +4356,8 @@
       "payment": {
         "useDefault": true,
         "free_for_self_use": true
-      }
+      },
+      "prime": 1861
     },
     {
       "name": "tonesmith",
@@ -4200,7 +4374,8 @@
       "payment": {
         "useDefault": false,
         "note": "MIT · free"
-      }
+      },
+      "prime": 1867
     }
   ],
   "research": [
@@ -4212,7 +4387,8 @@
       "source": "https://github.com/sjgant80-hub/kinetic-braid-prior-art",
       "domain": "research · ai physics · commons",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1871
     },
     {
       "name": "congenial-giggle",
@@ -4222,7 +4398,8 @@
       "source": "https://github.com/sjgant80-hub/congenial-giggle",
       "domain": "research · ai diagnostics",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1873
     },
     {
       "name": "probable-telegram",
@@ -4232,7 +4409,8 @@
       "source": "https://github.com/sjgant80-hub/probable-telegram",
       "domain": "research · ai safety",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1877
     },
     {
       "name": "fuzzy-palm-tree",
@@ -4242,7 +4420,8 @@
       "source": "https://github.com/sjgant80-hub/fuzzy-palm-tree",
       "domain": "research · energy · resonance",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1879
     },
     {
       "name": "legendary-journey",
@@ -4252,7 +4431,8 @@
       "source": "https://github.com/sjgant80-hub/legendary-journey",
       "domain": "research · energy",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1889
     },
     {
       "name": "probable-octo-chainsaw",
@@ -4262,7 +4442,8 @@
       "source": "https://github.com/sjgant80-hub/probable-octo-chainsaw",
       "domain": "research · ai architecture",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1901
     },
     {
       "name": "scaling-octo-couscous",
@@ -4272,7 +4453,8 @@
       "source": "https://github.com/sjgant80-hub/scaling-octo-couscous",
       "domain": "research · ai architecture",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1907
     },
     {
       "name": "solid-fiesta",
@@ -4282,7 +4464,8 @@
       "source": "https://github.com/sjgant80-hub/solid-fiesta",
       "domain": "research · ai orchestration · mycelial",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1913
     },
     {
       "name": "solid-journey",
@@ -4292,7 +4475,8 @@
       "source": "https://github.com/sjgant80-hub/solid-journey",
       "domain": "research · ai orchestration",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1931
     },
     {
       "name": "laughing-octo-guacamole",
@@ -4302,7 +4486,8 @@
       "source": "https://github.com/sjgant80-hub/laughing-octo-guacamole",
       "domain": "research · governance · planetary mesh",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1933
     },
     {
       "name": "upgraded-fiesta",
@@ -4312,7 +4497,8 @@
       "source": "https://github.com/sjgant80-hub/upgraded-fiesta",
       "domain": "research · policy · phi",
       "tier": "R",
-      "status": "published"
+      "status": "published",
+      "prime": 1949
     }
   ],
   "infra": [
@@ -4321,19 +4507,22 @@
       "kind": "infra",
       "purpose": "This file · canonical index · auto-syncs daily via GitHub Action",
       "url": "https://raw.githubusercontent.com/sjgant80-hub/fall-registry/main/index.json",
-      "source": "https://github.com/sjgant80-hub/fall-registry"
+      "source": "https://github.com/sjgant80-hub/fall-registry",
+      "prime": 1951
     },
     {
       "name": "fall-signal",
       "kind": "infra",
       "purpose": "BroadcastChannel mesh standard · cross-tool event protocol",
-      "source": "https://github.com/sjgant80-hub/fallsignal"
+      "source": "https://github.com/sjgant80-hub/fallsignal",
+      "prime": 1973
     },
     {
       "name": "fallmesh",
       "kind": "infra",
       "purpose": "Mesh shim · discovery + handshake · drop into any sovereign tool",
-      "source": "https://github.com/sjgant80-hub/fallmesh"
+      "source": "https://github.com/sjgant80-hub/fallmesh",
+      "prime": 1979
     },
     {
       "name": "fall-substrate",
@@ -4368,7 +4557,8 @@
       "status": "auto-detected",
       "autoDetected": true,
       "discoveredAt": "2026-06-11",
-      "shipped": "2026-05-18"
+      "shipped": "2026-05-18",
+      "prime": 1987
     }
   ],
   "guild_members": [
@@ -4379,15 +4569,6 @@
       "profile_url": "https://github.com/teslasolar",
       "mesh_url": "https://teslasolar.github.io/ACGP2P/",
       "guild_site": "https://github.com/teslasolar/aicraftspeopleguild.github.io-1",
-      "bloom": [
-        2,
-        8,
-        3,
-        7,
-        15,
-        6,
-        12
-      ],
       "blurb": "The substrate to the surface. Konomi standard, kotoba language, bloom 7-ring spine, ACGP2P serverless mesh, hallucination-elimination research, konomioke 7-prime harmonic engine (now powering CASSIE audible projection). Every tool here speaks fall-signal.",
       "tools": [
         {
@@ -4900,7 +5081,8 @@
           "autoDetected": true,
           "discoveredAt": "2026-06-11"
         }
-      ]
+      ],
+      "prime": 1993
     }
   ],
   "recommendedWatch": [
@@ -4919,21 +5101,9 @@
   "seed": {
     "version": "v20.1",
     "sealed": "2026-05-29",
-    "location": "private · ~/Desktop/v20-seed.md",
-    "manifest": "https://sjgant80-hub.github.io/fall-registry/seed-manifest.json",
-    "sha256": "55f7021eb0ab4a9cba96b6b559b3d2840d1d2833c12248dd9296c550033f47bc",
     "supersedes": "v19",
-    "glyph": "◊·κ=1",
-    "spine": [
-      2,
-      3,
-      5,
-      7,
-      11,
-      13,
-      17
-    ],
-    "phi_is_home": true
+    "manifest": "https://sjgant80-hub.github.io/fall-registry/seed-manifest.json",
+    "sha256": "55f7021eb0ab4a9cba96b6b559b3d2840d1d2833c12248dd9296c550033f47bc"
   },
   "cognitive_substrate": {
     "version": "1.0",

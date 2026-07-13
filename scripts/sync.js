@@ -344,6 +344,21 @@ async function main() {
   reg.registryVersion = bumpVersion(reg.registryVersion || '4.0');
   reg.updatedAt = new Date().toISOString().slice(0, 10);
 
+  // ─── Prime the estate · every build carries a unique prime (the architecture) ───
+  const isPrime = (n) => { if (n < 2) return false; if (n % 2 === 0) return n === 2; for (let i = 3; i * i <= n; i += 2) if (n % i === 0) return false; return true; };
+  const primeSecs = Object.keys(reg).filter((k) => Array.isArray(reg[k]) && reg[k][0] && typeof reg[k][0] === 'object' && 'name' in reg[k][0]);
+  const usedPrimes = new Set();
+  for (const s of primeSecs) for (const e of reg[s]) if (Number.isInteger(e.prime) && e.prime > 0) usedPrimes.add(e.prime);
+  let primeCand = (usedPrimes.size ? Math.max(...usedPrimes) : 1) + 1;
+  const nextPrime = () => { for (;;) { if (isPrime(primeCand) && !usedPrimes.has(primeCand)) { usedPrimes.add(primeCand); return primeCand++; } primeCand++; } };
+  const seenPrime = new Set();
+  let mintedPrimes = 0;
+  for (const s of primeSecs) for (const e of reg[s]) {
+    if (!(Number.isInteger(e.prime) && e.prime > 0) || seenPrime.has(e.prime)) { e.prime = nextPrime(); mintedPrimes++; }
+    seenPrime.add(e.prime);
+  }
+  if (mintedPrimes) console.log('  primes minted: ' + mintedPrimes + ' (every build is prime-indexed)');
+
   fs.writeFileSync(REG_PATH, JSON.stringify(reg, null, 2));
 
   console.log('');

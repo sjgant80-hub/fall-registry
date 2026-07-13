@@ -1788,6 +1788,15 @@
         "R4",
         "R6"
       ],
+      "bloom": [
+        4,
+        7,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
       "payment": {
         "useDefault": true
       }
@@ -2818,7 +2827,7 @@
       "name": "oracleengine",
       "kind": "app",
       "category": "intelligence",
-      "purpose": "OracleEngine v2 · The Watcher · 8+1 agents · 7 models · high-dimensional prob-torus",
+      "purpose": "OracleEngine v2 · The Watcher · 8+1 agents · 7 models · 510510-cell prob-torus",
       "url": "https://sjgant80-hub.github.io/oracleengine/",
       "source": "https://github.com/sjgant80-hub/oracleengine",
       "version": "2.0.0",
@@ -4569,6 +4578,15 @@
       "profile_url": "https://github.com/teslasolar",
       "mesh_url": "https://teslasolar.github.io/ACGP2P/",
       "guild_site": "https://github.com/teslasolar/aicraftspeopleguild.github.io-1",
+      "bloom": [
+        2,
+        8,
+        3,
+        7,
+        15,
+        6,
+        12
+      ],
       "blurb": "The substrate to the surface. Konomi standard, kotoba language, bloom 7-ring spine, ACGP2P serverless mesh, hallucination-elimination research, konomioke 7-prime harmonic engine (now powering CASSIE audible projection). Every tool here speaks fall-signal.",
       "tools": [
         {
@@ -5101,9 +5119,21 @@
   "seed": {
     "version": "v20.1",
     "sealed": "2026-05-29",
-    "supersedes": "v19",
+    "location": "private · ~/Desktop/v20-seed.md",
     "manifest": "https://sjgant80-hub.github.io/fall-registry/seed-manifest.json",
-    "sha256": "55f7021eb0ab4a9cba96b6b559b3d2840d1d2833c12248dd9296c550033f47bc"
+    "sha256": "55f7021eb0ab4a9cba96b6b559b3d2840d1d2833c12248dd9296c550033f47bc",
+    "supersedes": "v19",
+    "glyph": "◊·κ=1",
+    "spine": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17
+    ],
+    "phi_is_home": true
   },
   "cognitive_substrate": {
     "version": "1.0",

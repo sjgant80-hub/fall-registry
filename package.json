@@ -1,0 +1,16 @@
+{
+  "name": "fall-registry",
+  "version": "0.1.0",
+  "description": "Canonical machine-readable index of Fall plugins and tools, served as index.json with a static browser viewer.",
+  "main": "index.json",
+  "scripts": {
+    "test": "node test.mjs",
+    "sync": "node scripts/sync.js"
+  },
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fall-registry"
+  }
+}

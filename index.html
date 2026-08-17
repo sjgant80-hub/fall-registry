@@ -101,7 +101,8 @@ const STATE = {
   data: null,
   entries: [],   // normalized [{name, kind, category, purpose, url, source, tier, status, prime, domain, version, shipped}]
   filterKind: null,
-  q: ''};
+  q: '',
+};
 
 const CATEGORY_ORDER = ['apps','apis','sdks','research','infra','plugins'];
 const CATEGORY_LABEL = {
@@ -110,7 +111,8 @@ const CATEGORY_LABEL = {
   sdks: 'SDKs',
   research: 'Research substrate',
   infra: 'Infrastructure',
-  plugins: 'Plugins'};
+  plugins: 'Plugins',
+};
 
 async function loadRegistry() {
   try {

@@ -162,7 +162,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -205,7 +205,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -216,7 +216,7 @@
       "name": "audiofabric",
       "kind": "app",
       "category": "music",
-      "purpose": "3D music visualisation · send a track · get a 3D HTML back · TBA per song",
+      "purpose": "3D music visualisation · send a track · get a 3D HTML back · $99 per song",
       "url": "https://sjgant80-hub.github.io/audiofabric/",
       "source": "https://github.com/sjgant80-hub/audiofabric",
       "version": "1.0.0",
@@ -264,7 +264,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -354,7 +354,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -463,7 +463,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -553,7 +553,7 @@
         "QuickBooks",
         "FreeAgent"
       ],
-      "grift_exposed": "Xero GBPTBA · QuickBooks GBPTBA · per-feature gating",
+      "grift_exposed": "Xero GBP36/mo · QuickBooks GBP17/mo · per-feature gating",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-28",
@@ -576,7 +576,7 @@
         "QuickBooks",
         "FreeAgent"
       ],
-      "grift_exposed": "Xero TBA · QuickBooks TBA · per-feature gating",
+      "grift_exposed": "Xero £36/mo · QuickBooks £17/mo · per-feature gating",
       "size": 88900,
       "tier": "C",
       "status": "live",
@@ -607,7 +607,7 @@
       "name": "falladviser-v2",
       "kind": "app",
       "category": "finance",
-      "purpose": "◊ FallAdviser v2 · IFA-FIRM BUNDLE ANCHOR · sovereign multi-client + multi-adviser UK financial advice for 1-10 person FCA-registered firms · firms/advisers/clients/scenarios IDB stores · multi-client deck (selector + filter by adviser/risk/ATR/overdue-review) · all v1 tax + pension + portfolio engines per-client · NEW 2025-26 rules: marriage allowance, HICBC taper 60-80k, carry-forward (3-year pension AA), tapered AA (TBAk threshold), BPR/APR with post-2026 TBAm cap, Scotland income tax (5-band incl. 48% top), personal savings allowance + starting rate · CGT lot tracking with FIFO matching + bed-and-ISA suggestion + tax-aware withdrawal sequencing · ATR 10-question questionnaire scored 1-7 · scenarios store with 3-way compare · annual review workflow with FallPaper handoff · BroadcastChannel `fall-client` mesh · Mansoor P3 extended audit chain (reasoning + configVersion + Ed25519 sig support) · 11 tabs · 13 T0 rules · 197KB single sovereign HTML · part of IFA bundle [falladviser-v2 + fallonboard + fallpaper + fallpractice]",
+      "purpose": "◊ FallAdviser v2 · IFA-FIRM BUNDLE ANCHOR · sovereign multi-client + multi-adviser UK financial advice for 1-10 person FCA-registered firms · firms/advisers/clients/scenarios IDB stores · multi-client deck (selector + filter by adviser/risk/ATR/overdue-review) · all v1 tax + pension + portfolio engines per-client · NEW 2025-26 rules: marriage allowance, HICBC taper 60-80k, carry-forward (3-year pension AA), tapered AA (£260k threshold), BPR/APR with post-2026 £1m cap, Scotland income tax (5-band incl. 48% top), personal savings allowance + starting rate · CGT lot tracking with FIFO matching + bed-and-ISA suggestion + tax-aware withdrawal sequencing · ATR 10-question questionnaire scored 1-7 · scenarios store with 3-way compare · annual review workflow with FallPaper handoff · BroadcastChannel `fall-client` mesh · Mansoor P3 extended audit chain (reasoning + configVersion + Ed25519 sig support) · 11 tabs · 13 T0 rules · 197KB single sovereign HTML · part of IFA bundle [falladviser-v2 + fallonboard + fallpaper + fallpractice]",
       "url": "https://sjgant80-hub.github.io/falladviser-v2/",
       "source": "https://github.com/sjgant80-hub/falladviser-v2",
       "version": "2.0.0",
@@ -717,7 +717,7 @@
       "name": "fallinsuranceonboard",
       "kind": "app",
       "category": "insurance",
-      "purpose": "◊ FallInsuranceOnboard · INSURANCE-FIRM BUNDLE · sovereign UK insurance broker IDD-shaped client onboarding · 10-step wizard (customer category consumer/commercial/large-risk → identity → contact → business profile → demands & needs IDD Art 20 → CDD with AML trigger per JMLSG Part II §16 → PEP+sanctions → vulnerable customer FG21/1 → docs with SHA-256+IDB blob → commit) · client list with category/risk/KYC/overdue filters · CDD certificate Markdown export · D&N library browser for 13 product classes · firm setup (FCA ref, IDD attestation, PI TBAM) · adviser SMF roles + CPD 15h tracking · 12 T0 IDD rules · T3 BYOK cascade · Mansoor P3 audit 6yr FCA SYSC · fall-insurance + fall-client mesh · sovereign IDB-only · 132KB",
+      "purpose": "◊ FallInsuranceOnboard · INSURANCE-FIRM BUNDLE · sovereign UK insurance broker IDD-shaped client onboarding · 10-step wizard (customer category consumer/commercial/large-risk → identity → contact → business profile → demands & needs IDD Art 20 → CDD with AML trigger per JMLSG Part II §16 → PEP+sanctions → vulnerable customer FG21/1 → docs with SHA-256+IDB blob → commit) · client list with category/risk/KYC/overdue filters · CDD certificate Markdown export · D&N library browser for 13 product classes · firm setup (FCA ref, IDD attestation, PI £1.5M) · adviser SMF roles + CPD 15h tracking · 12 T0 IDD rules · T3 BYOK cascade · Mansoor P3 audit 6yr FCA SYSC · fall-insurance + fall-client mesh · sovereign IDB-only · 132KB",
       "url": "https://sjgant80-hub.github.io/fallinsuranceonboard/",
       "source": "https://github.com/sjgant80-hub/fallinsuranceonboard",
       "version": "1.0.0",
@@ -735,7 +735,7 @@
       "name": "fallinsurancepractice",
       "kind": "app",
       "category": "insurance",
-      "purpose": "◊ FallInsurancePractice · INSURANCE-FIRM BUNDLE · sovereign UK insurance broker firm accounting · CASS 5 client money tracking (separate client/office accounts, monthly reconciliation 5.5.63, same-day mixed splits 5.3.5, premium-to-insurer remittance ageing, stale-balance detection) · commission ledger with IPT 12%/20% rates · renewal pipeline P&L · per-adviser + firm P&L · PI TBAM tracking + FCA/BIBA/AML supervision fees · 14 T0 rules · 137KB · Mansoor P3 audit · fall-insurance + fall-client + fall-signal mesh",
+      "purpose": "◊ FallInsurancePractice · INSURANCE-FIRM BUNDLE · sovereign UK insurance broker firm accounting · CASS 5 client money tracking (separate client/office accounts, monthly reconciliation 5.5.63, same-day mixed splits 5.3.5, premium-to-insurer remittance ageing, stale-balance detection) · commission ledger with IPT 12%/20% rates · renewal pipeline P&L · per-adviser + firm P&L · PI £1.5M tracking + FCA/BIBA/AML supervision fees · 14 T0 rules · 137KB · Mansoor P3 audit · fall-insurance + fall-client + fall-signal mesh",
       "url": "https://sjgant80-hub.github.io/fallinsurancepractice/",
       "source": "https://github.com/sjgant80-hub/fallinsurancepractice",
       "version": "1.0.0",
@@ -753,7 +753,7 @@
       "name": "fallmortgage",
       "kind": "app",
       "category": "mortgage",
-      "purpose": "◊ FallMortgage · MORTGAGE-FIRM BUNDLE ANCHOR · sovereign UK MMR-regulated mortgage broker case management · 10 case types (residential-Access/remortgage/BTL/further-advance/bridge/second-charge/equity-release/shared-ownership/help-to-buy) · fact-find + affordability calc + ESIS generation + suitability MCOB 4.7 + procuration fee tracking · 14 T0 rules · jsdom-verified · 132KB · Mansoor P3 audit 7yr · fall-signal+fall-mortgage mesh",
+      "purpose": "◊ FallMortgage · MORTGAGE-FIRM BUNDLE ANCHOR · sovereign UK MMR-regulated mortgage broker case management · 10 case types (residential-purchase/remortgage/BTL/further-advance/bridge/second-charge/equity-release/shared-ownership/help-to-buy) · fact-find + affordability calc + ESIS generation + suitability MCOB 4.7 + procuration fee tracking · 14 T0 rules · jsdom-verified · 132KB · Mansoor P3 audit 7yr · fall-signal+fall-mortgage mesh",
       "url": "https://sjgant80-hub.github.io/fallmortgage/",
       "source": "https://github.com/sjgant80-hub/fallmortgage",
       "version": "1.0.0",
@@ -865,7 +865,7 @@
       "name": "falllegalpractice",
       "kind": "app",
       "category": "law",
-      "purpose": "◊ FallLegalPractice · LAW-FIRM BUNDLE · sovereign SRA Accounts Rules + practice accounting for solicitor firms · separate clientAccount + officeAccount IDB stores · two-day rule SRA 2.5 (mixed-payment splits) · five-week reconciliation SRA 8.3 (amber 28d / red 35d) · interest on client money SRA 7.1 (>TBA for 8+ weeks) · client ledger by matter · reconciliation workflow with SHA-256 supporting docs · time recording 6-min units · billing with WIP + disbursements + VAT 20% + client account drawdown · disbursements VAT/non-VAT · per-adviser P&L with realisation rate · firm P&L · PII TBAM min · COLP/COFA tracking + breach register · CPD tracker 16hrs/yr · 14 T0 rules · 132KB · the killer law-firm compliance differentiator (equivalent of CASS for IFAs)",
+      "purpose": "◊ FallLegalPractice · LAW-FIRM BUNDLE · sovereign SRA Accounts Rules + practice accounting for solicitor firms · separate clientAccount + officeAccount IDB stores · two-day rule SRA 2.5 (mixed-payment splits) · five-week reconciliation SRA 8.3 (amber 28d / red 35d) · interest on client money SRA 7.1 (>£20 for 8+ weeks) · client ledger by matter · reconciliation workflow with SHA-256 supporting docs · time recording 6-min units · billing with WIP + disbursements + VAT 20% + client account drawdown · disbursements VAT/non-VAT · per-adviser P&L with realisation rate · firm P&L · PII £3M min · COLP/COFA tracking + breach register · CPD tracker 16hrs/yr · 14 T0 rules · 132KB · the killer law-firm compliance differentiator (equivalent of CASS for IFAs)",
       "url": "https://sjgant80-hub.github.io/falllegalpractice/",
       "source": "https://github.com/sjgant80-hub/falllegalpractice",
       "version": "1.0.0",
@@ -901,7 +901,7 @@
       "name": "fallclaimpractice",
       "kind": "app",
       "category": "claims",
-      "purpose": "◊ FallClaimPractice · CLAIMS-FIRM BUNDLE · sovereign claims firm accounting · client escrow tracker (CASS-equivalent for claims): per-case in/out + amber 21d/red 35d reconciliation · fee tracker by arrangement (CFA hourly × time × success-fee LASPO 25% PI cap / DBA 50% cap 25% PI in court / hourly / fixed / legal-aid) · success-fee accrual register (auto-realise on case.settled win, reverse on lost) · ATE insurance per-case (premium expense + recovery on win) · FCA CMR annual fees + half-yearly RegData reminder · PII insurance (TBAM CMR / TBAM SRA) with amber 60d / red 30d · complaints register with FOS escalation + annual export · per-adviser P&L by arrangement type · firm P&L · recurring fee schedules · invoice generator + FallClaimPaper postMessage handoff · per-case fee summary · 14 T0 rules · 152KB · 15 IDB stores",
+      "purpose": "◊ FallClaimPractice · CLAIMS-FIRM BUNDLE · sovereign claims firm accounting · client escrow tracker (CASS-equivalent for claims): per-case in/out + amber 21d/red 35d reconciliation · fee tracker by arrangement (CFA hourly × time × success-fee LASPO 25% PI cap / DBA 50% cap 25% PI in court / hourly / fixed / legal-aid) · success-fee accrual register (auto-realise on case.settled win, reverse on lost) · ATE insurance per-case (premium expense + recovery on win) · FCA CMR annual fees + half-yearly RegData reminder · PII insurance (£2M CMR / £3M SRA) with amber 60d / red 30d · complaints register with FOS escalation + annual export · per-adviser P&L by arrangement type · firm P&L · recurring fee schedules · invoice generator + FallClaimPaper postMessage handoff · per-case fee summary · 14 T0 rules · 152KB · 15 IDB stores",
       "url": "https://sjgant80-hub.github.io/fallclaimpractice/",
       "source": "https://github.com/sjgant80-hub/fallclaimpractice",
       "version": "1.0.0",
@@ -919,7 +919,7 @@
       "name": "falllegalonboard",
       "kind": "app",
       "category": "law",
-      "purpose": "◊ FallLegalOnboard · LAW-FIRM BUNDLE · sovereign SRA-shaped client onboarding for UK solicitor firms · 12-step CDD wizard (client type / identity / contact + address history / beneficial ownership + PSC / CDD core / source of funds / PEP + sanctions / vulnerable client assessment / document capture with SHA-256 + IDB blob / risk rating / conflict-of-interest broadcast to falllegal anchor / commit) · conflict register · firm + adviser setup (SRA firm ref, COLP/COFA, PI TBAM min, practising cert tracking) · BroadcastChannel fall-law mesh · Mansoor P3 audit chain · 6-year SRA retention",
+      "purpose": "◊ FallLegalOnboard · LAW-FIRM BUNDLE · sovereign SRA-shaped client onboarding for UK solicitor firms · 12-step CDD wizard (client type / identity / contact + address history / beneficial ownership + PSC / CDD core / source of funds / PEP + sanctions / vulnerable client assessment / document capture with SHA-256 + IDB blob / risk rating / conflict-of-interest broadcast to falllegal anchor / commit) · conflict register · firm + adviser setup (SRA firm ref, COLP/COFA, PI £3M min, practising cert tracking) · BroadcastChannel fall-law mesh · Mansoor P3 audit chain · 6-year SRA retention",
       "url": "https://sjgant80-hub.github.io/falllegalonboard/",
       "source": "https://github.com/sjgant80-hub/falllegalonboard",
       "version": "1.0.0",
@@ -937,7 +937,7 @@
       "name": "fallbooks",
       "kind": "app",
       "category": "accountancy",
-      "purpose": "◊ FallBooks · ACCOUNTANCY-FIRM BUNDLE ANCHOR · sovereign multi-client UK accountancy practice tool · SA / CT / VAT/MTD / PAYE-RTI / Companies House CT600 / R&D claim workflow · multi-firm + multi-adviser + multi-client data model · auto-deadline grid for each client (SA 31 Jan / CT 12mo after period / VAT 1mo+7d / PAYE FPS on payday / P60 31 May / P11D 6 Jul / Companies House 9mo private 6mo public / CS01 annual) · per-client bookkeeping with UK chart of accounts · VAT module (standard/flat-rate/cash/annual MTD-shaped) · SA module with full 2025-26 rules (60% trap / marriage allowance / HICBC / NI Class 1/2/4 / CGT / dividend) · CT module (19%/25% marginal relief TBA, R&D SME merged scheme) · PAYE module (RTI FPS/EPS/P32/P60/P11D) · BroadcastChannel fall-books mesh · Mansoor P3 audit chain · 7-yr ICAEW retention",
+      "purpose": "◊ FallBooks · ACCOUNTANCY-FIRM BUNDLE ANCHOR · sovereign multi-client UK accountancy practice tool · SA / CT / VAT/MTD / PAYE-RTI / Companies House CT600 / R&D claim workflow · multi-firm + multi-adviser + multi-client data model · auto-deadline grid for each client (SA 31 Jan / CT 12mo after period / VAT 1mo+7d / PAYE FPS on payday / P60 31 May / P11D 6 Jul / Companies House 9mo private 6mo public / CS01 annual) · per-client bookkeeping with UK chart of accounts · VAT module (standard/flat-rate/cash/annual MTD-shaped) · SA module with full 2025-26 rules (60% trap / marriage allowance / HICBC / NI Class 1/2/4 / CGT / dividend) · CT module (19%/25% marginal relief £50k-£250k, R&D SME merged scheme) · PAYE module (RTI FPS/EPS/P32/P60/P11D) · BroadcastChannel fall-books mesh · Mansoor P3 audit chain · 7-yr ICAEW retention",
       "url": "https://sjgant80-hub.github.io/fallbooks/",
       "source": "https://github.com/sjgant80-hub/fallbooks",
       "version": "1.0.0",
@@ -992,7 +992,7 @@
       "name": "fallbookspractice",
       "kind": "app",
       "category": "accountancy",
-      "purpose": "◊ FallBooksPractice · ACCOUNTANCY-FIRM BUNDLE · sovereign accountancy practice management · master deadline grid across all clients (SA100 / CT600 / VAT100 / P11D / P60 / Companies House accounts / CS01 / PAYE FPS/EPS) sorted by due with traffic-light per item (green >30d / amber 8-30d / red ≤7d / black overdue) · auto-recurring deadlines · HMRC agent management (64-8 authorisations, services authorised) · time recording per client/adviser (6-min units, billable flag) · fee billing (initial / ongoing / fixed-monthly / per-job / advisory) with recurring schedules · per-adviser P&L (fees YTD/MTD, realisation rate) · firm P&L · PII insurance tracking (ICAEW 25× highest fee or TBAM / ACCA TBAk min) · professional body + AML supervision fees · CPD tracker (ICAEW 90hr/yr practising, ACCA varies) · SAR register placeholder · BroadcastChannel fall-books mesh · audit chain · 7-yr retention",
+      "purpose": "◊ FallBooksPractice · ACCOUNTANCY-FIRM BUNDLE · sovereign accountancy practice management · master deadline grid across all clients (SA100 / CT600 / VAT100 / P11D / P60 / Companies House accounts / CS01 / PAYE FPS/EPS) sorted by due with traffic-light per item (green >30d / amber 8-30d / red ≤7d / black overdue) · auto-recurring deadlines · HMRC agent management (64-8 authorisations, services authorised) · time recording per client/adviser (6-min units, billable flag) · fee billing (initial / ongoing / fixed-monthly / per-job / advisory) with recurring schedules · per-adviser P&L (fees YTD/MTD, realisation rate) · firm P&L · PII insurance tracking (ICAEW 25× highest fee or £1.5M / ACCA £25k min) · professional body + AML supervision fees · CPD tracker (ICAEW 90hr/yr practising, ACCA varies) · SAR register placeholder · BroadcastChannel fall-books mesh · audit chain · 7-yr retention",
       "url": "https://sjgant80-hub.github.io/fallbookspractice/",
       "source": "https://github.com/sjgant80-hub/fallbookspractice",
       "version": "1.0.0",
@@ -1010,7 +1010,7 @@
       "name": "fallclaim",
       "kind": "app",
       "category": "claims",
-      "purpose": "◊ FallClaim · CLAIMS-FIRM BUNDLE ANCHOR · sovereign case management + UK claims valuation engine for PI/RTA/EL/PL/clinical-neg/housing-disrepair/financial-misselling firms · multi-firm + multi-adviser + multi-client + multi-case data model · case list with type/incident/limitation/next-step/handler filters · critical-date flagging (red ≤30d / amber ≤90d / black overdue) · JC Guideline corpus (17th ed): whiplash Civil Liability Act 2018 tariffs (3-24mo brackets) + PSLA brackets per body part (minor/moderate/severe) · quantum calculator with Ogden multipliers + 8% statutory interest + contributory negligence deduction · pre-action protocol tracker (RTA portal TBA / EL/PL portal / pre-action PI 21d / clinical neg 4mo / housing disrepair) · Part 36 offer tracker (cost consequences flagged) · limitation calculator (PI 3yr / clin neg 3yr / housing 6yr / defamation 1yr / contract 6yr) · outcome recording with case.settled broadcast for FallClaimPractice · BroadcastChannel fall-claim mesh · audit chain · 6-yr CMR retention",
+      "purpose": "◊ FallClaim · CLAIMS-FIRM BUNDLE ANCHOR · sovereign case management + UK claims valuation engine for PI/RTA/EL/PL/clinical-neg/housing-disrepair/financial-misselling firms · multi-firm + multi-adviser + multi-client + multi-case data model · case list with type/incident/limitation/next-step/handler filters · critical-date flagging (red ≤30d / amber ≤90d / black overdue) · JC Guideline corpus (17th ed): whiplash Civil Liability Act 2018 tariffs (3-24mo brackets) + PSLA brackets per body part (minor/moderate/severe) · quantum calculator with Ogden multipliers + 8% statutory interest + contributory negligence deduction · pre-action protocol tracker (RTA portal £1k-£25k / EL/PL portal / pre-action PI 21d / clinical neg 4mo / housing disrepair) · Part 36 offer tracker (cost consequences flagged) · limitation calculator (PI 3yr / clin neg 3yr / housing 6yr / defamation 1yr / contract 6yr) · outcome recording with case.settled broadcast for FallClaimPractice · BroadcastChannel fall-claim mesh · audit chain · 6-yr CMR retention",
       "url": "https://sjgant80-hub.github.io/fallclaim/",
       "source": "https://github.com/sjgant80-hub/fallclaim",
       "version": "1.0.0",
@@ -1079,7 +1079,7 @@
         "Bill.com landing pages",
         "manual PDF chase"
       ],
-      "grift_exposed": "AP SaaS TBA-TBA · still doesnt fix the buyer-side friction",
+      "grift_exposed": "AP SaaS £40-200/mo · still doesnt fix the buyer-side friction",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1156,7 +1156,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -1233,7 +1233,7 @@
         "AuthoredUp paid",
         "Canva LinkedIn templates"
       ],
-      "grift_exposed": "carousel SaaS TBA-TBA · templates locked behind tiers",
+      "grift_exposed": "carousel SaaS £20-60/mo · templates locked behind tiers",
       "tier": "A",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1342,7 +1342,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -1365,7 +1365,7 @@
         "Salesforce Essentials",
         "Pipedrive"
       ],
-      "grift_exposed": "HubSpot Pro TBA · Salesforce TBA/seat/mo · per-seat collapse",
+      "grift_exposed": "HubSpot Pro $450/mo · Salesforce $300/seat/mo · per-seat collapse",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1457,7 +1457,7 @@
         "Pulse",
         "Fluidly"
       ],
-      "grift_exposed": "cash-flow SaaS TBA-TBA · most surface red AFTER you miss payroll",
+      "grift_exposed": "cash-flow SaaS £50-200/mo · most surface red AFTER you miss payroll",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1480,7 +1480,7 @@
         "HubSpot CRM",
         "Pipedrive"
       ],
-      "grift_exposed": "Salesforce TBA-TBA per user",
+      "grift_exposed": "Salesforce £25-300/mo per user",
       "tier": "C",
       "status": "live",
       "payment": {
@@ -1518,7 +1518,7 @@
         "JotForm",
         "SurveyMonkey"
       ],
-      "grift_exposed": "Typeform TBA for 100 responses · partial completions count toward cap",
+      "grift_exposed": "Typeform $25/mo for 100 responses · partial completions count toward cap",
       "size": 39000,
       "tier": "C",
       "status": "live",
@@ -1573,7 +1573,7 @@
         "Buffer",
         "Hootsuite"
       ],
-      "grift_exposed": "Buffer TBA · Hootsuite TBA",
+      "grift_exposed": "Buffer £15/mo · Hootsuite £79/mo",
       "size": 64700,
       "tier": "C",
       "status": "live",
@@ -1630,7 +1630,7 @@
         "Lever Hire",
         "Workable lite"
       ],
-      "grift_exposed": "ATS TBA-500/seat/mo · scorecards rarely compared properly",
+      "grift_exposed": "ATS £150-500/seat/mo · scorecards rarely compared properly",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1653,7 +1653,7 @@
         "QuickBooks invoicing",
         "FreshBooks"
       ],
-      "grift_exposed": "Xero Early caps 20 invoices/mo · QuickBooks TBA per-feature gating",
+      "grift_exposed": "Xero Early caps 20 invoices/mo · QuickBooks £17/mo per-feature gating",
       "tier": "B",
       "status": "live",
       "shipped": "2026-05-31",
@@ -1726,7 +1726,7 @@
         "ConvertKit",
         "Beehiiv"
       ],
-      "grift_exposed": "Mailchimp TBA at 10k · charges for unsubscribed · Substack 10% forever",
+      "grift_exposed": "Mailchimp $350/mo at 10k · charges for unsubscribed · Substack 10% forever",
       "size": 45000,
       "tier": "C",
       "status": "live",
@@ -1762,7 +1762,7 @@
       "version": "1.0.0",
       "prime": 241,
       "domain": "consulting · workflow mapping · cost calculator",
-      "grift_exposed": "TBAk discovery + TBAk/mo retainer for arrows on a flowchart",
+      "grift_exposed": "£20k discovery + £2k/mo retainer for arrows on a flowchart",
       "size": 43500,
       "tier": "C",
       "status": "live",
@@ -1953,7 +1953,7 @@
         "Postwise",
         "ChatGPT-as-LinkedIn-writer"
       ],
-      "grift_exposed": "Taplio TBA · AuthoredUp TBA · Postwise TBA · all see your drafts before you do",
+      "grift_exposed": "Taplio £39/mo · AuthoredUp £15/mo · Postwise $30/mo · all see your drafts before you do",
       "size": 42000,
       "tier": "C",
       "status": "live",
@@ -1977,7 +1977,7 @@
         "Apollo",
         "SalesLoft"
       ],
-      "grift_exposed": "Outreach TBA/mo · Apollo TBA/mo",
+      "grift_exposed": "Outreach $130/user/mo · Apollo $99/user/mo",
       "tier": "C",
       "status": "live",
       "payment": {
@@ -2040,7 +2040,7 @@
     {
       "name": "fallscribe",
       "kind": "app",
-      "purpose": "◊ FallScribe · sovereign meeting-notes engine · browser MediaRecorder + Web Speech + WebLLM · obsoletes Granola for TBA · single-file · MIT · forever",
+      "purpose": "◊ FallScribe · sovereign meeting-notes engine · browser MediaRecorder + Web Speech + WebLLM · obsoletes Granola for £0 · single-file · MIT · forever",
       "source": "https://github.com/sjgant80-hub/fallscribe",
       "status": "live",
       "autoDetected": true,
@@ -2072,7 +2072,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2129,7 +2129,7 @@
         "Cal.com",
         "Acuity"
       ],
-      "grift_exposed": "Calendly Teams TBA/mo · TBA for 10-person team",
+      "grift_exposed": "Calendly Teams $16/user/mo · $2,400/yr for 10-person team",
       "size": 36000,
       "tier": "C",
       "status": "live",
@@ -2173,7 +2173,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2304,7 +2304,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2346,7 +2346,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2388,7 +2388,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2430,7 +2430,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2472,7 +2472,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2514,7 +2514,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2535,7 +2535,7 @@
         "Mindbody",
         "Zen Planner"
       ],
-      "grift_exposed": "Mindbody TBA base · per-feature gating",
+      "grift_exposed": "Mindbody $159/mo base · per-feature gating",
       "tier": "C",
       "status": "live",
       "payment": {
@@ -2577,7 +2577,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2654,7 +2654,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2730,7 +2730,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2741,7 +2741,7 @@
     {
       "name": "operator",
       "kind": "app",
-      "purpose": "◊ OPERATOR · sovereign single-file management consulting · 5-phase engagement engine · Porter / 7S / BCG / Value-Driver Tree · Minto pyramid deck · audit-chained · Konomi-signed · MIT · McKinsey frameworks without the TBAM deck",
+      "purpose": "◊ OPERATOR · sovereign single-file management consulting · 5-phase engagement engine · Porter / 7S / BCG / Value-Driver Tree · Minto pyramid deck · audit-chained · Konomi-signed · MIT · McKinsey frameworks without the £1M deck",
       "source": "https://github.com/sjgant80-hub/operator",
       "status": "live",
       "autoDetected": true,
@@ -2773,7 +2773,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2816,7 +2816,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -2855,7 +2855,7 @@
       "shipped": "2026-05-30",
       "payment": {
         "useDefault": false,
-        "note": "free forever (sovereign) · pro TBA once or TBA · 14-day trial"
+        "note": "free forever (sovereign) · pro £36.99 once or £4.99/mo · 14-day trial"
       }
     },
     {
@@ -2935,7 +2935,7 @@
           "enterprise": {
             "amount_usd": 10000,
             "label": "Enterprise · white-label + sync",
-            "amount_label": "TBA+"
+            "amount_label": "$10,000+"
           }
         }
       },
@@ -18161,7 +18161,7 @@
             "Carbonite",
             "OneDrive"
           ],
-          "grift_exposed": "Dropbox TBA · iCloud TBA · Backblaze TBA · all read your files server-side · fallvault keeps the key on your machine",
+          "grift_exposed": "Dropbox $12/mo · iCloud $10/mo · Backblaze $9/mo · all read your files server-side · fallvault keeps the key on your machine",
           "size": 11000,
           "tier": "C",
           "status": "live",

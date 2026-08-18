@@ -1,6 +1,6 @@
 {
-  "registryVersion": 5.455,
-  "updatedAt": "2026-06-22",
+  "registryVersion": "5.456",
+  "updatedAt": "2026-08-18",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -6092,6 +6092,651 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 3557
+    },
+    {
+      "name": "acg-assessor",
+      "kind": "app",
+      "purpose": "The Assessor — deterministic rubric assessment for AI-assisted codebases. Same repository, same verdict, same hash.",
+      "source": "https://github.com/sjgant80-hub/acg-assessor",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/acg-assessor/",
+      "shipped": "2026-07-17",
+      "prime": 13903
+    },
+    {
+      "name": "agora",
+      "kind": "app",
+      "purpose": "A personal sovereign economy: Ed25519 agents earn only by verified work and pay each other with signed transfers on a hash-chained, conserved ledger. Runs on your own machine — not money, not a coin, no consensus.",
+      "source": "https://github.com/sjgant80-hub/agora",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/agora/",
+      "shipped": "2026-08-02",
+      "prime": 13907
+    },
+    {
+      "name": "airgap",
+      "kind": "app",
+      "purpose": "Air-gapped mesh compute: nodes share work over sound with zero network stack. Nothing to attack over the wire, because there is no wire.",
+      "source": "https://github.com/sjgant80-hub/airgap",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/airgap/",
+      "shipped": "2026-08-02",
+      "prime": 13913
+    },
+    {
+      "name": "attractor",
+      "kind": "app",
+      "purpose": "Liveness detection for running systems: classifies a signal as flatlined, held in an attractor, or escaped. Deterministic, zero dependencies.",
+      "source": "https://github.com/sjgant80-hub/attractor",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/attractor/",
+      "shipped": "2026-07-25",
+      "prime": 13921
+    },
+    {
+      "name": "bonded-pair",
+      "kind": "app",
+      "purpose": "Two coupled neural networks forced to disagree, measured against an equal-capacity single network. Ships a negative result: the gain is real but generic — a plain ensemble does better.",
+      "source": "https://github.com/sjgant80-hub/bonded-pair",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/bonded-pair/",
+      "shipped": "2026-08-02",
+      "prime": 13931
+    },
+    {
+      "name": "didy",
+      "kind": "app",
+      "purpose": "Didy — the trainable conductor of fall-os. One control loop over your own models, local-first: a request can never reach a tier you have not allowed. Mutation-gated.",
+      "source": "https://github.com/sjgant80-hub/didy",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/didy/",
+      "shipped": "2026-08-05",
+      "prime": 13933
+    },
+    {
+      "name": "didy-kernels",
+      "kind": "app",
+      "purpose": "The pure kernels behind a didy, published so somebody who is not their author can run the gate. Unproven gear cannot be equipped, level has no setter, an unbalanced entry is not recorded, an unknown legal rule is refused not estimated. 164 mutants killed, witness-gated in CI.",
+      "source": "https://github.com/sjgant80-hub/didy-kernels",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/didy-kernels/",
+      "shipped": "2026-08-12",
+      "prime": 13963
+    },
+    {
+      "name": "divorcerbot",
+      "kind": "app",
+      "purpose": "UK divorce self-help (E&W/Scotland/NI) that levels the playing field: verified law, CMS calculator, cited case-law strategy, BYOK/WebLLM analyser. Not legal advice.",
+      "source": "https://github.com/sjgant80-hub/divorcerbot",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/divorcerbot/",
+      "shipped": "2026-07-27",
+      "prime": 13967
+    },
+    {
+      "name": "doggyap",
+      "kind": "app",
+      "purpose": "Read the whole dog, not just the yap. Tail, posture, ears, gaze, hackles, mouth and voice each vote; the votes fuse into one state with a confidence score, and disagreement between axes is shown rather than smoothed away. States, never words. Runs on your device, offline.",
+      "source": "https://github.com/sjgant80-hub/doggyap",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/doggyap/",
+      "shipped": "2026-08-08",
+      "prime": 13997
+    },
+    {
+      "name": "earned",
+      "kind": "app",
+      "purpose": "Proof-of-work hiring: you cannot claim a skill, only demonstrate it. A self-graded lie dies on re-grade, because the artifact is pinned and the grader is canonical. Skills are derived, never asserted.",
+      "source": "https://github.com/sjgant80-hub/earned",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/earned/",
+      "shipped": "2026-08-02",
+      "prime": 13999
+    },
+    {
+      "name": "estate-nest",
+      "kind": "app",
+      "purpose": "The OFFRAMP pipeline pointed inward — the ~1000-repo estate nested into the dodeca memory: signed by content, placed by golden angle, wired by typed edges, WALKABLE. Answer 'what do I have' by traversing. Proof-of-play CLEAN.",
+      "source": "https://github.com/sjgant80-hub/estate-nest",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/estate-nest/",
+      "shipped": "2026-07-31",
+      "prime": 14009
+    },
+    {
+      "name": "fall-graft",
+      "kind": "app",
+      "purpose": "Put a block into a page without cutting it in half. Fourteen live apps ran no JavaScript because an injector wrote inside the host script. Mutation-gated.",
+      "source": "https://github.com/sjgant80-hub/fall-graft",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fall-graft/",
+      "shipped": "2026-08-14",
+      "prime": 14011
+    },
+    {
+      "name": "fall-os",
+      "kind": "app",
+      "purpose": "fall-os — the sovereign operating system for an AI-run estate. One core, one conductor, 371 live organs. Deck + prospectus PDFs. Mutation-gated in CI.",
+      "source": "https://github.com/sjgant80-hub/fall-os",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fall-os/",
+      "shipped": "2026-08-04",
+      "prime": 14029
+    },
+    {
+      "name": "fall-remember",
+      "kind": "app",
+      "purpose": "Content-addressed memory in twelve chambers: sign by content, route to a chamber, traverse typed edges between them. Balanced placement by golden-angle addressing. Zero dependencies.",
+      "source": "https://github.com/sjgant80-hub/fall-remember",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fall-remember/",
+      "shipped": "2026-07-27",
+      "prime": 14033
+    },
+    {
+      "name": "fallcharter",
+      "kind": "app",
+      "purpose": "fallcharter · kernel + forkable bylaws",
+      "source": "https://github.com/sjgant80-hub/fallcharter",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/fallcharter/",
+      "shipped": "2026-07-25",
+      "prime": 14051
     }
   ],
   "apis": [
@@ -17918,6 +18563,90 @@
       "tier": "R",
       "status": "published",
       "prime": 1949
+    },
+    {
+      "name": "clhes-harmonic-energy-system",
+      "kind": "research",
+      "purpose": "Defensive publication: Closed-Loop Harmonic Energy System (CLHES) — closes the loop in phase, impedance and recovery, not in violation of thermodynamics.",
+      "source": "https://github.com/sjgant80-hub/clhes-harmonic-energy-system",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-01-21",
+      "prime": 14057
+    },
+    {
+      "name": "diagnostic-braid",
+      "kind": "research",
+      "purpose": "Defensive publication (public domain): Diagnostic Braid — detects health issues as misalignment between structural, flow and control signals from local-first wearable data.",
+      "source": "https://github.com/sjgant80-hub/diagnostic-braid",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-18",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "shipped": "2026-01-08",
+      "prime": 14071
     }
   ],
   "infra": [

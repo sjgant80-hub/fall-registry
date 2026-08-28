@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.460",
-  "updatedAt": "2026-08-27",
+  "registryVersion": "5.461",
+  "updatedAt": "2026-08-28",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -6952,6 +6952,92 @@
       "url": "https://sjgant80-hub.github.io/evidence-locker/",
       "shipped": "2026-08-26",
       "prime": 14143
+    },
+    {
+      "name": "all-season-harvest",
+      "kind": "app",
+      "purpose": "all-season-harvest · auto-detected",
+      "source": "https://github.com/sjgant80-hub/all-season-harvest",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-28",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/all-season-harvest/",
+      "shipped": "2026-08-27",
+      "prime": 14149
+    },
+    {
+      "name": "chorus",
+      "kind": "app",
+      "purpose": "chorus · auto-detected",
+      "source": "https://github.com/sjgant80-hub/chorus",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-08-28",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/chorus/",
+      "shipped": "2026-08-27",
+      "prime": 14153
     }
   ],
   "apis": [

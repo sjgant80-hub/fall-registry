@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.465",
-  "updatedAt": "2026-09-05",
+  "registryVersion": "5.466",
+  "updatedAt": "2026-09-11",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -7210,6 +7210,264 @@
       "url": "https://sjgant80-hub.github.io/didy-wire/",
       "shipped": "2026-09-04",
       "prime": 14197
+    },
+    {
+      "name": "ai-native-gap",
+      "kind": "app",
+      "purpose": "ai-native-gap · auto-detected",
+      "source": "https://github.com/sjgant80-hub/ai-native-gap",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/ai-native-gap/",
+      "shipped": "2026-09-10",
+      "prime": 14207
+    },
+    {
+      "name": "build-geometry",
+      "kind": "app",
+      "purpose": "The five Platonic solids as five organ-jobs: tetra=init, cube=build, octa=verify, dodeca=memory, icosa=explore. Real geometry (Euler, duality); a node is mature only when all five are held.",
+      "source": "https://github.com/sjgant80-hub/build-geometry",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/build-geometry/",
+      "shipped": "2026-09-10",
+      "prime": 14221
+    },
+    {
+      "name": "couple-gate",
+      "kind": "app",
+      "purpose": "The connection linter: classify a coupling as sovereign (alive) or merged/extractive/starved/frozen (dead). A healthy connection is a narrow band — too loose starves, too tight merges.",
+      "source": "https://github.com/sjgant80-hub/couple-gate",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/couple-gate/",
+      "shipped": "2026-09-10",
+      "prime": 14243
+    },
+    {
+      "name": "crossover-gate",
+      "kind": "app",
+      "purpose": "crossover-gate · auto-detected",
+      "source": "https://github.com/sjgant80-hub/crossover-gate",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/crossover-gate/",
+      "shipped": "2026-09-10",
+      "prime": 14249
+    },
+    {
+      "name": "didy-arena",
+      "kind": "app",
+      "purpose": "didy-arena · auto-detected",
+      "source": "https://github.com/sjgant80-hub/didy-arena",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/didy-arena/",
+      "shipped": "2026-09-10",
+      "prime": 14251
+    },
+    {
+      "name": "dream-gate",
+      "kind": "app",
+      "purpose": "The gate on how a memory grows: adopt a night's consolidation only if recall improves and no known-true answer breaks, else revert. Frozen weights, growing memory.",
+      "source": "https://github.com/sjgant80-hub/dream-gate",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/dream-gate/",
+      "shipped": "2026-09-10",
+      "prime": 14281
     }
   ],
   "apis": [

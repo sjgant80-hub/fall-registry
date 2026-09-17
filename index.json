@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.468",
-  "updatedAt": "2026-09-16",
+  "registryVersion": "5.469",
+  "updatedAt": "2026-09-17",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -7726,6 +7726,92 @@
       "url": "https://sjgant80-hub.github.io/agent-proof/",
       "shipped": "2026-09-15",
       "prime": 14341
+    },
+    {
+      "name": "ai-geo-kit",
+      "kind": "app",
+      "purpose": "Generate a repo's AI/GEO surface (llms.txt, robots.txt with AI crawlers opted in, sitemap.xml, schema.org) from its metadata so AI answer-engines find and cite it. Witness-gated + estate-wide rollout.",
+      "source": "https://github.com/sjgant80-hub/ai-geo-kit",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-17",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/ai-geo-kit/",
+      "shipped": "2026-09-16",
+      "prime": 14347
+    },
+    {
+      "name": "chaff",
+      "kind": "app",
+      "purpose": "Opt-in, provable counter-surveillance decoy generation — the-toll inverted. Synthetic PII-free chaff + canary tokens drown a spyware collector's signal. Owner-installed, never a worm. Witness-gated.",
+      "source": "https://github.com/sjgant80-hub/chaff",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-09-17",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/chaff/",
+      "shipped": "2026-09-16",
+      "prime": 14369
     }
   ],
   "apis": [

@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.474",
-  "updatedAt": "2026-10-06",
+  "registryVersion": "5.475",
+  "updatedAt": "2026-10-07",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -8199,6 +8199,92 @@
       "url": "https://sjgant80-hub.github.io/fall-airgap/",
       "shipped": "2026-10-05",
       "prime": 14437
+    },
+    {
+      "name": "churn-forge",
+      "kind": "app",
+      "purpose": "The sovereign pattern forge on a REAL company dataset (IBM Telco Churn, 7,043 customers): keep only churn patterns that generalise on held-out customers, report where breeding doesn't help, mint a tiny owned model. The alternative to RAG-on-your-CSV.",
+      "source": "https://github.com/sjgant80-hub/churn-forge",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-10-07",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/churn-forge/",
+      "shipped": "2026-10-06",
+      "prime": 14449
+    },
+    {
+      "name": "csv-forge",
+      "kind": "app",
+      "purpose": "Bring your own CSV, own a verified model. 100% in-browser: drop a spreadsheet, forge the patterns that predict a yes/no column on held-out rows, download a tiny owned model + signed receipt. The sovereign alternative to renting an LLM to read your data.",
+      "source": "https://github.com/sjgant80-hub/csv-forge",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-10-07",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/csv-forge/",
+      "shipped": "2026-10-06",
+      "prime": 14461
     }
   ],
   "apis": [

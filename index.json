@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.475",
-  "updatedAt": "2026-10-07",
+  "registryVersion": "5.476",
+  "updatedAt": "2026-10-11",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -8285,6 +8285,92 @@
       "url": "https://sjgant80-hub.github.io/csv-forge/",
       "shipped": "2026-10-06",
       "prime": 14461
+    },
+    {
+      "name": "daily-prompt",
+      "kind": "app",
+      "purpose": "daily-prompt · auto-detected",
+      "source": "https://github.com/sjgant80-hub/daily-prompt",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-10-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/daily-prompt/",
+      "shipped": "2026-10-10",
+      "prime": 14479
+    },
+    {
+      "name": "everything-factory",
+      "kind": "app",
+      "purpose": "Grow a whole owned operation from a tiny seed: the app, the model, the company shell — one re-runnable receipt. Konomi architecture by Thomas Frumkin.",
+      "source": "https://github.com/sjgant80-hub/everything-factory",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-10-11",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "amount_usd": 997,
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "amount_usd": 2500,
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "amount_usd": 10000,
+            "label": "Enterprise · white-label + sync",
+            "amount_label": "$10,000+"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/everything-factory/",
+      "shipped": "2026-10-10",
+      "prime": 14489
     }
   ],
   "apis": [

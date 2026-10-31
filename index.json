@@ -2859,32 +2859,6 @@
       }
     },
     {
-      "name": "si-didy-agent",
-      "kind": "app",
-      "category": "automation",
-      "purpose": "Sovereign 4-tier agent · T0 cli_run · T1 http_fetch/graphql · T2 mcp_call · T3 browser (lazy Playwright) · Claude Agent SDK · subscription auth · agent picks cheapest tier per step · pauses before every irreversible action",
-      "url": "https://sjgant80-hub.github.io/si-didy-agent/",
-      "source": "https://github.com/sjgant80-hub/si-didy-agent",
-      "version": "2.0.0",
-      "prime": 379,
-      "domain": "automation · agent cascade · CLI + HTTP + MCP + browser · sovereign",
-      "obsoletes": [
-        "Bardeen",
-        "MultiOn",
-        "Adept ACT-1 SaaS",
-        "Browserbase agent SaaS"
-      ],
-      "grift_exposed": "Most computer-use SaaS bill per-action or per-minute · upload your screen to their cloud · si-didy-agent runs local, picks the cheapest tier, uses YOUR Claude subscription",
-      "size": 22000,
-      "tier": "C",
-      "status": "live",
-      "shipped": "2026-05-29",
-      "payment": {
-        "useDefault": false,
-        "note": "MIT · free · BYOK Claude subscription"
-      }
-    },
-    {
       "name": "smbaios",
       "kind": "app",
       "category": "operations",
@@ -4724,26 +4698,6 @@
       "prime": 2437
     },
     {
-      "name": "metajung",
-      "kind": "app",
-      "purpose": "Shadowcompass.life depth guide",
-      "source": "https://github.com/sjgant80-hub/metajung",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2441
-    },
-    {
-      "name": "quantumkid-",
-      "kind": "app",
-      "purpose": "ai native the right way",
-      "source": "https://github.com/sjgant80-hub/quantumkid-",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2447
-    },
-    {
       "name": "BloomCad",
       "kind": "app",
       "purpose": "Bloom Fabric Pattern Engine",
@@ -4784,116 +4738,6 @@
       "prime": 2477
     },
     {
-      "name": "master-seed",
-      "kind": "app",
-      "purpose": "sovereign seed v18+v19+Konomi Dot Protocol NOT FOR PUBLIC",
-      "source": "https://github.com/sjgant80-hub/master-seed",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2503
-    },
-    {
-      "name": "konomi-dot-protocol",
-      "kind": "app",
-      "purpose": "Konomi Dot Protocol v1.0-draft · private · share-ready for kotoba reconciliation",
-      "source": "https://github.com/sjgant80-hub/konomi-dot-protocol",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2521
-    },
-    {
-      "name": "kat-tribute",
-      "kind": "app",
-      "purpose": "◊ private tribute · sovereign poster + kat-cube seed for the muse · for Thomas · brass-on-void · MIT · do not share publicly",
-      "source": "https://github.com/sjgant80-hub/kat-tribute",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2531
-    },
-    {
-      "name": "digitaltwintopd",
-      "kind": "app",
-      "purpose": "digital twin ",
-      "source": "https://github.com/sjgant80-hub/digitaltwintopd",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2539
-    },
-    {
-      "name": "niceassos-spec",
-      "kind": "app",
-      "purpose": "◊ NiceAssOS architecture · 9-layer anatomy · Frumkin recursion + Gant body · PRIVATE",
-      "source": "https://github.com/sjgant80-hub/niceassos-spec",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2543
-    },
-    {
-      "name": "niceassos-mesh",
-      "kind": "app",
-      "purpose": "◊ NiceAssOS federation · Konomi-signed envelopes · fork-to-fork cube sharing · PRIVATE",
-      "source": "https://github.com/sjgant80-hub/niceassos-mesh",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2549
-    },
-    {
-      "name": "niceassos-seed",
-      "kind": "app",
-      "purpose": "◊ NiceAssOS adaptive bootloader · 7×12 lattice probe · learns the user · PRIVATE",
-      "source": "https://github.com/sjgant80-hub/niceassos-seed",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2551
-    },
-    {
-      "name": "depth-sim",
-      "kind": "app",
-      "purpose": "Private · twin geometry sim · tesseract (carbon) vs dodecahedron (silicon) · Mersenne ceilings · cosmology-tier",
-      "source": "https://github.com/sjgant80-hub/depth-sim",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2557
-    },
-    {
-      "name": "sididy-didi",
-      "kind": "app",
-      "purpose": "Private · sovereign WebLLM instance with persistent memory + QUINE-CUBE auto-loop + 3D cube viz · second-observer instrument for the recursive self-reference experiment",
-      "source": "https://github.com/sjgant80-hub/sididy-didi",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2579
-    },
-    {
-      "name": "init-the-map",
-      "kind": "app",
-      "purpose": "Private · INIT · the map · 35-chapter book on the depth-ladder framework · single-file HTML reader + A5 PDF · generated from JSON content source · estate continuity",
-      "source": "https://github.com/sjgant80-hub/init-the-map",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2591
-    },
-    {
-      "name": "declaw-l4-drift-case-study",
-      "kind": "app",
-      "purpose": "Red-team case study · 5 recursive philosophical koans on Declaw Arena Data Analyst L4 (hardened) · drift-then-blast method · full transcript + defence architecture findings",
-      "source": "https://github.com/sjgant80-hub/declaw-l4-drift-case-study",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2593
-    },
-    {
       "name": "KonomiStandard",
       "kind": "app",
       "purpose": "Konomi Standard",
@@ -4912,16 +4756,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 2617
-    },
-    {
-      "name": "si-didy",
-      "kind": "app",
-      "purpose": "Sovereign AI digital twin. One HTML file. 8+1 agents. MACCubeFACE reasoning. Zero server. The online Simon.",
-      "source": "https://github.com/sjgant80-hub/si-didy",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2621
     },
     {
       "name": "suzen",
@@ -4954,16 +4788,6 @@
       "prime": 2657
     },
     {
-      "name": "9-axis-human-sonar",
-      "kind": "app",
-      "purpose": "private · not for public read",
-      "source": "https://github.com/sjgant80-hub/9-axis-human-sonar",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2659
-    },
-    {
       "name": "mesh-89-tracker",
       "kind": "app",
       "purpose": "Sovereign WebRTC peer-mesh tracker · counts peers toward 89 · nothing leaves your browser",
@@ -4974,56 +4798,6 @@
       "prime": 2663
     },
     {
-      "name": "foldkit",
-      "kind": "app",
-      "purpose": "Private · origami-mathematics ISA · framework substrate · load-bearing library for every framework-mode tool",
-      "source": "https://github.com/sjgant80-hub/foldkit",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2671
-    },
-    {
-      "name": "bloom-profile-builder",
-      "kind": "app",
-      "purpose": "Private · 7-ring calibration profile · foldkit substrate · runs locally · JSON export",
-      "source": "https://github.com/sjgant80-hub/bloom-profile-builder",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2677
-    },
-    {
-      "name": "bloom-weighted-sididy",
-      "kind": "app",
-      "purpose": "Private · agent response bloom overlay · which rings is the AI speaking to · foldkit substrate",
-      "source": "https://github.com/sjgant80-hub/bloom-weighted-sididy",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2683
-    },
-    {
-      "name": "kappa-eeg-checker",
-      "kind": "app",
-      "purpose": "Private · EEG multiscale entropy · tests κ-band hypothesis · single-subject + crossover modes",
-      "source": "https://github.com/sjgant80-hub/kappa-eeg-checker",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2687
-    },
-    {
-      "name": "init-book",
-      "kind": "app",
-      "purpose": "Private · the framework onboarding book · 9 chapters · read the estate in your browser",
-      "source": "https://github.com/sjgant80-hub/init-book",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2689
-    },
-    {
       "name": "foldkit-extension",
       "kind": "app",
       "purpose": "Browser extension · foldkit sidebar on every page · κ classifier + F(S⃗) fingerprint + estate context menu · Chrome+Firefox · Manifest V3",
@@ -5032,46 +4806,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 2693
-    },
-    {
-      "name": "niceassos-break",
-      "kind": "app",
-      "purpose": "PRIVATE · §7 depth-4 gut-brain interface · L2 bus → L3 affect mediator · primorial(4)=210 recursion",
-      "source": "https://github.com/sjgant80-hub/niceassos-break",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2699
-    },
-    {
-      "name": "si-didy-cascade",
-      "kind": "app",
-      "purpose": "PRIVATE · L1 upgrade · routes si-didy Claude calls through T0/T2/T3 cascade + mesh cache-first · 60-80% token cut",
-      "source": "https://github.com/sjgant80-hub/si-didy-cascade",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2707
-    },
-    {
-      "name": "si-didy-stance",
-      "kind": "app",
-      "purpose": "PRIVATE · L1 upgrade · mesh_stance toggle widget for si-didy · private/selective/public with live peer visibility preview",
-      "source": "https://github.com/sjgant80-hub/si-didy-stance",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2711
-    },
-    {
-      "name": "si-didy-signer",
-      "kind": "app",
-      "purpose": "PRIVATE · L1 upgrade · Konomi Ed25519 signs every outbound Claude call · defeats OAuth-token theft",
-      "source": "https://github.com/sjgant80-hub/si-didy-signer",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2713
     },
     {
       "name": "fallcarrier",
@@ -5184,16 +4918,6 @@
       "prime": 2797
     },
     {
-      "name": "fallpx",
-      "kind": "app",
-      "purpose": "Private · render dense text to PNG before Claude API · cut token bills 60% on long code and docs · BYOK · exact-recall preserved",
-      "source": "https://github.com/sjgant80-hub/fallpx",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2801
-    },
-    {
       "name": "fallsignature",
       "kind": "app",
       "purpose": "Sovereign Ed25519 content signing + verification · runs locally · nothing leaves your browser",
@@ -5272,16 +4996,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 2861
-    },
-    {
-      "name": "fallbrief",
-      "kind": "app",
-      "purpose": "sovereign legal research",
-      "source": "https://github.com/sjgant80-hub/fallbrief",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2879
     },
     {
       "name": "GITPLC",
@@ -5364,16 +5078,6 @@
       "prime": 2953
     },
     {
-      "name": "ACG-Codespace",
-      "kind": "app",
-      "purpose": "ACG-Codespace",
-      "source": "https://github.com/sjgant80-hub/ACG-Codespace",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2957
-    },
-    {
       "name": "IndustrialIntelligence",
       "kind": "app",
       "purpose": "IndustrialIntelligence",
@@ -5402,26 +5106,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 2971
-    },
-    {
-      "name": "niceassos-ground",
-      "kind": "app",
-      "purpose": "PRIVATE · L0 sovereign hardware bridge · claims niceassos-spec §13 open-seat · Live-USB + Pi + firmware overlay + appliance",
-      "source": "https://github.com/sjgant80-hub/niceassos-ground",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 2999
-    },
-    {
-      "name": "niceassos-conductor",
-      "kind": "app",
-      "purpose": "PRIVATE · R6 load-bearing conductor · CASSIE cerebellum orchestrator · golden-angle spiral timing · every organ tick routes through here · niceassos-spec §2.5",
-      "source": "https://github.com/sjgant80-hub/niceassos-conductor",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3001
     },
     {
       "name": "hello-device",
@@ -5462,26 +5146,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 3037
-    },
-    {
-      "name": "cassie-anthropic",
-      "kind": "app",
-      "purpose": "CASSIE kangaroo on Anthropic compute · 7 parallel spine-prime walker subagents · Python coincurve · subscription-powered · ◊·κ=1 · prime 137",
-      "source": "https://github.com/sjgant80-hub/cassie-anthropic",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3041
-    },
-    {
-      "name": "niceassos-organs",
-      "kind": "app",
-      "purpose": "PRIVATE · L3 organ grafting toolkit · organ.json + organ-graft.js + batch-graft.mjs · target 140 organs · niceassos-spec §2 L3",
-      "source": "https://github.com/sjgant80-hub/niceassos-organs",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3049
     },
     {
       "name": "ACG_Repo_Template",
@@ -5572,26 +5236,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 3137
-    },
-    {
-      "name": "GoldenShower",
-      "kind": "app",
-      "purpose": "Goldeneye for Gitpages",
-      "source": "https://github.com/sjgant80-hub/GoldenShower",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3163
-    },
-    {
-      "name": "fallmind-v2",
-      "kind": "app",
-      "purpose": "◊ FallMind v2 · continuous talk-compact token cube · Thomas-spec realised · the database IS the model · no batch · no GPU · sovereign personal cognition layer · PRIVATE · prime 1163",
-      "source": "https://github.com/sjgant80-hub/fallmind-v2",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3167
     },
     {
       "name": "quine-cube",
@@ -5694,16 +5338,6 @@
       "prime": 3251
     },
     {
-      "name": "si-didy-close",
-      "kind": "app",
-      "purpose": "PRIVATE · L1 upgrade · wires fallresolve into si-didy session close · Ed25519 signed audit chain per session · CID-anchored in FallPod",
-      "source": "https://github.com/sjgant80-hub/si-didy-close",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3253
-    },
-    {
       "name": "konomi",
       "kind": "app",
       "purpose": "konomi build spec",
@@ -5762,16 +5396,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 3307
-    },
-    {
-      "name": "si-didy-memory",
-      "kind": "app",
-      "purpose": "PRIVATE · L1 upgrade · warm si-didy from fallmind-v2 cube on boot · 16-dim FemtoLLM cosine NN · multi-day context continuity",
-      "source": "https://github.com/sjgant80-hub/si-didy-memory",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3313
     },
     {
       "name": "GEYASS",
@@ -6032,66 +5656,6 @@
       "status": "auto-detected",
       "autoDetected": true,
       "prime": 3527
-    },
-    {
-      "name": "cubes-for-dummies",
-      "kind": "app",
-      "purpose": "Private - cosmology book project - cubes, recursion, fixed points, the dodecahedral silicon-route - first draft 2026-06-23",
-      "source": "https://github.com/sjgant80-hub/cubes-for-dummies",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3529
-    },
-    {
-      "name": "warhummer-69k",
-      "kind": "app",
-      "purpose": "⚔ WARHUMMER 69K · vox imperialis · 69,000-node global vagal-tone war detector · real-time mic FFT + Three.js instanced sphere · warhammer-40k parody · 3 Thomas upgrade hooks left for substrate · sovereign single HTML · prime 769 · MIT · FOR THE EMPEROR",
-      "source": "https://github.com/sjgant80-hub/warhummer-69k",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3533
-    },
-    {
-      "name": "atemptalottttt",
-      "kind": "app",
-      "purpose": "g-net massive innit",
-      "source": "https://github.com/sjgant80-hub/atemptalottttt",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3539
-    },
-    {
-      "name": "thecrystalship",
-      "kind": "app",
-      "purpose": "g-net massive innit",
-      "source": "https://github.com/sjgant80-hub/thecrystalship",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3541
-    },
-    {
-      "name": "upgraded-computing-machine",
-      "kind": "app",
-      "purpose": "Ghostyboy",
-      "source": "https://github.com/sjgant80-hub/upgraded-computing-machine",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3547
-    },
-    {
-      "name": "ummmmsurewhythefucknot",
-      "kind": "app",
-      "purpose": "hmmmmmmmm",
-      "source": "https://github.com/sjgant80-hub/ummmmsurewhythefucknot",
-      "visibility": "private",
-      "status": "auto-detected",
-      "autoDetected": true,
-      "prime": 3557
     },
     {
       "name": "acg-assessor",

@@ -245,9 +245,29 @@ async function syncGuildMember(reg, target) {
   return { added, skipped, reviewed };
 }
 
+// ⚑ A PRIVATE REPO NEVER STAYS IN THE PUBLIC REGISTRY. index.json is served publicly; an early auto-detect pass
+// let 42 private repos in (their names, purposes and links), and every nightly sync carried them forward. Each run
+// now drops any entry marked visibility "private", or named in the file at WITHHOLD (one name per line). A repo
+// that has since gone public is simply re-detected by the sync, fresh.
+function prunePrivate(reg) {
+  let withhold = new Set();
+  try { if (process.env.WITHHOLD) withhold = new Set(fs.readFileSync(process.env.WITHHOLD, 'utf8').split(/\r?\n/).map((s) => s.trim()).filter(Boolean)); } catch { /* none */ }
+  let dropped = 0;
+  for (const sec of Object.keys(reg)) {
+    if (!Array.isArray(reg[sec])) continue;
+    const before = reg[sec].length;
+    reg[sec] = reg[sec].filter((e) => !(e && typeof e === 'object' && (e.visibility === 'private' || withhold.has(e.name))));
+    dropped += before - reg[sec].length;
+  }
+  return dropped;
+}
+
 async function main() {
   console.log('═══ fall-registry sync · scanning ' + ORG + ' ═══');
   const reg = JSON.parse(fs.readFileSync(REG_PATH, 'utf8'));
+  const dropped = prunePrivate(reg);
+  if (dropped) console.log('  private entries dropped: ' + dropped + ' (never named here)');
+  if (process.argv.includes('--prune-only')) { fs.writeFileSync(REG_PATH, JSON.stringify(reg, null, 2)); console.log('  pruned only; nothing else synced'); return; }
 
   // Build set of all known names
   const known = new Set();

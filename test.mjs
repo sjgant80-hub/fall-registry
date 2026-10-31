@@ -30,8 +30,10 @@ function allEntries(reg) {
 }
 
 test('top-level manifest header is well-formed', () => {
-  assert.equal(typeof registry.registryVersion, 'number');
-  assert.ok(registry.registryVersion > 0, 'registryVersion must be positive');
+  // a dotted version string, as the README documents ("registryVersion": "1") and sync.js bumps it ("5.484")
+  assert.equal(typeof registry.registryVersion, 'string');
+  assert.match(registry.registryVersion, /^\d+(\.\d+)*$/);
+  assert.ok(parseFloat(registry.registryVersion) > 0, 'registryVersion must be positive');
   assert.match(registry.updatedAt, /^\d{4}-\d{2}-\d{2}$/);
   assert.ok(Array.isArray(registry.recommendedWatch));
 });

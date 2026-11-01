@@ -95,12 +95,26 @@ const DEFAULT_PAYMENT = {
   paypal: 'https://paypal.me/sjgant80',
   github_sponsors: 'https://github.com/sponsors/sjgant80-hub',
   accepted: ['stripe', 'visa', 'mastercard', 'paypal', 'apple_pay', 'github_sponsors'],
+  // No amounts, ever (rule 1: no pricing on any public surface; Simon, 31 Oct 2026). Money is discussed one to one.
   tiers: {
-    lite: { amount_usd: 997, label: 'Lite · brand + config' },
-    pro: { amount_usd: 2500, label: 'Pro · custom agents + compliance' },
-    enterprise: { amount_usd: 10000, label: 'Enterprise · white-label + sync', amount_label: '$10,000+' },
+    lite: { label: 'Lite · brand + config' },
+    pro: { label: 'Pro · custom agents + compliance' },
+    enterprise: { label: 'Enterprise · white-label + sync' },
   },
 };
+
+// Strip any amount from every tier already in the registry (amount_usd, amount_label), so an entry minted before
+// the rule cannot carry a price forward. Labels, scopes and checkout routes stay.
+function stripAmounts(reg) {
+  let stripped = 0;
+  const walk = (o) => {
+    if (!o || typeof o !== 'object') return;
+    if (o.tiers && typeof o.tiers === 'object') for (const t of Object.values(o.tiers)) if (t && typeof t === 'object') for (const k of ['amount_usd', 'amount_label']) if (k in t) { delete t[k]; stripped++; }
+    for (const v of Object.values(o)) if (v && typeof v === 'object') walk(v);
+  };
+  walk(reg);
+  return stripped;
+}
 
 // SDK detection
 const SDK_HINTS = /sdk|toolkit|framework|engine|library/i;
@@ -267,6 +281,8 @@ async function main() {
   const reg = JSON.parse(fs.readFileSync(REG_PATH, 'utf8'));
   const dropped = prunePrivate(reg);
   if (dropped) console.log('  private entries dropped: ' + dropped + ' (never named here)');
+  const stripped = stripAmounts(reg);
+  if (stripped) console.log('  amounts stripped from tiers: ' + stripped + ' (rule 1: no pricing)');
   if (process.argv.includes('--prune-only')) { fs.writeFileSync(REG_PATH, JSON.stringify(reg, null, 2)); console.log('  pruned only; nothing else synced'); return; }
 
   // Build set of all known names

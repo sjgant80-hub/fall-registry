@@ -28,19 +28,16 @@
     "stripe_policy": "Stripe is used for tailored custom-build invoices only · contact for a quote",
     "tiers": {
       "lite": {
-        "amount_label": "Custom from $$$",
         "label": "Lite · brand + config",
         "scope": "Your brand, your repo, basic agent configuration, 24h turnaround",
         "checkout": "paypal_or_quote"
       },
       "pro": {
-        "amount_label": "Custom from $$$",
         "label": "Pro · custom agents + compliance",
         "scope": "Custom agents, compliance rules, staff training, 5-day turnaround",
         "checkout": "stripe_invoice"
       },
       "enterprise": {
-        "amount_label": "Custom from $$$",
         "label": "Enterprise · white-label + sync",
         "scope": "Multi-user, sync endpoint, white-label, ongoing support",
         "checkout": "stripe_invoice"
@@ -152,17 +149,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -195,17 +188,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -216,7 +205,7 @@
       "name": "audiofabric",
       "kind": "app",
       "category": "music",
-      "purpose": "3D music visualisation · send a track · get a 3D HTML back · $99 per song",
+      "purpose": "3D music visualisation · send a track · get a 3D HTML back",
       "url": "https://sjgant80-hub.github.io/audiofabric/",
       "source": "https://github.com/sjgant80-hub/audiofabric",
       "version": "1.0.0",
@@ -254,17 +243,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -344,17 +329,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -453,17 +434,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -1146,17 +1123,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -1332,17 +1305,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2062,17 +2031,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2163,17 +2128,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2294,17 +2255,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2336,17 +2293,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2378,17 +2331,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2420,17 +2369,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2462,17 +2407,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2504,17 +2445,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2567,17 +2504,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2644,17 +2577,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2720,17 +2649,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2763,17 +2688,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2806,17 +2727,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -2899,17 +2816,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5682,17 +5595,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5725,17 +5634,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5768,17 +5673,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5811,17 +5712,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5854,17 +5751,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5897,17 +5790,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5940,17 +5829,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -5983,17 +5868,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6026,17 +5907,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6069,17 +5946,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6112,17 +5985,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6155,17 +6024,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6198,17 +6063,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6241,17 +6102,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6284,17 +6141,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6327,17 +6180,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6370,17 +6219,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6413,17 +6258,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6456,17 +6297,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6499,17 +6336,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6542,17 +6375,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6585,17 +6414,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6628,17 +6453,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6671,17 +6492,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6714,17 +6531,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6757,17 +6570,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6800,17 +6609,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6843,17 +6648,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6886,17 +6687,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6929,17 +6726,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -6972,17 +6765,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7015,17 +6804,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7058,17 +6843,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7101,17 +6882,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7144,17 +6921,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7187,17 +6960,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7230,17 +6999,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7273,17 +7038,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7316,17 +7077,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7359,17 +7116,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7402,17 +7155,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7445,17 +7194,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7488,17 +7233,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7531,17 +7272,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7574,17 +7311,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7617,17 +7350,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7660,17 +7389,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7703,17 +7428,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7746,17 +7467,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7789,17 +7506,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7832,17 +7545,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7875,17 +7584,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7918,17 +7623,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -7961,17 +7662,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8004,17 +7701,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8047,17 +7740,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8090,17 +7779,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8133,17 +7818,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8176,17 +7857,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8219,17 +7896,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8262,17 +7935,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -8305,17 +7974,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -20173,17 +19838,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -20215,17 +19876,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },
@@ -20257,17 +19914,13 @@
         ],
         "tiers": {
           "lite": {
-            "amount_usd": 997,
             "label": "Lite · brand + config"
           },
           "pro": {
-            "amount_usd": 2500,
             "label": "Pro · custom agents + compliance"
           },
           "enterprise": {
-            "amount_usd": 10000,
-            "label": "Enterprise · white-label + sync",
-            "amount_label": "$10,000+"
+            "label": "Enterprise · white-label + sync"
           }
         }
       },

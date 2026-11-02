@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.485",
-  "updatedAt": "2026-10-31",
+  "registryVersion": "5.486",
+  "updatedAt": "2026-11-02",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -7986,6 +7986,44 @@
       },
       "shipped": "2026-06-22",
       "prime": 14561
+    },
+    {
+      "name": "bot-team-kit",
+      "kind": "app",
+      "purpose": "Shared-feed toolkit for a bot team overseen by a human: append/redact/flag feed writer, persona rollup, schema, tested + mutation-gated. MIT.",
+      "source": "https://github.com/sjgant80-hub/bot-team-kit",
+      "status": "auto-detected",
+      "autoDetected": true,
+      "discoveredAt": "2026-11-02",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "label": "Enterprise · white-label + sync"
+          }
+        }
+      },
+      "shipped": "2026-11-01",
+      "prime": 14563
     }
   ],
   "apis": [

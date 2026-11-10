@@ -1,6 +1,6 @@
 {
-  "registryVersion": "5.486",
-  "updatedAt": "2026-11-02",
+  "registryVersion": "5.487",
+  "updatedAt": "2026-11-10",
   "owner": "sjgant80-hub",
   "hub": "https://www.ai-nativesolutions.com",
   "paymentDefaults": {
@@ -8024,6 +8024,123 @@
       },
       "shipped": "2026-11-01",
       "prime": 14563
+    },
+    {
+      "name": "build-broadcast",
+      "kind": "app",
+      "purpose": "Watch the estate build something real, explained so a 12-year-old follows: the Living Visual + a plain-English narrator, from real build logs only",
+      "source": "https://github.com/sjgant80-hub/build-broadcast",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-11-10",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "label": "Enterprise · white-label + sync"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/build-broadcast/",
+      "shipped": "2026-11-09",
+      "prime": 14591
+    },
+    {
+      "name": "chip-immune",
+      "kind": "app",
+      "purpose": "Rung 7 of the geometric ladder: a self-improving, mesh-sharing defence written to microcontroller rules, on a labelled emulator. Ed25519 floor, settling fit-check, model-free evolution, fail-safe.",
+      "source": "https://github.com/sjgant80-hub/chip-immune",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-11-10",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "label": "Enterprise · white-label + sync"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/chip-immune/",
+      "shipped": "2026-11-09",
+      "prime": 14593
+    },
+    {
+      "name": "code-rsi",
+      "kind": "app",
+      "purpose": "Rung 2 of the geometric ladder: model-free self-improvement. Code evolves a settling cell's shape on fresh exams each cycle and tunes its own search; judged once on writers it never trained on.",
+      "source": "https://github.com/sjgant80-hub/code-rsi",
+      "status": "live",
+      "autoDetected": true,
+      "discoveredAt": "2026-11-10",
+      "payment": {
+        "hub": "https://www.ai-nativesolutions.com/#pricing",
+        "stripe_lite": "https://buy.stripe.com/REPLACE_lite",
+        "stripe_pro": "https://buy.stripe.com/REPLACE_pro",
+        "stripe_enterprise": "https://buy.stripe.com/REPLACE_enterprise",
+        "paypal": "https://paypal.me/sjgant80",
+        "github_sponsors": "https://github.com/sponsors/sjgant80-hub",
+        "accepted": [
+          "stripe",
+          "visa",
+          "mastercard",
+          "paypal",
+          "apple_pay",
+          "github_sponsors"
+        ],
+        "tiers": {
+          "lite": {
+            "label": "Lite · brand + config"
+          },
+          "pro": {
+            "label": "Pro · custom agents + compliance"
+          },
+          "enterprise": {
+            "label": "Enterprise · white-label + sync"
+          }
+        }
+      },
+      "url": "https://sjgant80-hub.github.io/code-rsi/",
+      "shipped": "2026-11-09",
+      "prime": 14621
     }
   ],
   "apis": [

@@ -1,6 +1,6 @@
 # fall-registry
 
-◊·κ Canonical index of Fall sovereign plugins.
+Canonical index of Fall sovereign plugins.
 
 A single machine-readable manifest of every plugin available to the Fall* tool estate. Used by `fall-hot` to know what's watchable, used by tool authors to know what they can depend on, used by ops to track versions across the mesh.
 
@@ -80,4 +80,4 @@ The `exclusionPolicy` block in `index.json` formalises this.
 
 ## Licence
 
-MIT. Part of the Fall sovereign tool estate. ◊·κ=1
+MIT. Part of the Fall sovereign tool estate.
